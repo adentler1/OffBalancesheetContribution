@@ -1,0 +1,375 @@
+{
+  "get": "teams",
+  "parameters": {
+    "league": "262",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 18,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 2278,
+        "name": "Guadalajara Chivas",
+        "code": "GUA",
+        "country": "Mexico",
+        "founded": 1906,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2278.png"
+      },
+      "venue": {
+        "id": 1076,
+        "name": "Estadio AKRON",
+        "address": "Avenida Circuito JVC Número 2800, Centro JVC",
+        "city": "Zapopan",
+        "capacity": 46609,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/1076.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2279,
+        "name": "Tigres UANL",
+        "code": "UAN",
+        "country": "Mexico",
+        "founded": 1960,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2279.png"
+      },
+      "venue": {
+        "id": 1087,
+        "name": "Estadio Universitario de Nuevo León",
+        "address": "Calle del Doctor Pedro de Alba, Colonia Ciudad Universitaria",
+        "city": "San Nicolás de los Garza",
+        "capacity": 42000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1087.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2280,
+        "name": "Club Tijuana",
+        "code": "CLU",
+        "country": "Mexico",
+        "founded": 2006,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2280.png"
+      },
+      "venue": {
+        "id": 1088,
+        "name": "Estadio Caliente",
+        "address": "Boulevard Agua Caliente 12027, Colonia Hipódromo",
+        "city": "Tijuana",
+        "capacity": 33333,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/1088.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2281,
+        "name": "Toluca",
+        "code": "TOL",
+        "country": "Mexico",
+        "founded": 1917,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2281.png"
+      },
+      "venue": {
+        "id": 1089,
+        "name": "Estadio Nemesio Díez",
+        "address": "Felipe Villanueva No. 300, Barrio de San Bernardino",
+        "city": "Toluca de Lerdo",
+        "capacity": 30000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1089.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2282,
+        "name": "Monterrey",
+        "code": "MON",
+        "country": "Mexico",
+        "founded": 1945,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2282.png"
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "address": "Avenida Pablo Livas 2011, Colonia La Pastora",
+        "city": "Guadalupe",
+        "capacity": 53500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/11905.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2283,
+        "name": "Atlas",
+        "code": "ATL",
+        "country": "Mexico",
+        "founded": 1916,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2283.png"
+      },
+      "venue": {
+        "id": 1071,
+        "name": "Estadio Jalisco",
+        "address": "Calle 7 Colinas No. 1772, Colonia Independencia",
+        "city": "Guadalajara",
+        "capacity": 56713,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1071.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2285,
+        "name": "Santos Laguna",
+        "code": "SAN",
+        "country": "Mexico",
+        "founded": 1983,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2285.png"
+      },
+      "venue": {
+        "id": 20475,
+        "name": "Estadio Corona",
+        "address": "Territorio Santos Modelo",
+        "city": "Torreón",
+        "capacity": 28914,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20475.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2286,
+        "name": "U.N.A.M. - Pumas",
+        "code": "UNA",
+        "country": "Mexico",
+        "founded": 1954,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2286.png"
+      },
+      "venue": {
+        "id": 1083,
+        "name": "Estadio Olímpico de Universitario",
+        "address": "Calle Escobar, Colonia Ciudad Universitaria, Coyoacán",
+        "city": "D.F.",
+        "capacity": 72449,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1083.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2287,
+        "name": "Club America",
+        "code": "CLU",
+        "country": "Mexico",
+        "founded": 1916,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2287.png"
+      },
+      "venue": {
+        "id": 1069,
+        "name": "Estadio Azteca",
+        "address": "Calzada de Tlalpan 3665, Coyoacán",
+        "city": "D.F.",
+        "capacity": 106187,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1069.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2288,
+        "name": "Necaxa",
+        "code": "NEC",
+        "country": "Mexico",
+        "founded": 1923,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2288.png"
+      },
+      "venue": {
+        "id": 20474,
+        "name": "Estadio Victoria",
+        "address": "Avenida Manuel Madrigal 101, Colonia Héroes",
+        "city": "Aguascalientes",
+        "capacity": 25500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20474.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2289,
+        "name": "Leon",
+        "code": "CLU",
+        "country": "Mexico",
+        "founded": 1944,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2289.png"
+      },
+      "venue": {
+        "id": 1077,
+        "name": "Estadio León (Nou Camp)",
+        "address": "Boulevard Adolfo López Mateos 1810, Colonia La Martinica",
+        "city": "León de los Aldamas",
+        "capacity": 33943,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1077.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2290,
+        "name": "Club Queretaro",
+        "code": "QUE",
+        "country": "Mexico",
+        "founded": 1950,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2290.png"
+      },
+      "venue": {
+        "id": 20476,
+        "name": "Estadio Corregidora",
+        "address": "Avenida Luis Vega Monroy 409-4",
+        "city": "Santiago de Querétaro",
+        "capacity": 34130,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20476.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2291,
+        "name": "Puebla",
+        "code": "PUE",
+        "country": "Mexico",
+        "founded": 1944,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2291.png"
+      },
+      "venue": {
+        "id": 1082,
+        "name": "Estadio Cuauhtémoc",
+        "address": "Calle Calzada Ignacio Zaragoza, Colonia Unidad Deportiva Puebla",
+        "city": "Puebla",
+        "capacity": 51726,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1082.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2292,
+        "name": "Pachuca",
+        "code": "PAC",
+        "country": "Mexico",
+        "founded": 1901,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2292.png"
+      },
+      "venue": {
+        "id": 1081,
+        "name": "Estadio Hidalgo",
+        "address": "Boulevard Felipe Angeles",
+        "city": "Pachuca de Soto",
+        "capacity": 30000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1081.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2295,
+        "name": "Cruz Azul",
+        "code": "CRU",
+        "country": "Mexico",
+        "founded": 1927,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2295.png"
+      },
+      "venue": {
+        "id": 1069,
+        "name": "Estadio Azteca",
+        "address": "Calzada de Tlalpan 3665, Coyoacán",
+        "city": "D.F.",
+        "capacity": 106187,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1069.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2298,
+        "name": "FC Juarez",
+        "code": null,
+        "country": "Mexico",
+        "founded": 2015,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2298.png"
+      },
+      "venue": {
+        "id": 1845,
+        "name": "Estadio Olímpico Benito Juárez",
+        "address": "Avenida Heroico Colegio Militar",
+        "city": "Ciudad Juárez",
+        "capacity": 22300,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1845.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2314,
+        "name": "Atletico San Luis",
+        "code": "ASL",
+        "country": "Mexico",
+        "founded": 2013,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/2314.png"
+      },
+      "venue": {
+        "id": 1795,
+        "name": "Estadio Alfonso Lastras Ramírez",
+        "address": "Avenida Malaquita 1030",
+        "city": "San Luis Potosí",
+        "capacity": 26400,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1795.png"
+      }
+    },
+    {
+      "team": {
+        "id": 14002,
+        "name": "Mazatlán",
+        "code": null,
+        "country": "Mexico",
+        "founded": 2020,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/14002.png"
+      },
+      "venue": {
+        "id": 20435,
+        "name": "Estadio El Encanto",
+        "address": "Av. Munich Fraccionamiento Pradera Dorada, Nuevo Cajeme",
+        "city": "Mazatlán",
+        "capacity": 25000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20435.png"
+      }
+    }
+  ]
+}

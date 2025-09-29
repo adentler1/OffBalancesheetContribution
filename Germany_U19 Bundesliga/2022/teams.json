@@ -1,0 +1,1015 @@
+{
+  "get": "teams",
+  "parameters": {
+    "league": "488",
+    "season": "2022"
+  },
+  "errors": [],
+  "results": 50,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 7886,
+        "name": "Bayer Leverkusen U19",
+        "code": "LEV",
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7886.png"
+      },
+      "venue": {
+        "id": 20988,
+        "name": "Ulrich-Haberland-Stadion",
+        "address": "Bismarckstr.",
+        "city": "Leverkusen",
+        "capacity": 3200,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20988.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7887,
+        "name": "Bayern München U19",
+        "code": "BAY",
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7887.png"
+      },
+      "venue": {
+        "id": 20989,
+        "name": "FC Bayern Campus Platz 1",
+        "address": "Ingolstädter Str. 272",
+        "city": "München",
+        "capacity": 4347,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20989.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7890,
+        "name": "Borussia Dortmund U19",
+        "code": "DOR",
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7890.png"
+      },
+      "venue": {
+        "id": 5700,
+        "name": "Fußballpark BVB Hohenbuschei",
+        "address": "Addi Preißler Allee 9, Brackel",
+        "city": "Dortmund",
+        "capacity": 3000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/5700.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7924,
+        "name": "RB Leipzig U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7924.png"
+      },
+      "venue": {
+        "id": 21035,
+        "name": "Trainingszentrum RB Leipzig Platz 1",
+        "address": "Cottaweg",
+        "city": "Leipzig",
+        "capacity": 2015,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21035.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7954,
+        "name": "Hertha BSC U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7954.png"
+      },
+      "venue": {
+        "id": 11973,
+        "name": "Olympiapark-Amateurstadion",
+        "address": "Friedrich-Friesen-Allee",
+        "city": "Berlin",
+        "capacity": 5400,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/11973.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7955,
+        "name": "Hoffenheim U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7955.png"
+      },
+      "venue": {
+        "id": 6469,
+        "name": "Dietmar-Hopp-Stadion",
+        "address": "Silbergasse 45, Hoffenheim",
+        "city": "Sinsheim",
+        "capacity": 6350,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6469.png"
+      }
+    },
+    {
+      "team": {
+        "id": 7967,
+        "name": "Schalke 04 U19",
+        "code": "SCH",
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/7967.png"
+      },
+      "venue": {
+        "id": 11975,
+        "name": "Parkstadion",
+        "address": "Ernst-Kuzzora-Weg 1",
+        "city": "Gelsenkirchen",
+        "capacity": 5000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/11975.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10247,
+        "name": "Augsburg U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10247.png"
+      },
+      "venue": {
+        "id": 21038,
+        "name": "Paul-Renz-Sportanlage",
+        "address": "Donauwörther Str. 170, Oberhausen",
+        "city": "Augsburg",
+        "capacity": 10000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21038.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10248,
+        "name": "Bochum U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10248.png"
+      },
+      "venue": {
+        "id": 21039,
+        "name": "Nachwuchszentrum VfL Bochum",
+        "address": "Hiltroper Straße 240",
+        "city": "Bochum",
+        "capacity": 1120,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21039.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10249,
+        "name": "Borussia M'bach U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10249.png"
+      },
+      "venue": {
+        "id": 22281,
+        "name": "Fohlenplatz",
+        "address": "Hennes-Weisweiler-Allee 1",
+        "city": "Mönchengladbach",
+        "capacity": 2500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/22281.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10251,
+        "name": "Dynamo Dresden U19",
+        "code": null,
+        "country": "Germany",
+        "founded": 1953,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10251.png"
+      },
+      "venue": {
+        "id": 21040,
+        "name": "Sportpark Ostra Nachwuchs Akademie Dynamo Platz 15",
+        "address": "Pieschener Allee 21",
+        "city": "Dresden",
+        "capacity": 1500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21040.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10252,
+        "name": "Eintracht Frankf U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10252.png"
+      },
+      "venue": {
+        "id": 20992,
+        "name": "Stadion am Riederwald",
+        "address": "Gustav-Behringer-Str. 10, Seckbach",
+        "city": "Frankfurt am Main",
+        "capacity": 6000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20992.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10253,
+        "name": "Energie Cottbus U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10253.png"
+      },
+      "venue": {
+        "id": 21552,
+        "name": "Stadion an der Lipezker Straße",
+        "address": "Lipezker Str.",
+        "city": "Cottbus",
+        "capacity": 7000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21552.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10254,
+        "name": "Fortuna Düsseldorf U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10254.png"
+      },
+      "venue": {
+        "id": 6474,
+        "name": "Paul-Janes-Stadion",
+        "address": "Flinger Broich 87, Flingern Nord",
+        "city": "Düsseldorf",
+        "capacity": 7150,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6474.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10255,
+        "name": "Freiburg U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10255.png"
+      },
+      "venue": {
+        "id": 6468,
+        "name": "Möslestadion",
+        "address": "Waldseestr. 75",
+        "city": "Freiburg im Breisgau",
+        "capacity": 5400,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6468.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10257,
+        "name": "Hamburger SV U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10257.png"
+      },
+      "venue": {
+        "id": 6447,
+        "name": "Wolfgang-Meyer-Sportanlage",
+        "address": "Hagenbeckstr. 124",
+        "city": "Hamburg",
+        "capacity": 2018,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6447.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10258,
+        "name": "Hannover 96 U19",
+        "code": null,
+        "country": "Germany",
+        "founded": 1896,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10258.png"
+      },
+      "venue": {
+        "id": 22290,
+        "name": "Eilenriedestadion",
+        "address": "Clausewitzstr. 4",
+        "city": "Hannover",
+        "capacity": 5001,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/22290.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10259,
+        "name": "Heidenheim U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10259.png"
+      },
+      "venue": {
+        "id": 21553,
+        "name": "Walter-Birkhold-Jugendstadion",
+        "address": "Heeracker 16",
+        "city": "Heidenheim an der Brenz",
+        "capacity": 1500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21553.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10260,
+        "name": "Holstein Kiel U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10260.png"
+      },
+      "venue": {
+        "id": 6451,
+        "name": "Citti Fussball Park - Projensdorf (Platz A)",
+        "address": "Steenbeker Weg 150-152",
+        "city": "Kiel",
+        "capacity": 3000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6451.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10261,
+        "name": "Ingolstadt U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10261.png"
+      },
+      "venue": {
+        "id": 8148,
+        "name": "BZA Süd-Ost",
+        "address": "Geisenfelder Straße 1, Ringsee",
+        "city": "Ingolstadt",
+        "capacity": 11418,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/8148.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10263,
+        "name": "Karlsruher SC U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10263.png"
+      },
+      "venue": {
+        "id": 21885,
+        "name": "Badenia Stadion",
+        "address": "Adenauerring 17",
+        "city": "Karlsruhe",
+        "capacity": 2500,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21885.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10265,
+        "name": "Köln U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10265.png"
+      },
+      "venue": {
+        "id": 6476,
+        "name": "Franz-Kremer-Stadion",
+        "address": "Franz-Kremer-Allee 1-3",
+        "city": "Köln",
+        "capacity": 5457,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6476.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10266,
+        "name": "MSV Duisburg U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10266.png"
+      },
+      "venue": {
+        "id": 21042,
+        "name": "BZA Westender Straße",
+        "address": "Westender Str. 36, Meiderich",
+        "city": "Duisburg",
+        "capacity": 4000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21042.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10267,
+        "name": "Magdeburg U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10267.png"
+      },
+      "venue": {
+        "id": 19802,
+        "name": "Platz 2 MCDD-Arena",
+        "address": "Heinz-Krügel-Platz 1",
+        "city": "Magdeburg",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/19802.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10268,
+        "name": "Mainz 05 U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10268.png"
+      },
+      "venue": {
+        "id": 2728,
+        "name": "Stadion am Bruchweg",
+        "address": "Dr.-Martin-Luther-King-Weg 20",
+        "city": "Mainz",
+        "capacity": 13508,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/2728.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10270,
+        "name": "Preußen Münster U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10270.png"
+      },
+      "venue": {
+        "id": 21556,
+        "name": "Sportpark Berg Fidel Platz 1",
+        "address": "Am Berg Fidel 51",
+        "city": "Münster",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21556.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10271,
+        "name": "RW Oberhausen U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10271.png"
+      },
+      "venue": {
+        "id": 21570,
+        "name": "Kunstrasen Nebenplatz Stadion Niederrhein",
+        "address": "Lindnerstraße",
+        "city": "Oberhausen",
+        "capacity": 1000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/21570.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10272,
+        "name": "St. Pauli U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10272.png"
+      },
+      "venue": {
+        "id": 21043,
+        "name": "Sportanlage Königskinderweg",
+        "address": "Königskinderweg 67a",
+        "city": "Hamburg",
+        "capacity": 4000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21043.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10273,
+        "name": "Stuttgart U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10273.png"
+      },
+      "venue": {
+        "id": 20995,
+        "name": "Rasenplatz 1 VfB Stuttgart",
+        "address": "Mercedesstr. 109",
+        "city": "Stuttgart",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20995.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10275,
+        "name": "Union Berlin U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10275.png"
+      },
+      "venue": {
+        "id": 20996,
+        "name": "Stadion An der Wuhlheide",
+        "address": "An der Wuhlheide 161",
+        "city": "Berlin",
+        "capacity": 4000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20996.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10276,
+        "name": "Viktoria Köln U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10276.png"
+      },
+      "venue": {
+        "id": 21558,
+        "name": "Aggerstadion",
+        "address": "Taubengasse 203",
+        "city": "Troisdorf",
+        "capacity": 10000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21558.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10277,
+        "name": "Werder Bremen U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10277.png"
+      },
+      "venue": {
+        "id": 20997,
+        "name": "Weserstadion Platz 12",
+        "address": "Franz-Böhmert-Straße 1c",
+        "city": "Bremen",
+        "capacity": 900,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20997.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10278,
+        "name": "Wolfsburg U19",
+        "code": "WOL",
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/10278.png"
+      },
+      "venue": {
+        "id": 6454,
+        "name": "AOK Stadion",
+        "address": "Allerpark 2",
+        "city": "Wolfsburg",
+        "capacity": 5200,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6454.png"
+      }
+    },
+    {
+      "team": {
+        "id": 13954,
+        "name": "Nürnberg U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/13954.png"
+      },
+      "venue": {
+        "id": 22285,
+        "name": "Sportpark Valznerweiher - Platz 5",
+        "address": "Valznerweiherstr. 200",
+        "city": "Nürnberg",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/22285.png"
+      }
+    },
+    {
+      "team": {
+        "id": 13956,
+        "name": "Paderborn U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/13956.png"
+      },
+      "venue": {
+        "id": 21046,
+        "name": "Trainings- und Nachwuchsleistungszentrum Platz 4",
+        "address": "Lise-Meitner-Str. 12",
+        "city": "Paderborn",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21046.png"
+      }
+    },
+    {
+      "team": {
+        "id": 13957,
+        "name": "Rot-Weiss Essen U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/13957.png"
+      },
+      "venue": {
+        "id": 21560,
+        "name": "Bezirkssportanlage Mitte II Rasenplatz",
+        "address": "Seumannstraße 55, Altenessen Süd",
+        "city": "Essen",
+        "capacity": 3000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21560.png"
+      }
+    },
+    {
+      "team": {
+        "id": 13963,
+        "name": "Unterhaching U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/13963.png"
+      },
+      "venue": {
+        "id": 22286,
+        "name": "Sportschule Oberhaching Platz 2",
+        "address": "Im Loh 2",
+        "city": "Furth",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/22286.png"
+      }
+    },
+    {
+      "team": {
+        "id": 13965,
+        "name": "1860 München U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/13965.png"
+      },
+      "venue": {
+        "id": 21048,
+        "name": "Trainingsgelände TSV 1860 - Platz 5",
+        "address": "Grünwalder Str. 114",
+        "city": "München",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21048.png"
+      }
+    },
+    {
+      "team": {
+        "id": 14027,
+        "name": "Astoria Walldorf U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/14027.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 14028,
+        "name": "Darmstadt 98 U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/14028.png"
+      },
+      "venue": {
+        "id": 21563,
+        "name": "Viktoria-Sportplatz",
+        "address": "Traminer Straße 87, Urberach",
+        "city": "Rödermark",
+        "capacity": 2000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21563.png"
+      }
+    },
+    {
+      "team": {
+        "id": 14032,
+        "name": "Viktoria Berlin U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/14032.png"
+      },
+      "venue": {
+        "id": 21571,
+        "name": "Allianzstadion",
+        "address": "Wildspitzweg 12-46, Mariendorf",
+        "city": "Berlin",
+        "capacity": 2000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/21571.png"
+      }
+    },
+    {
+      "team": {
+        "id": 15741,
+        "name": "Hansa Rostock U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15741.png"
+      },
+      "venue": {
+        "id": 12007,
+        "name": "Volksstadion",
+        "address": "Trotzenburger Weg 14",
+        "city": "Rostock",
+        "capacity": 5000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/12007.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19359,
+        "name": "Eintracht Trier U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19359.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 19360,
+        "name": "Hertha Zehlendorf U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19360.png"
+      },
+      "venue": {
+        "id": 22288,
+        "name": "Kunstrasenplatz Ernst-Reuter-Sportfeld KR6",
+        "address": "Siebenendenweg 40",
+        "city": "Berlin",
+        "capacity": 1000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/22288.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19441,
+        "name": "BAK 07 U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19441.png"
+      },
+      "venue": {
+        "id": 6456,
+        "name": "Poststadion",
+        "address": "Lehrterstr. 59, Moabit",
+        "city": "Berlin",
+        "capacity": 12000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/6456.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19442,
+        "name": "Bonner SC U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19442.png"
+      },
+      "venue": {
+        "id": 22289,
+        "name": "Rasenplatz Waldenburger Ring",
+        "address": "Waldenburger Ring",
+        "city": "Bonn",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/22289.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19443,
+        "name": "Hilden U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19443.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 19444,
+        "name": "Meppen U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19444.png"
+      },
+      "venue": {
+        "id": 20998,
+        "name": "Waldstadion Hauptplatz A",
+        "address": "Versener Str. 69",
+        "city": "Meppen",
+        "capacity": 1000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20998.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19445,
+        "name": "Reutlingen U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19445.png"
+      },
+      "venue": {
+        "id": 8631,
+        "name": "Stadion an der Kreuzeiche",
+        "address": "An der Kreuzeiche 4",
+        "city": "Reutlingen",
+        "capacity": 15228,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/8631.png"
+      }
+    },
+    {
+      "team": {
+        "id": 19446,
+        "name": "Verl U19",
+        "code": null,
+        "country": "Germany",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/19446.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    }
+  ]
+}

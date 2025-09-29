@@ -1,0 +1,794 @@
+{
+  "Fortuna Düsseldorf": [
+    {
+      "id": 25009,
+      "name": "F. Hartherz",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 25216,
+      "name": "T. Pledl",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25384,
+      "name": "E. Prib",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 25415,
+      "name": "D. Ginczek",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 25447,
+      "name": "R. Wolf",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 25449,
+      "name": "A. Bodzek",
+      "age": 39,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25453,
+      "name": "A. Hoffmann",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 25457,
+      "name": "D. Lovren",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25460,
+      "name": "M. Sobottka",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25465,
+      "name": "R. Hennings",
+      "age": 37,
+      "position": "Attacker"
+    },
+    {
+      "id": 26344,
+      "name": "K. Eisele",
+      "age": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 37179,
+      "name": "N. Gavory",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 43025,
+      "name": "D. Nedelcu",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 127843,
+      "name": "K. Ofori",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202796,
+      "name": "M. Mansfeld",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 203140,
+      "name": "T. Köther",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 203154,
+      "name": "T. Uchino",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 203349,
+      "name": "N. Touglo",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 261424,
+      "name": "P. Sieben",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 321676,
+      "name": "D. Bunk",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1595,
+      "name": "L. Koútris",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 1939,
+      "name": "J. Piotrowski",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 3013,
+      "name": "D. Kownacki",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 19409,
+      "name": "J. de Wijs",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 24883,
+      "name": "K. Narey",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 25108,
+      "name": "E. Iyoha",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 25411,
+      "name": "F. Klaus",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25463,
+      "name": "M. Zimmermann",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 25541,
+      "name": "N. Shipnoski",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 32966,
+      "name": "A. Tanaka",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 37273,
+      "name": "K. Peterson",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 61245,
+      "name": "R. Boženík",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 108485,
+      "name": "F. Kastenmeier",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 108617,
+      "name": "L. Lobinger",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 127885,
+      "name": "S. Appelkamp",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 138859,
+      "name": "C. Klarer",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 178293,
+      "name": "T. Oberdorf",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 203219,
+      "name": "J. Siebert",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 203348,
+      "name": "D. Gorka",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 340983,
+      "name": "D. Savic",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Werder Bremen": [
+    {
+      "id": 12,
+      "name": "Ö. Toprak",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 716,
+      "name": "L. Bittencourt",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 959,
+      "name": "R. Assalé",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 7562,
+      "name": "R. Schmid",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25314,
+      "name": "M. Friedl",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 25317,
+      "name": "N. Moisander",
+      "age": 40,
+      "position": "Defender"
+    },
+    {
+      "id": 25318,
+      "name": "P. Bargfrede",
+      "age": 35,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25322,
+      "name": "J.  Mbom",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25323,
+      "name": "K. Möhwald",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25391,
+      "name": "N. Füllkrug",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 26319,
+      "name": "F. Agu",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 88033,
+      "name": "C. Groß",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 108619,
+      "name": "K. Badjie",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 128822,
+      "name": "S. Straudi",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 129142,
+      "name": "I. Gruev",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 178709,
+      "name": "Y. Engelhardt",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202522,
+      "name": "A. Nankishi",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 202655,
+      "name": "M. Schröder",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 279869,
+      "name": "J. Brandt",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322627,
+      "name": "F. Chiarodia",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 411,
+      "name": "B. Goller",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 906,
+      "name": "T. Chong",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 973,
+      "name": "M. Weiser",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 7288,
+      "name": "M. Zetterer",
+      "age": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 24843,
+      "name": "N. Rapp",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25320,
+      "name": "T. Jacobsen",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25326,
+      "name": "J. Eggestein",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 25330,
+      "name": "Y. Osako",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 25332,
+      "name": "J. Sargent",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 25362,
+      "name": "D. Selke",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 25464,
+      "name": "M. Ducksch",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 25533,
+      "name": "N. Schmidt",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25609,
+      "name": "P. Erras",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 177746,
+      "name": "J. Rieckmann",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 177840,
+      "name": "D. Becker",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 177841,
+      "name": "Dudu",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 178707,
+      "name": "Park Kyu-Hyun",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 202737,
+      "name": "O. Schönfelder",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 202758,
+      "name": "D. Galjen",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 329578,
+      "name": "M. Backhaus",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 503,
+      "name": "L. Mai",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 2821,
+      "name": "M. Veljković",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 2852,
+      "name": "L. Augustinsson",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 2917,
+      "name": "M. Eggestein",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 15874,
+      "name": "A. Jung",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 25309,
+      "name": "S. Kapino",
+      "age": 31,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 25310,
+      "name": "J. Pavlenka",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 25311,
+      "name": "L. Plogmann",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 25324,
+      "name": "M. Rashica",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 158054,
+      "name": "N. Woltemade",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 202526,
+      "name": "E. Dinkçi",
+      "age": 24,
+      "position": "Attacker"
+    }
+  ],
+  "Hannover 96": [
+    {
+      "id": 1804,
+      "name": "S. Falette",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 15883,
+      "name": "Dominik Kaiser",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19081,
+      "name": "T. Trybull",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 24972,
+      "name": "F. Evina",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 25006,
+      "name": "J. Börner",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 25164,
+      "name": "S. Ernst",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25380,
+      "name": "L. Maina",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25388,
+      "name": "H. Weydandt",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 26246,
+      "name": "M. Frantz",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 31074,
+      "name": "L. Krajnc",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 48368,
+      "name": "M. Hansen",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 71564,
+      "name": "Marc Martin Lamti",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 90650,
+      "name": "M. Sündermann",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 90748,
+      "name": "V. Sulejmani",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 177808,
+      "name": "M. Gudra",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 177871,
+      "name": "T. Walbrecht",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202497,
+      "name": "G. Bokake",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202500,
+      "name": "J. Eichhorn",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 275207,
+      "name": "R. Çepele",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 435208,
+      "name": "A. Thomas",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 425,
+      "name": "C. Teuchert",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 593,
+      "name": "N. Hult",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 2593,
+      "name": "S. Muroya",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 15727,
+      "name": "P. Ochs",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 24954,
+      "name": "J. Dehm",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 24991,
+      "name": "S. Stolze",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 25036,
+      "name": "M. Franke",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 25080,
+      "name": "L. Hinterseer",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 25383,
+      "name": "F. Muslija",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25464,
+      "name": "M. Ducksch",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 25613,
+      "name": "S. Kerk",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 26293,
+      "name": "R. Zieler",
+      "age": 36,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 37012,
+      "name": "M. Diemers",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47374,
+      "name": "P. Twumasi",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 53740,
+      "name": "G. Ondoua",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 158644,
+      "name": "M. Beier",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 177650,
+      "name": "M. Doumbouya",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 177809,
+      "name": "S. Stehle",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 203075,
+      "name": "L. Ennali",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 287923,
+      "name": "N. Tresoldi",
+      "age": 21,
+      "position": "Attacker"
+    }
+  ]
+}

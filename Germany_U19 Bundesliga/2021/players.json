@@ -1,0 +1,6368 @@
+{
+  "Bayer Leverkusen U19": [
+    {
+      "id": 161980,
+      "name": "E. Gedikli",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 203370,
+      "name": "M. Neutgens",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280340,
+      "name": "Leon Pesch",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280344,
+      "name": "A. Tshimuanga",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 280430,
+      "name": "J. Eze",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280431,
+      "name": "S. Fofana",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286901,
+      "name": "A. Barak",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 308815,
+      "name": "J. Kanga",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 322858,
+      "name": "Z. Sertdemir",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330599,
+      "name": "Iker Bravo",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 330600,
+      "name": "A. Aourir",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330601,
+      "name": "In-Gyom Jung",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 330623,
+      "name": "R. Steur",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 330625,
+      "name": "L. Köhl",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330629,
+      "name": "Abdul-Wahid Bancé",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 330630,
+      "name": "D. Burghard",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334092,
+      "name": "Noah Pesch",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 336025,
+      "name": "L. Winkler",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 346720,
+      "name": "J. Zirkzee",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 356490,
+      "name": "J. Ecke",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Bayern München U19": [
+    {
+      "id": 162077,
+      "name": "T. Rhein",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 181813,
+      "name": "A. Brückner",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 202960,
+      "name": "L. Fust",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 202975,
+      "name": "M. Sanyang",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 203296,
+      "name": "M. Kainz",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203332,
+      "name": "L. Denk",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280336,
+      "name": "N. Salihamidžić",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327896,
+      "name": "D. Jonathans",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328032,
+      "name": "P. Brekner",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328036,
+      "name": "B. Dibrani",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330592,
+      "name": "Y. Aitamer",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 330593,
+      "name": "B. Hepburn",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330611,
+      "name": "L. Markert",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338033,
+      "name": "B. Ballis",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338034,
+      "name": "J. Nsanzimana",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 341249,
+      "name": "Samuel Unsöld",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 345016,
+      "name": "M. Eberhart",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 356353,
+      "name": "Vincent Manuba",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 356362,
+      "name": "Salih Sen",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 366062,
+      "name": "Benedikt Wimmer",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 162535,
+      "name": "B. Arrey-Mbi",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 162536,
+      "name": "D. Herold",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 203331,
+      "name": "J. Schenk",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280335,
+      "name": "F. Krätzig",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280337,
+      "name": "N. Motika",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280428,
+      "name": "G. Marušić",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280429,
+      "name": "T. Hülsmann",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 287931,
+      "name": "B. Neziri",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 290638,
+      "name": "E. Metu",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 322505,
+      "name": "M. Wenig",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322506,
+      "name": "E. Aydın",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322507,
+      "name": "J. Janitzek",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 322624,
+      "name": "L. Copado",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328037,
+      "name": "L. Morrison",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 330612,
+      "name": "T. Buchmann",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 338947,
+      "name": "Olof Matteo Perez Vinlöf",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 344290,
+      "name": "M. Schmitt",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 355170,
+      "name": "Ricardo Sidney Markus Wagner",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 355171,
+      "name": "Lee Hyun-Ju",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 366061,
+      "name": "Matteo Schablas",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 162538,
+      "name": "J. Lawrence",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 280339,
+      "name": "A. Sieb",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280427,
+      "name": "G. Ranos",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 322508,
+      "name": "Y. Kabadayı",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327895,
+      "name": "P. Wanner",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327897,
+      "name": "A. Ibrahimović",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328033,
+      "name": "A. Pavlović",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339883,
+      "name": "K. Yıldız",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 391283,
+      "name": "E. Demircan",
+      "age": 20,
+      "position": "Attacker"
+    }
+  ],
+  "Borussia Dortmund U19": [
+    {
+      "id": 161918,
+      "name": "L. Semić",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 161920,
+      "name": "B. Fink",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 162102,
+      "name": "G. Gürpüz",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162476,
+      "name": "C. Kleine-Bekel",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 162583,
+      "name": "Albin Thaqi",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 280368,
+      "name": "S. Bamba",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 280369,
+      "name": "D. Lütke-Frie",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280464,
+      "name": "Tekin Gencoglu",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286894,
+      "name": "J. Bynoe-Gittens",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 298242,
+      "name": "Faroukou Cisse",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 324959,
+      "name": "N. Mrosek",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334105,
+      "name": "Vasco Walz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334106,
+      "name": "M. Ludwig",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334107,
+      "name": "A. Mengot",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334108,
+      "name": "N. Dühring",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334177,
+      "name": "D. Dudek",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334179,
+      "name": "Jonah Husseck",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 335335,
+      "name": "Julian Dean Rijkhoff",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 344285,
+      "name": "M. Zacharias",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 366021,
+      "name": "Rafael Lubach",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162145,
+      "name": "A. Kamara",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162568,
+      "name": "S. Coulibaly",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 269531,
+      "name": "N. Collins",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 280367,
+      "name": "A. El-Zein",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280463,
+      "name": "S. Ostrzinski",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 324957,
+      "name": "T. Rothe",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334173,
+      "name": "Marian Kirsch",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334178,
+      "name": "Hendry Aron Blank",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 341839,
+      "name": "F. Mané",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "RB Leipzig U19": [
+    {
+      "id": 15853,
+      "name": "G. Grubbe",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 161940,
+      "name": "J. Wosz",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162120,
+      "name": "K. Smorgol",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162575,
+      "name": "M. Kostka",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 180318,
+      "name": "E. Uhlmann",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 181819,
+      "name": "F. Eutinger",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 202707,
+      "name": "R. Friedrich",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280411,
+      "name": "B. Klefisch",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280415,
+      "name": "J. Krüger",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 286714,
+      "name": "D. Krasucki",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327803,
+      "name": "Pierre Weber",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327806,
+      "name": "G. Yeboah",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327911,
+      "name": "J. Nickisch",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327912,
+      "name": "M. Voigt",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 327916,
+      "name": "D. Ihendu",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 329435,
+      "name": "Jorden Winter",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334121,
+      "name": "O. Köhl",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334340,
+      "name": "Yannick Freischlad",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 336240,
+      "name": "N. Atom",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 355168,
+      "name": "Simon Schierack",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162116,
+      "name": "S. Bonnah",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 162170,
+      "name": "Hugo Novoa",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280316,
+      "name": "M. Ibrahimi",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 314273,
+      "name": "S. Raebiger",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327802,
+      "name": "D. Lelle",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327805,
+      "name": "S. Ba",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 343161,
+      "name": "K. Grabovskis",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 348028,
+      "name": "Joel Luca Grimpe",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 357253,
+      "name": "O. Preil",
+      "age": 22,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Hertha BSC U19": [
+    {
+      "id": 279877,
+      "name": "L. Wollschläger",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279878,
+      "name": "T. Rölke",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279879,
+      "name": "Mustafa Abdullatif",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279887,
+      "name": "M. Kesik",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279992,
+      "name": "J. Najjar",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279993,
+      "name": "A. Kade",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280000,
+      "name": "Jasper Kühn",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281913,
+      "name": "L. Ćuk",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281915,
+      "name": "Q. Seidel",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327638,
+      "name": "T. Gündüz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327639,
+      "name": "S. Yıldırım",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327640,
+      "name": "E. Preljević",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327658,
+      "name": "J. da Silva Kiala",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327663,
+      "name": "Kenan Hadziavdic",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327664,
+      "name": "V. Stange",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 341246,
+      "name": "Leander Nicolas Popp",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 342174,
+      "name": "T. Hoffmann",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 357252,
+      "name": "Sinan Akan",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 359566,
+      "name": "Pepe Pereira Mendes",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 359568,
+      "name": "Sebastian Paul Weiland",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 286711,
+      "name": "L. Gechter",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327646,
+      "name": "L. Ullrich",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327659,
+      "name": "J. Eitschberger",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 330633,
+      "name": "R. Kwasigroch",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338030,
+      "name": "D. Ajvazi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 342171,
+      "name": "N. Aséko Nkili",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Hoffenheim U19": [
+    {
+      "id": 202935,
+      "name": "T. Çalhanoğlu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 202976,
+      "name": "V. Lässig",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203316,
+      "name": "T. Böff",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279906,
+      "name": "Abdoul Karim Camara",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 279907,
+      "name": "U. Tohumcu",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279908,
+      "name": "R. Bočs",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 279913,
+      "name": "L. Đurić",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279914,
+      "name": "N. Breitenbücher",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280031,
+      "name": "F. Bähr",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 288098,
+      "name": "Tim Ottilinger",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 324024,
+      "name": "M. Kambala",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327859,
+      "name": "U. Obiogumu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327860,
+      "name": "L. Haskaj",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327862,
+      "name": "L. Leuze",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327989,
+      "name": "Lucas Tamarez",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329470,
+      "name": "A. Sefer",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 334200,
+      "name": "Linus Weik",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 336031,
+      "name": "P. Hennrich",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353143,
+      "name": "Hennes Behrens",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 359502,
+      "name": "S. Tandiang",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 193810,
+      "name": "A. Carnier",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 203329,
+      "name": "N. Noll",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203337,
+      "name": "N. König",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279905,
+      "name": "B. Conté",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 288097,
+      "name": "L. Petersson",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 298254,
+      "name": "F. Hagmann",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 325975,
+      "name": "T. Bischof",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327861,
+      "name": "T. Drexler",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 341248,
+      "name": "J. Knollmüller",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 343167,
+      "name": "Yannis Hör",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Schalke 04 U19": [
+    {
+      "id": 280353,
+      "name": "A. Aliu",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280354,
+      "name": "B. Shubin",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280451,
+      "name": "L. Campanile",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280452,
+      "name": "E. Kurt",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280456,
+      "name": "J. Treichel",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281919,
+      "name": "L. Klein",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 282081,
+      "name": "L. Weichert",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334331,
+      "name": "M. Hansen",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334332,
+      "name": "A. Mfundu",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334333,
+      "name": "Ngufor Anubodem",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334335,
+      "name": "S. Kojić",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 334338,
+      "name": "L. Köster",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334357,
+      "name": "G. Guzy",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334359,
+      "name": "Emmanuel Gyamfi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334360,
+      "name": "E. Rotundo",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 335318,
+      "name": "Erik Lanfer",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 335320,
+      "name": "Yannick Tonye",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 335341,
+      "name": "Denis Milic",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 339233,
+      "name": "F. Yusufu",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 356495,
+      "name": "L. Rödel",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280453,
+      "name": "Juan Cabrera",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280457,
+      "name": "S. Sané",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 334334,
+      "name": "K. Topp",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334361,
+      "name": "Luca Podlech",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Alemannia Aachen U19": [
+    {
+      "id": 282951,
+      "name": "J. Strauch",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 282952,
+      "name": "V. Statovci",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 282954,
+      "name": "Nazif Tchadjei",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 282957,
+      "name": "T. Kondziella",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334139,
+      "name": "Y. Eyrice",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 334143,
+      "name": "A. Ivic",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Arminia Bielefeld U19": [
+    {
+      "id": 203381,
+      "name": "A. Schulz",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 273314,
+      "name": "V. Cherny",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280352,
+      "name": "E. Ibrahimi",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334309,
+      "name": "Ayoube Amaimouni-Echghouyab",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334310,
+      "name": "T. Wozny",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334314,
+      "name": "F. Yilmaz",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 334346,
+      "name": "N. Hahne",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 336027,
+      "name": "C. Miller",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 356355,
+      "name": "Denis-Andrei Ciobanu",
+      "age": 21,
+      "position": "Midfielder"
+    }
+  ],
+  "Augsburg U19": [
+    {
+      "id": 280045,
+      "name": "P. Sander",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280046,
+      "name": "K. Taseski",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280048,
+      "name": "F. Wessig",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281924,
+      "name": "D. Katić",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 281925,
+      "name": "H. Rathgeber",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 287939,
+      "name": "M. Bauer",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327888,
+      "name": "N. Simić",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328018,
+      "name": "D. Dell&apos;Erba",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328027,
+      "name": "H. Yılmaz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328028,
+      "name": "Levin Krasniqi",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328029,
+      "name": "N. Rasoulinia",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329464,
+      "name": "R. Perovic",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339229,
+      "name": "A. Japaur",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 339251,
+      "name": "A. Kenjar",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 342308,
+      "name": "Romeo Ivelj",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 346918,
+      "name": "Benedikt Schwarzensteiner",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353947,
+      "name": "Jakob Reichenbach",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 362795,
+      "name": "D. Lichtensteiger",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 367940,
+      "name": "D. Lindermeir",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 388564,
+      "name": "Lukas da Silva-Pötzinger",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 202951,
+      "name": "F. Ivanović",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 202967,
+      "name": "D. Berisha",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279924,
+      "name": "D. Salifou",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 323951,
+      "name": "A. Zehnter",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328016,
+      "name": "M. Łubik",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328019,
+      "name": "M. Kücüksahin",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 342188,
+      "name": "D. Pejčinović",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 348888,
+      "name": "M. Kömür",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 362796,
+      "name": "Tobias Jäger",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Bochum U19": [
+    {
+      "id": 203380,
+      "name": "T. Ernst",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279948,
+      "name": "N. Petritt",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280083,
+      "name": "V. Boboy",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280091,
+      "name": "T. Oermann",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 282093,
+      "name": "A. Demirel",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 336220,
+      "name": "Leon Tasov",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 336224,
+      "name": "M. Pannewig",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336233,
+      "name": "M. Tolba",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 336236,
+      "name": "Florian Berisha",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 336237,
+      "name": "Finn Gregor Kotyrba",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 348890,
+      "name": "L. Nübel",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Borussia M'bach U19": [
+    {
+      "id": 280346,
+      "name": "K. Asallari",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280347,
+      "name": "Y. Atty",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280348,
+      "name": "L. Schütz",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280432,
+      "name": "D. Nweke",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280433,
+      "name": "N. Andreas",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280436,
+      "name": "B. Zich",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 286724,
+      "name": "Luca Barata",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 286725,
+      "name": "T. Zimpel",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 318542,
+      "name": "S. Turping",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 324749,
+      "name": "Moustafa Ashraf Moustafa",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334113,
+      "name": "Luis Werrmann",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334185,
+      "name": "M. Scheibner",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334186,
+      "name": "C. Dag",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334192,
+      "name": "S. Zenku",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336227,
+      "name": "L. Arndt",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 338177,
+      "name": "A. Michaelis",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 339231,
+      "name": "L. Wirth",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 340162,
+      "name": "I. Digberekou",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 342173,
+      "name": "S. Walde",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 358477,
+      "name": "Mert Leon Temiz",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 153432,
+      "name": "D. Hoogewerf",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280305,
+      "name": "R. Naderi",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 318531,
+      "name": "Y. Borges Sanches",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334114,
+      "name": "Tony Reitz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334184,
+      "name": "D. Deumi-Nappi",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "Chemnitzer FC U19": [
+    {
+      "id": 202690,
+      "name": "R. Eppendorfer",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202716,
+      "name": "P. Kämpfer",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 203254,
+      "name": "Jonas Dittrich",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 206992,
+      "name": "D. Wunsch",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279893,
+      "name": "Jermain Nischalke",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280006,
+      "name": "M. Roscher",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 298304,
+      "name": "M. Schreiber",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 321138,
+      "name": "Y. Luib",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327921,
+      "name": "J. Jušić",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327927,
+      "name": "Yanick Roney Abayomi",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329459,
+      "name": "J. Wolter",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339241,
+      "name": "A. Dorfs",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 356352,
+      "name": "Randolf Riesen",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 363640,
+      "name": "Clemens  Boldt",
+      "age": 19,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Dynamo Dresden U19": [
+    {
+      "id": 202701,
+      "name": "L. Hollenbach",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 203240,
+      "name": "J. Maul",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280307,
+      "name": "T. Jacobi",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286746,
+      "name": "T. Giesen",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286899,
+      "name": "E. Herrmann",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327824,
+      "name": "Lucas Ehrlich",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327825,
+      "name": "J.Saliger",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327826,
+      "name": "Corvin Kosak",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327827,
+      "name": "J. Hoffmann",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 327828,
+      "name": "P. Fischer",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327946,
+      "name": "Jules Hasenberg",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327948,
+      "name": "J. Löwe",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327953,
+      "name": "S. Bím",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329577,
+      "name": "Cornelius Bräunling",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 343153,
+      "name": "Luca Krause",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 343154,
+      "name": "Lennard Becker",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 344287,
+      "name": "J. Endmann",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 347807,
+      "name": "Justin Bulang",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 347814,
+      "name": "Kenny Weyh",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 347817,
+      "name": "E. Zeil",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327947,
+      "name": "J. Oehmichen",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327949,
+      "name": "Louis Schulze",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 336029,
+      "name": "Matthias Wetschka",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 343159,
+      "name": "K. Suso",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 344288,
+      "name": "Tony Menzel",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 356357,
+      "name": "P. Lehmann",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "Eintracht Frankf U19": [
+    {
+      "id": 279921,
+      "name": "Harpreet Singh Ghotra",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279922,
+      "name": "A. Fóti",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279923,
+      "name": "G. Pontikou",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280040,
+      "name": "B. Küpelikılınç",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280041,
+      "name": "B. Tepedibi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280043,
+      "name": "D. Gebuhr",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280044,
+      "name": "J. Horz",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281906,
+      "name": "Gianluca Schäfer",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 286369,
+      "name": "J. Schröder",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 319841,
+      "name": "Fabio Blanco",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328212,
+      "name": "Dritan Maqkaj",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328214,
+      "name": "M. Loune",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328216,
+      "name": "M. Afşar",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 328258,
+      "name": "M. Bignetti",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328260,
+      "name": "Louis Kolbe",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328261,
+      "name": "Lars Peter Kleiner",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 338024,
+      "name": "J. Nathaniel",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 353943,
+      "name": "Nacho Ferri",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 353949,
+      "name": "Arda Temur",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353950,
+      "name": "Luke Gauer",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328213,
+      "name": "L. Hyryläinen",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328262,
+      "name": "M. Damar",
+      "age": 21,
+      "position": "Midfielder"
+    }
+  ],
+  "Energie Cottbus U19": [
+    {
+      "id": 202717,
+      "name": "T. Harz",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 273884,
+      "name": "E. Bethke",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280014,
+      "name": "J. Böhmert",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 286712,
+      "name": "P. Wagner",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 323528,
+      "name": "C. Moye",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327918,
+      "name": "E. Kaizer",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327920,
+      "name": "J. Juckel",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327922,
+      "name": "B. Wagner",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327923,
+      "name": "Can-Deniz Tanriver",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327925,
+      "name": "K. Degelman",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327926,
+      "name": "Sebastian Jung",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329455,
+      "name": "Karl Pischon",
+      "age": 21,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Fortuna Düsseldorf U19": [
+    {
+      "id": 279873,
+      "name": "J. Seven",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280381,
+      "name": "E. Kalonji",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280468,
+      "name": "Simon Ludwig",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280469,
+      "name": "L. Thissen",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280474,
+      "name": "T. Müller",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 287941,
+      "name": "K. Reitmaier",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 321676,
+      "name": "D. Bunk",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334315,
+      "name": "Niko Garic",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334318,
+      "name": "E. Yilmaz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334319,
+      "name": "S. Soghomonian",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 334320,
+      "name": "K. Sadeghi",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334343,
+      "name": "T. Weingarten",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 334344,
+      "name": "D. Ilić",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 335347,
+      "name": "K. Tchouange",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 335351,
+      "name": "M. Krenc",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338179,
+      "name": "L. Wagemann",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 340983,
+      "name": "D. Savic",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Freiburg U19": [
+    {
+      "id": 202953,
+      "name": "L. Mack",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203297,
+      "name": "N. Sauter",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279898,
+      "name": "Mathias Hülsenbusch",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279899,
+      "name": "D. Au Yeong",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279900,
+      "name": "F. Allgaier",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280023,
+      "name": "P. Fahrner",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280024,
+      "name": "R. Wagner",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327898,
+      "name": "Amney Moutassime",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327899,
+      "name": "M. Wörner",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327900,
+      "name": "Leorat Bega",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328035,
+      "name": "M. Baur",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329462,
+      "name": "G. Pellegrino",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334206,
+      "name": "M. Brüning",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 351527,
+      "name": "Lee Ji-Han",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 353141,
+      "name": "N. Wagner",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353142,
+      "name": "Berkay Yilmaz",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 362619,
+      "name": "Yann Sturm",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 362621,
+      "name": "P. Bleise",
+      "age": 18,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 366018,
+      "name": "L. Marino",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 366024,
+      "name": "Leon Catak",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 202919,
+      "name": "M. Rosenfelder",
+      "age": 22,
+      "position": "Defender"
+    }
+  ],
+  "Greuther Fürth U19": [
+    {
+      "id": 128730,
+      "name": "Vaidas Magdušauskas",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203333,
+      "name": "D. Angleberger",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203334,
+      "name": "L. Mrozek",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279938,
+      "name": "M. Hirschmann",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279976,
+      "name": "O. Fobassam",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280063,
+      "name": "Max Böhnke",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280068,
+      "name": "Johannis Zimmermann",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 296941,
+      "name": "L. Schulz",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 323804,
+      "name": "S. Kaymakci",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327847,
+      "name": "B. Külpmann",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 327848,
+      "name": "N. Grimbs",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327849,
+      "name": "Marlon Fries",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327973,
+      "name": "P. Müller",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327975,
+      "name": "Lukas Näpflein",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327980,
+      "name": "C. Meister",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 338193,
+      "name": "P. Götzelmann",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 341404,
+      "name": "Kenan Aydin",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 344289,
+      "name": "J. Mottl",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 347898,
+      "name": "B. Schlicke",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 356359,
+      "name": "O. Schmidhauser",
+      "age": 21,
+      "position": "Attacker"
+    }
+  ],
+  "Hamburger SV U19": [
+    {
+      "id": 277990,
+      "name": "S. Mensah",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281901,
+      "name": "E. Sohn",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 281903,
+      "name": "L. Bozickovic",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281920,
+      "name": "B. Andresen",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 281921,
+      "name": "F. Kassimou",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 281922,
+      "name": "Henry Koeberer",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 287929,
+      "name": "B. Wittig",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327798,
+      "name": "M. Nejad Haji Lor",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327800,
+      "name": "E. Ceesay",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327801,
+      "name": "T. Sanne",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327909,
+      "name": "E. Ntsiakoh",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327910,
+      "name": "E. Appiah",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327913,
+      "name": "J. Kilo",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327914,
+      "name": "Luca Romeo Butkovic",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329434,
+      "name": "D. Igboanugo",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 336020,
+      "name": "Omar Megeed",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 340175,
+      "name": "N. Božičković",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 347812,
+      "name": "J. Nehl",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 347813,
+      "name": "L. Eising",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 356356,
+      "name": "M. Wendt",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 276508,
+      "name": "D. Duah",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 281902,
+      "name": "A. Rexhepi",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281904,
+      "name": "E. Krahn",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286704,
+      "name": "F. Paschke",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327799,
+      "name": "K. Meisel",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327908,
+      "name": "N. Oliveira",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327915,
+      "name": "L. Seifert",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329457,
+      "name": "F. Böhmker",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334117,
+      "name": "Maurice Osei Boakye",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 336021,
+      "name": "L. Posadas",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Hannover 96 U19": [
+    {
+      "id": 203268,
+      "name": "J. Luyeye-Nkula",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 203278,
+      "name": "L. Tiernan",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 275207,
+      "name": "R. Çepele",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280404,
+      "name": "M. Rau",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286705,
+      "name": "A. Podrimaj",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286729,
+      "name": "F. Henze",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 286730,
+      "name": "L. Dominke",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 298312,
+      "name": "D. Sura",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 327822,
+      "name": "A. Becker",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327829,
+      "name": "L. Garlipp",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327944,
+      "name": "L. Podolski",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327945,
+      "name": "M. Dammeier",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327950,
+      "name": "K. Brandt",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329563,
+      "name": "E. Krasniqi",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 339242,
+      "name": "C. Stähler",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 341400,
+      "name": "Lasse von Bötticher",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 349486,
+      "name": "J. de Sousa Moreira Cruz",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 355174,
+      "name": "Montell Ndikom",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 355175,
+      "name": "S. Szitai",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 359567,
+      "name": "M. Schmidt",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203269,
+      "name": "Y. Lührs",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 287923,
+      "name": "N. Tresoldi",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327823,
+      "name": "Alexander Babitsch",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 335317,
+      "name": "Nick Elias Meier",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Heidenheim U19": [
+    {
+      "id": 202973,
+      "name": "E. Qenaj",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 279932,
+      "name": "M. Arslan",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279934,
+      "name": "M. Özdemir",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279936,
+      "name": "Nico Rieger",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279940,
+      "name": "E. Onos",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280039,
+      "name": "R. Spahiu",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280062,
+      "name": "K. Ehmann",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327885,
+      "name": "Henrik Selitay",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327887,
+      "name": "Luka Janes",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328008,
+      "name": "Frank  Feller",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328009,
+      "name": "Seedy Jarju",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328011,
+      "name": "L. Schbar",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334130,
+      "name": "N. Frisch",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336022,
+      "name": "P. Kirsamer",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 343163,
+      "name": "L. Bausenhart",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 348891,
+      "name": "M. Fuchs",
+      "age": 19,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Holstein Kiel U19": [
+    {
+      "id": 203250,
+      "name": "T. Freudenberg",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203265,
+      "name": "J. Ozuzu",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279888,
+      "name": "T. Marten",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279890,
+      "name": "T. Richter",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279891,
+      "name": "F. Moumouni",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279892,
+      "name": "B. Nohns",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279997,
+      "name": "L. Brodersen",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280003,
+      "name": "J. Ehlers",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 327791,
+      "name": "Pawel Erfmann",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327792,
+      "name": "Cenğizhan Koç",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327793,
+      "name": "N. Niehoff",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327794,
+      "name": "J. de Chatrie Doegl",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 327795,
+      "name": "Melvin Noah Zimmer",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327796,
+      "name": "Y. Diezemann",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327797,
+      "name": "Ben Opoku Labes",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327903,
+      "name": "O. Witt",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 329461,
+      "name": "H. Sjöberg",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334339,
+      "name": "Tidiane Toure",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 362792,
+      "name": "Lukas Meßfeldt",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Ingolstadt U19": [
+    {
+      "id": 202970,
+      "name": "D. Udogu",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279941,
+      "name": "J. Krupa",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280070,
+      "name": "F. Keidel",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280075,
+      "name": "Ibrahim Madougou",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280076,
+      "name": "F. Riedl",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280077,
+      "name": "M. Dehler",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 286742,
+      "name": "D. Nduka",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 331807,
+      "name": "M. Udebuluzor",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 331809,
+      "name": "D. Sekulovic",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 331813,
+      "name": "J. Bock",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 335621,
+      "name": "E. Bösl",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 345016,
+      "name": "M. Eberhart",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353944,
+      "name": "F. Brunner",
+      "age": 20,
+      "position": "Attacker"
+    }
+  ],
+  "Kaiserslautern U19": [
+    {
+      "id": 202962,
+      "name": "S. Blum",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 265876,
+      "name": "T. Walker",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279909,
+      "name": "A. Stavridis",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279912,
+      "name": "M. Müller",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280032,
+      "name": "A. Basenach",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280036,
+      "name": "N. Wettengl",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280037,
+      "name": "Silas Baur",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 281382,
+      "name": "M. Bangura",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 281929,
+      "name": "J. Aghajanyan",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 318541,
+      "name": "D. Monteiro de Oliveira",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327865,
+      "name": "N. Lorenz",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327866,
+      "name": "Kimi Björn Merk",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327869,
+      "name": "D. Miftari",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 327987,
+      "name": "T. Zobel",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327992,
+      "name": "E. Saiti",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 338184,
+      "name": "L. Leibrock",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 357341,
+      "name": "Fabian Heck",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Karlsruher SC U19": [
+    {
+      "id": 51268,
+      "name": "T. Freeman",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 264417,
+      "name": "Alessandro Păunescu",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 278919,
+      "name": "A. Unrath",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 280324,
+      "name": "Adrian Freiwald",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280327,
+      "name": "T. Rossmann",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280420,
+      "name": "K. Bungić",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 281383,
+      "name": "N. Theisinger",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328230,
+      "name": "Ramiz Kalici",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328231,
+      "name": "Robert Geller",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328233,
+      "name": "E. Öztürk",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328235,
+      "name": "S. Marino",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328273,
+      "name": "M. Weiß",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328275,
+      "name": "Karim Elabed",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328278,
+      "name": "T. Marksteiner",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 336033,
+      "name": "Jerik von der Felsen",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 347679,
+      "name": "E. Sihlaroğlu",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353945,
+      "name": "Firat Alpsoy",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 353946,
+      "name": "Julian Gerold",
+      "age": 21,
+      "position": "Attacker"
+    }
+  ],
+  "Kickers Offenbach U19": [
+    {
+      "id": 279901,
+      "name": "Kim Dong-woo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281909,
+      "name": "Z. Arapi",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 327891,
+      "name": "D. Starodid",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328022,
+      "name": "P. Besso",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 328024,
+      "name": "A. Mešanović",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328031,
+      "name": "E. Zengin",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 334205,
+      "name": "R. Mrvelj",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 366060,
+      "name": "R. Schwarz",
+      "age": 19,
+      "position": "Midfielder"
+    }
+  ],
+  "Köln U19": [
+    {
+      "id": 182302,
+      "name": "D. Adamczyk",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203045,
+      "name": "M. Obuz",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 203070,
+      "name": "M. Sponsel",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 203072,
+      "name": "Y. Örnek",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 203182,
+      "name": "J. Schwirten",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203220,
+      "name": "P. Wydra",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280357,
+      "name": "V. Fadeev",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280359,
+      "name": "V. Fratea",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280360,
+      "name": "S. Breuer",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280454,
+      "name": "M. Özkan",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280460,
+      "name": "W. Suchanek",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 286722,
+      "name": "N. Cissé",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 334337,
+      "name": "R. Smajić",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 337774,
+      "name": "M. Dreier",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338189,
+      "name": "N. Bajlicz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339234,
+      "name": "M. Monning",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 339917,
+      "name": "J. PotoÄnik",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 348808,
+      "name": "A. Blažič",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 363044,
+      "name": "Luis Hauer",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 456256,
+      "name": "P. Gelber",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 203172,
+      "name": "M. Schmid",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 203376,
+      "name": "J. Urbig",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280358,
+      "name": "J. Castrop",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280458,
+      "name": "M. Hagemoser",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280459,
+      "name": "P. Nadjombe",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 287927,
+      "name": "J. Diehl",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334358,
+      "name": "M. Wäschenbach",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334362,
+      "name": "D. Downs",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334363,
+      "name": "Luan Simnica",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 344283,
+      "name": "E. Bakatukanda",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 344284,
+      "name": "Romeo Aigbekaen",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 355167,
+      "name": "Max Finkgräfe",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 355172,
+      "name": "K. Amaniampong",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 356491,
+      "name": "E. Kujović",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 364997,
+      "name": "Matti Wagner",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 380860,
+      "name": "Neo Telle",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 392761,
+      "name": "Julian Andreas Pauli",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "MSV Duisburg U19": [
+    {
+      "id": 203377,
+      "name": "J. Hettwer",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280350,
+      "name": "C. Aydogan",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280438,
+      "name": "H. Scheibe",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280439,
+      "name": "H. Ben-Salah",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 282060,
+      "name": "C. Jander",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286747,
+      "name": "M. Braune",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 286905,
+      "name": "K. Mata",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 334081,
+      "name": "A. Murati",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334083,
+      "name": "H. Anhari",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334136,
+      "name": "Ben Vincent Hüning",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334137,
+      "name": "B. Moğultay",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334142,
+      "name": "Max Schreiber",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 363732,
+      "name": "S. Kiyau",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 366012,
+      "name": "L. Linnig",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 366013,
+      "name": "S. Tasic",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 366014,
+      "name": "B. Kurt",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 366023,
+      "name": "L. Schübel",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Magdeburg U19": [
+    {
+      "id": 202694,
+      "name": "E. Džogović",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279860,
+      "name": "M. Berg",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279893,
+      "name": "Jermain Nischalke",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280018,
+      "name": "K. Ike",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281894,
+      "name": "P. Gysbers",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 281900,
+      "name": "G. Michalek",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 281910,
+      "name": "N. Kruth",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 298315,
+      "name": "Vedat Tunc",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327652,
+      "name": "F. Gräf",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327839,
+      "name": "R. Meier",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 329451,
+      "name": "J. Leinweber",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 344928,
+      "name": "Irichad Behrens",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 349234,
+      "name": "T. Heitzmann",
+      "age": 19,
+      "position": "Defender"
+    }
+  ],
+  "Mainz 05 U19": [
+    {
+      "id": 203281,
+      "name": "L. Hoffmann",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 203314,
+      "name": "F. Müller",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280319,
+      "name": "Moritz Reuther",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280320,
+      "name": "E. Shabani",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280322,
+      "name": "T. Rupil",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280323,
+      "name": "M. Roos-Trujillo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280417,
+      "name": "K. Kraft",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 281926,
+      "name": "L. Wilhelm",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 328225,
+      "name": "B. Gruda",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328226,
+      "name": "D. Kaygin",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328227,
+      "name": "T. Müller",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328229,
+      "name": "S. Pavisic",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328277,
+      "name": "Justus Klaus Götze",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329582,
+      "name": "Nik Leipold",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334134,
+      "name": "Jonas Schwabe",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334135,
+      "name": "I. Martinović",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336225,
+      "name": "G. Degtjarevs",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 342172,
+      "name": "P. Schulz",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 346733,
+      "name": "L. Schmidt",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 357255,
+      "name": "Pit Zuther",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280328,
+      "name": "D. Schmidt",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 287932,
+      "name": "B. Bobzien",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 328276,
+      "name": "Aki Koch",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 342177,
+      "name": "N. Weiper",
+      "age": 20,
+      "position": "Attacker"
+    }
+  ],
+  "Preußen Münster U19": [
+    {
+      "id": 280361,
+      "name": "J. Korte",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280363,
+      "name": "D. Bindemann",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280365,
+      "name": "N. Kloth",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280462,
+      "name": "Jonathan Wensing",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280464,
+      "name": "Tekin Gencoglu",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286896,
+      "name": "Alwin Weber",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334111,
+      "name": "M. Schröder",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 334181,
+      "name": "J. Amadi",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 334188,
+      "name": "Matthias Bräuer",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 346726,
+      "name": "Levent Taylan Öztürk",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "RW Oberhausen U19": [
+    {
+      "id": 279967,
+      "name": "B. Bartu",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279969,
+      "name": "K. Skolik",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280349,
+      "name": "Joel Cartus",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334167,
+      "name": "P. Lenuweit",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334169,
+      "name": "R. Ferreira",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 334170,
+      "name": "K. Yalcin",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339223,
+      "name": "J. Schefer",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 363217,
+      "name": "O. Hot",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "St. Pauli U19": [
+    {
+      "id": 279873,
+      "name": "J. Seven",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279876,
+      "name": "L. Steiger",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 279986,
+      "name": "T. Kankowski",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279989,
+      "name": "E. Boz",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 286733,
+      "name": "J. Posselt",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 288096,
+      "name": "B. Große",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327785,
+      "name": "M. Düwel",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327790,
+      "name": "S. Škrijelj",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 327901,
+      "name": "R. Merke",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327905,
+      "name": "M. Efe Aktürk",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 329436,
+      "name": "Maximilian Baafi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329437,
+      "name": "Mateus Stefan Kolenda",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334115,
+      "name": "T. Kauschke",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339225,
+      "name": "B. Winter",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 339240,
+      "name": "E. Ampofo",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 341255,
+      "name": "S. Rinal",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 353940,
+      "name": "L. Appe",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 353941,
+      "name": "Luis Enzo Jahraus",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 359021,
+      "name": "Isma Baraze",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 364999,
+      "name": "L. Freese",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 279875,
+      "name": "N. Jessen",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279985,
+      "name": "N. Kukanda",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 346723,
+      "name": "M. Dahaba",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Stuttgart U19": [
+    {
+      "id": 202949,
+      "name": "D. Knappe",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202964,
+      "name": "L. Laupheimer",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203327,
+      "name": "T. Werdich",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 208190,
+      "name": "T. Kastanaras",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279915,
+      "name": "C. Drakas",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279917,
+      "name": "M. Hoppe",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279918,
+      "name": "R. Littig",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279919,
+      "name": "M. Sahin",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280038,
+      "name": "K. Scharner",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327870,
+      "name": "Maximilian Wagner",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327871,
+      "name": "A. Tibidi",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 327872,
+      "name": "E. Widmann",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 327874,
+      "name": "R. Paula",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327875,
+      "name": "Nathan Winkler",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327994,
+      "name": "M. Schuster",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 328464,
+      "name": "M. Cissé",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 329448,
+      "name": "L. Sonnenwald",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 339230,
+      "name": "L. Raimund",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 341250,
+      "name": "Benjamin Bediako Boakye",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 342268,
+      "name": "L. Ulrich",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327993,
+      "name": "D. Seimen",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328000,
+      "name": "L. Reichardt",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "Ulm U19": [
+    {
+      "id": 280421,
+      "name": "A. Esch",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 338034,
+      "name": "J. Nsanzimana",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 280424,
+      "name": "G. Agbodemegbe",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 329482,
+      "name": "F. Paul",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280338,
+      "name": "R. Reinelt",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329448,
+      "name": "L. Sonnenwald",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280422,
+      "name": "Ali-Bey Yılmaz",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 339251,
+      "name": "A. Kenjar",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329478,
+      "name": "Valentin Daniel Judes Rommel",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329449,
+      "name": "D. Gerstmayer",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339253,
+      "name": "S. Neubrand",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329479,
+      "name": "M. Bareis",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 371871,
+      "name": "R. Kratt",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 329481,
+      "name": "N. Sinik",
+      "age": 22,
+      "position": "Midfielder"
+    }
+  ],
+  "Union Berlin U19": [
+    {
+      "id": 202603,
+      "name": "M. Somnitz",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202649,
+      "name": "Miloš Cvjetinović",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 202710,
+      "name": "N. Kaus",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 208883,
+      "name": "P. Kühn",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279987,
+      "name": "M. Bruns",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 279988,
+      "name": "L. Dahlke",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286726,
+      "name": "M. Sanogo",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 298339,
+      "name": "Niklas Petzsch",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327830,
+      "name": "Batuhan Gögce",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327831,
+      "name": "A. Kemlein",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327832,
+      "name": "Levin Mattmüller",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327954,
+      "name": "S. Jannene",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327956,
+      "name": "David Preu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 353938,
+      "name": "Timon Kramer",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 353939,
+      "name": "A. Jahaj",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353948,
+      "name": "Tim Schleinitz",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 356363,
+      "name": "C. Ackermann",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 362620,
+      "name": "Valon Aliji",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 365265,
+      "name": "M. Rösner",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 366016,
+      "name": "Baris Kalayci",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 286728,
+      "name": "Y. Stein",
+      "age": 21,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Viktoria Köln U19": [
+    {
+      "id": 280371,
+      "name": "F. Engelhardt",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 282065,
+      "name": "Youssef Amyn",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 282087,
+      "name": "Hong Seok-Ju",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 282088,
+      "name": "I. Altuntas",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 282091,
+      "name": "B. Hemcke",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 282953,
+      "name": "O. Mhamdi",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 283788,
+      "name": "J. Vieting",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334327,
+      "name": "L. de Meester",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334329,
+      "name": "D. Kubatta",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 347900,
+      "name": "O. Hill",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 358608,
+      "name": "C. Taxis",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 392147,
+      "name": "Zoumana Keita",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Werder Bremen U19": [
+    {
+      "id": 208883,
+      "name": "P. Kühn",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279863,
+      "name": "N. Fenski",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279864,
+      "name": "M. Eickhoff",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279865,
+      "name": "M. Polat",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279866,
+      "name": "J. Löpping",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279980,
+      "name": "O. Schulz",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279981,
+      "name": "W. Reincke",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279984,
+      "name": "B. Glinder",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329566,
+      "name": "Y. Erten",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 329567,
+      "name": "Ricardo-Felipe Schwarz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329568,
+      "name": "Dominik Kasper",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329569,
+      "name": "K. Keršys",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 329570,
+      "name": "Said Abbey",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 338022,
+      "name": "Niklas Tepe",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 339244,
+      "name": "M. Alpert",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 341256,
+      "name": "M. Richter",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 343155,
+      "name": "Till Winkelmann",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 344286,
+      "name": "M. Ney",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 363639,
+      "name": "N. Wallenßus",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 363647,
+      "name": "P. Bellmann",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 203264,
+      "name": "D. Asante",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 279979,
+      "name": "L. Lord",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 322627,
+      "name": "F. Chiarodia",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 329578,
+      "name": "M. Backhaus",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 363638,
+      "name": "L. Opitz",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 363646,
+      "name": "Leon Zeqiraj",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Wolfsburg U19": [
+    {
+      "id": 279859,
+      "name": "L. Littbarski",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279976,
+      "name": "O. Fobassam",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279982,
+      "name": "D. Nuhanović",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 279983,
+      "name": "E. Patut",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 308845,
+      "name": "A. Heino",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 327642,
+      "name": "Matthew Till Meier",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327645,
+      "name": "Philipp Heller",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327661,
+      "name": "F. Hinze",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327665,
+      "name": "G. Phòng",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327666,
+      "name": "Vin Kastull",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 330604,
+      "name": "Joâo Arlete Pinto",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 338029,
+      "name": "F. Schönmottel",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 339237,
+      "name": "F. Lange",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 342968,
+      "name": "E. Šehić",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 346722,
+      "name": "M. Berkemer",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 346729,
+      "name": "M. Mazzone",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 348022,
+      "name": "C. Østergaard",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 349216,
+      "name": "A. Doci",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 349217,
+      "name": "M. Brkić",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 355169,
+      "name": "Max Herrmann",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 202663,
+      "name": "J. Lang",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 261210,
+      "name": "P. Schulze",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279861,
+      "name": "F. Di Michele Sanchez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 279868,
+      "name": "A. MacNulty",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327641,
+      "name": "L. Ambros",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327644,
+      "name": "Sean Busch",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327660,
+      "name": "A. Wagbe",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327965,
+      "name": "M. Mohwinkel",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 355176,
+      "name": "Kofi Jeremy Amoako",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 358478,
+      "name": "Juri Kirchmayr",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Wuppertaler SV U19": [
+    {
+      "id": 334158,
+      "name": "G. Multari",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 334160,
+      "name": "M. Röttgen",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334161,
+      "name": "J. Tchouangue",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 338186,
+      "name": "B. Janko",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 365259,
+      "name": "V. Zhushi",
+      "age": 19,
+      "position": "Defender"
+    }
+  ],
+  "Carl Zeiss Jena U19": [
+    {
+      "id": 298256,
+      "name": "M. Grimm",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 298259,
+      "name": "E. Rosner",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 298315,
+      "name": "Vedat Tunc",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 298319,
+      "name": "Janne Kamenz",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327969,
+      "name": "Zeki Görkem Koca",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328198,
+      "name": "N. Musse",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328236,
+      "name": "M. Robotta",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329438,
+      "name": "B. Zank",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334197,
+      "name": "M. Babke",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334198,
+      "name": "L. Fischer",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 354843,
+      "name": "F. Maisel",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 355917,
+      "name": "Khalid Abu El Haija",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 355918,
+      "name": "Justin Smyla",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "Nürnberg U19": [
+    {
+      "id": 279943,
+      "name": "S. Yiğit",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280071,
+      "name": "L. Ruiu",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280074,
+      "name": "N. Brown",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280080,
+      "name": "M. Gundelach",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 281931,
+      "name": "N. Ortegel",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 313931,
+      "name": "G. Demian",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322184,
+      "name": "B. Fischer",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329444,
+      "name": "M. Náprstek",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 329445,
+      "name": "Deniz Koc",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 329472,
+      "name": "N. Jahn",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329473,
+      "name": "F. Ilic",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329474,
+      "name": "Luca Auer",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329475,
+      "name": "M. Berschneider",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329476,
+      "name": "R. Hartnagel",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330606,
+      "name": "Elias Herger",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334123,
+      "name": "T. Huhnholz",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 336241,
+      "name": "Nico Zietsch",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339887,
+      "name": "C. Uzun",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 365002,
+      "name": "P. Fuchs",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 387402,
+      "name": "T. Afework",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 279944,
+      "name": "E. Muteba",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 281933,
+      "name": "L. Vonić",
+      "age": 22,
+      "position": "Attacker"
+    }
+  ],
+  "Osnabrück U19": [
+    {
+      "id": 280310,
+      "name": "J. Zahmel",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280313,
+      "name": "L. Ricker Rasteiro",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280407,
+      "name": "T. Kanowski",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280413,
+      "name": "L. Böggemann",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280414,
+      "name": "Sergen Yüksekdağ",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327845,
+      "name": "Max Ritter",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327846,
+      "name": "P. Schmidt",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327970,
+      "name": "J. Stottmann",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327971,
+      "name": "Y. Karademir",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 338180,
+      "name": "N. Burlage",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 343152,
+      "name": "K. Wiethaup",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 343158,
+      "name": "E. Anozie",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 346730,
+      "name": "I. Badjie",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 351261,
+      "name": "Braedon Smith",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 356492,
+      "name": "P. Remmert",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 365007,
+      "name": "Leonit Basha",
+      "age": 21,
+      "position": "Attacker"
+    }
+  ],
+  "Paderborn U19": [
+    {
+      "id": 279955,
+      "name": "K. Dağ",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 286895,
+      "name": "M. Biondic",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334093,
+      "name": "Joel Vega Zambrano",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334095,
+      "name": "Z. PlavÄiÄ",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334153,
+      "name": "Nico Willeke",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334156,
+      "name": "E. Liesche-Prieto",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334163,
+      "name": "Kevin Krumme",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 339214,
+      "name": "S. Rebronja",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 341244,
+      "name": "L. Fuchs",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 347809,
+      "name": "Luis Flörke",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 353934,
+      "name": "Alessandro Marino",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353935,
+      "name": "David Stamm",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 353936,
+      "name": "M. Kojic",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353937,
+      "name": "Georg Ermolaev",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 428955,
+      "name": "G. Rodehutskors",
+      "age": 21,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Rot-Weiss Essen U19": [
+    {
+      "id": 279961,
+      "name": "O. Büyükarslan",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279973,
+      "name": "M. Kourouma",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280100,
+      "name": "T. Kesim",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280101,
+      "name": "Lennart Brandes",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334323,
+      "name": "B. Heuser",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334350,
+      "name": "Dorian Drucks",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334353,
+      "name": "J. Quarshie",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 366059,
+      "name": "Ahmed Etri",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Stuttgarter K'rs U19": [
+    {
+      "id": 328224,
+      "name": "A. Babic",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 328217,
+      "name": "R. Terpsiadis",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 328222,
+      "name": "P. Seemann",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328268,
+      "name": "J. Kohler",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328266,
+      "name": "T. Hohloch",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 354090,
+      "name": "Marius Herrling",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328271,
+      "name": "Enrico Krieger",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 328263,
+      "name": "Leon Neaime",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 328264,
+      "name": "O. Keçeci",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328267,
+      "name": "E. Zogjani",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328220,
+      "name": "H. Eroğlu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 328219,
+      "name": "Marko Pilic",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 354084,
+      "name": "Marko Mladenovic",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 363734,
+      "name": "David Mitrovic",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 339247,
+      "name": "Sebastian Samarin",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 354092,
+      "name": "Jacob Danquah",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 354091,
+      "name": "Anton Bäuerle",
+      "age": 20,
+      "position": "Defender"
+    }
+  ],
+  "Fortuna Köln U19": [
+    {
+      "id": 334145,
+      "name": "J. Schüchter",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 334150,
+      "name": "J. Francis",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 356494,
+      "name": "I. Adenuga",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 280375,
+      "name": "Tariq-Emad Suleiman",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334152,
+      "name": "Yasin Yaman",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 334148,
+      "name": "Waiss Ezami",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334090,
+      "name": "G. Di Fine",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334147,
+      "name": "Y. Derbali",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 288329,
+      "name": "F. Bauens",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 282947,
+      "name": "Francisco San José Justo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334146,
+      "name": "Jonah Benedict Sticker",
+      "age": 21,
+      "position": "Defender"
+    }
+  ],
+  "Unterhaching U19": [
+    {
+      "id": 328250,
+      "name": "L. Bucher",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 336244,
+      "name": "F. Roggermeier",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 322924,
+      "name": "B. Holzmeier",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336243,
+      "name": "D. Girtler",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 348887,
+      "name": "D. Amegnaglo",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 264626,
+      "name": "D. Haimerl",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 278736,
+      "name": "D. Hausmann",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 328209,
+      "name": "J. Gottmeier",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322922,
+      "name": "H. Heilmair",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 278737,
+      "name": "A. Hirtlreiter",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 328210,
+      "name": "S. Burke",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 328249,
+      "name": "R. Manole",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328256,
+      "name": "D. Peluffo-Wiese",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 265361,
+      "name": "V. Zentrich",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 278735,
+      "name": "B. Mashigo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 299924,
+      "name": "F. Seidel",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 322923,
+      "name": "M. Lamby",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 321681,
+      "name": "T. Obermeier",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 353144,
+      "name": "Nils Ortel",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 322316,
+      "name": "B. Bauer",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 322314,
+      "name": "A. Keller",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 334122,
+      "name": "B. Westermeier",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 339228,
+      "name": "Konstantin Heide",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 342170,
+      "name": "M. Krattenmacher",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Astoria Walldorf U19": [
+    {
+      "id": 327979,
+      "name": "R. Kabashi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 343164,
+      "name": "Jannis Vonier",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 329575,
+      "name": "L. Safranek",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 278907,
+      "name": "J. Boziaris",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327978,
+      "name": "M. Manegold",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327854,
+      "name": "M. Hauswirth",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327858,
+      "name": "M. Andric",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 362622,
+      "name": "Matthew Collins",
+      "age": 21,
+      "position": "Midfielder"
+    }
+  ],
+  "Darmstadt 98 U19": [
+    {
+      "id": 286744,
+      "name": "T. Streller",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 278931,
+      "name": "J. Sesay",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328003,
+      "name": "Jens Mühlig",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 323578,
+      "name": "P. Sonn",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 282073,
+      "name": "Lian Javier Akkus Rodriguez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 334201,
+      "name": "Arda Nadaroglu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327999,
+      "name": "Mike Borger",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 323565,
+      "name": "Antonis Makatounakis",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 278914,
+      "name": "David Sumak",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 336023,
+      "name": "N. Baier",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 354085,
+      "name": "F. Torsiello",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 282054,
+      "name": "C. Riedel",
+      "age": 22,
+      "position": "Defender"
+    }
+  ],
+  "Eimsbütteler TV U19": [
+    {
+      "id": 327820,
+      "name": "L. Schumacher",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 329432,
+      "name": "L. Sendzik",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327943,
+      "name": "S. Siegfried",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329454,
+      "name": "J. Niemann",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327815,
+      "name": "Julius Jamal Kliti",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327932,
+      "name": "P. Kolvenbach",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327819,
+      "name": "I. Mansaray",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280002,
+      "name": "T. Duah",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327941,
+      "name": "Muhamed Ajruli",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327821,
+      "name": "N. Leptien",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 327816,
+      "name": "D. Naumann",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286708,
+      "name": "Tyrese Jermaine Michael Boakye",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327942,
+      "name": "Enes Özmen",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327935,
+      "name": "Max Marie",
+      "age": 21,
+      "position": "Midfielder"
+    }
+  ],
+  "Hallescher FC U19": [
+    {
+      "id": 327842,
+      "name": "M. Sungur",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 363637,
+      "name": "N. Höfer",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 280385,
+      "name": "J. Kambamba",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327656,
+      "name": "M. Sultani",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 280383,
+      "name": "L. Griebsch",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 327637,
+      "name": "Luka Vujanic",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 281917,
+      "name": "L. Halangk",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 280395,
+      "name": "L. Bendel",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 358606,
+      "name": "Milan Maurice Hoffmeister",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327650,
+      "name": "Vincent Zaruba",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329429,
+      "name": "Elias Ndukwe Oke",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 280294,
+      "name": "T. Koch",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327654,
+      "name": "A. Rühlemann",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 281899,
+      "name": "A. Sothen",
+      "age": 22,
+      "position": "Attacker"
+    }
+  ],
+  "Saarbrücken U19": [
+    {
+      "id": 280053,
+      "name": "F. Recktenwald",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 287934,
+      "name": "Lukas Hoffmann",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 343166,
+      "name": "D. Mutter",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 348806,
+      "name": "A. Dos Santos Reis",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 348809,
+      "name": "A. Breuer",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 348810,
+      "name": "T. Walle",
+      "age": 18,
+      "position": "Attacker"
+    }
+  ],
+  "Viktoria Berlin U19": [
+    {
+      "id": 280302,
+      "name": "K. Grigoriadis",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327961,
+      "name": "M. Schulz",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280397,
+      "name": "J. Anders",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 280398,
+      "name": "K. Horatacı",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 366015,
+      "name": "Leart Halimi",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 354083,
+      "name": "O. Scacun",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 344358,
+      "name": "Meisour Mohamed",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280392,
+      "name": "D. Günay",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327837,
+      "name": "Joel Victor Imasuen",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 365266,
+      "name": "Metehan Yildirim",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336239,
+      "name": "Hamid Sen",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 343151,
+      "name": "A. Akdağ",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 343157,
+      "name": "F. Schüler",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 343150,
+      "name": "Pàl Boldizsar Helmich",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 279990,
+      "name": "Ü. Durmuşhan",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 280399,
+      "name": "M. Kinzig",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 280389,
+      "name": "M. Cvjetinović",
+      "age": 22,
+      "position": "Defender"
+    }
+  ],
+  "Hansa Rostock U19": [
+    {
+      "id": 298244,
+      "name": "B. Dietze",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 298246,
+      "name": "Randy Dei",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 298249,
+      "name": "T. Hildebrandt",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 298252,
+      "name": "T. Marten",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 298307,
+      "name": "F. Ruschke",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 298309,
+      "name": "Leon Borkovic",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327811,
+      "name": "H. Korkmazyürek",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327812,
+      "name": "R. Celotto",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327813,
+      "name": "T. RotfuÃ",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 327929,
+      "name": "E. Höftmann",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327931,
+      "name": "J. Krüger",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327937,
+      "name": "K. Antosiak",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 327939,
+      "name": "N. Hoffmann",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 327940,
+      "name": "N. Schulz",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 329565,
+      "name": "M. Brzozowski",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 340993,
+      "name": "L. Sperner",
+      "age": 21,
+      "position": "Midfielder"
+    }
+  ],
+  "Hessen Kassel U19": [
+    {
+      "id": 328247,
+      "name": "M. Suntrup",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 328248,
+      "name": "R. Schmacke",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 364114,
+      "name": "Muhammed Bejdic",
+      "age": 20,
+      "position": "Attacker"
+    }
+  ]
+}

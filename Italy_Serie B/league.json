@@ -1,0 +1,250 @@
+{
+  "get": "leagues",
+  "parameters": {
+    "name": "Serie B",
+    "country": "Italy"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 136,
+        "name": "Serie B",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/136.png"
+      },
+      "country": {
+        "name": "Italy",
+        "code": "IT",
+        "flag": "https://media.api-sports.io/flags/it.svg"
+      },
+      "seasons": [
+        {
+          "year": 2016,
+          "start": "2016-08-26",
+          "end": "2017-06-08",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2017,
+          "start": "2017-08-25",
+          "end": "2018-06-16",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2018,
+          "start": "2018-08-24",
+          "end": "2019-05-11",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2019,
+          "start": "2019-08-23",
+          "end": "2020-08-20",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2020,
+          "start": "2020-09-25",
+          "end": "2021-05-27",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2021,
+          "start": "2021-08-20",
+          "end": "2022-05-29",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2022,
+          "start": "2022-08-12",
+          "end": "2023-06-11",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2023,
+          "start": "2023-08-18",
+          "end": "2024-06-02",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2024,
+          "start": "2024-08-16",
+          "end": "2025-06-20",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        },
+        {
+          "year": 2025,
+          "start": "2025-08-22",
+          "end": "2026-05-09",
+          "current": true,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": true,
+            "predictions": true,
+            "odds": true
+          }
+        }
+      ]
+    }
+  ]
+}

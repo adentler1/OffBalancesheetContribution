@@ -1,0 +1,292 @@
+{
+  "Huddersfield": [
+    {
+      "id": 17448,
+      "name": "J. Smith",
+      "age": 31,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 19006,
+      "name": "R. Healey",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 19010,
+      "name": "D. Ward",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 19060,
+      "name": "A. Rowe",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19227,
+      "name": "M. Waghorn",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 19378,
+      "name": "T. Lees",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 19508,
+      "name": "L. Sørensen",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 19531,
+      "name": "C. Mahoney",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 19755,
+      "name": "M. Pearson",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 20048,
+      "name": "O. Turton",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 20119,
+      "name": "J. Ruffels",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 127119,
+      "name": "B. Jackson",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 129726,
+      "name": "R. Edmonds-Green",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 138792,
+      "name": "B. Radulović",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 138895,
+      "name": "T. Simpson",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 153427,
+      "name": "K. Phillips",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 236367,
+      "name": "N. Bilokapić",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 293313,
+      "name": "B. Diarra",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 385482,
+      "name": "L. Daley",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 392441,
+      "name": "M. Stone",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 17419,
+      "name": "L. Nicholls",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 17437,
+      "name": "D. Kasumu",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18080,
+      "name": "J. Koroma",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 18144,
+      "name": "C. Maxwell",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 19049,
+      "name": "J. Hogg",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19086,
+      "name": "J. Rhodes",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 19496,
+      "name": "T. Edwards",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 19675,
+      "name": "B. Wiles",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 37665,
+      "name": "R. Balker",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 159121,
+      "name": "K. Harratt",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 167250,
+      "name": "J. Headley",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 170430,
+      "name": "S. High",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 180769,
+      "name": "J. Austerfield",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 196489,
+      "name": "J. Chapman",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 288811,
+      "name": "K. Hudlin",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 296032,
+      "name": "P. Jones",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 296959,
+      "name": "L. Ayina",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 348144,
+      "name": "Conor Falls",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 385483,
+      "name": "Neo Eccleston",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 400694,
+      "name": "Tom Iorpenda",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18599,
+      "name": "S. Thomas",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 20372,
+      "name": "J. Rudoni",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 36920,
+      "name": "Y. Nakayama",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 37242,
+      "name": "D. Burgzorg",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 40495,
+      "name": "M. Helik",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 200116,
+      "name": "B. Spencer",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 289618,
+      "name": "Alex Matos",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 302577,
+      "name": "G. Bellagambi",
+      "age": 24,
+      "position": "Goalkeeper"
+    }
+  ]
+}

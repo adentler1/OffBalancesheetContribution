@@ -1,0 +1,5886 @@
+{
+  "Barcelona": [
+    {
+      "id": 133,
+      "name": "C. Lenglet",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 146,
+      "name": "Álex Collado",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 521,
+      "name": "R. Lewandowski",
+      "age": 37,
+      "position": "Attacker"
+    },
+    {
+      "id": 931,
+      "name": "Ferran Torres",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 1439,
+      "name": "Héctor Bellerín",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 1496,
+      "name": "Raphinha",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 2278,
+      "name": "Marcos Alonso",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 18949,
+      "name": "Oriol Romeu",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 135775,
+      "name": "Ansu Fati",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 161933,
+      "name": "Nico González",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 181421,
+      "name": "A. Ezzalzouli",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 263530,
+      "name": "Pau Victor",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 290740,
+      "name": "Ilias Akhomach",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 317418,
+      "name": "M. Fall",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 336557,
+      "name": "Aleix Garrido",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336560,
+      "name": "Álex Valle",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 371912,
+      "name": "Dani Rodríguez",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 386827,
+      "name": "Ángel Alarcón",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 386828,
+      "name": "Lamine Yamal",
+      "age": 18,
+      "position": "Attacker"
+    },
+    {
+      "id": 396630,
+      "name": "Pau Prim",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 126,
+      "name": "Iñaki Peña",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 127,
+      "name": "M. ter Stegen",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 538,
+      "name": "F. de Jong",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 619,
+      "name": "Eric García",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 1257,
+      "name": "J. Koundé",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 2282,
+      "name": "A. Christensen",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 2670,
+      "name": "Íñigo Martínez",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 101814,
+      "name": "R. Araújo",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 133609,
+      "name": "Pedri",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 161928,
+      "name": "Alejandro Balde",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 181701,
+      "name": "Gerard Martín",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 285909,
+      "name": "Pablo Torre",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 296667,
+      "name": "Gavi",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329728,
+      "name": "Marc Casadó",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336653,
+      "name": "Ander Astralaga",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 340626,
+      "name": "Fermín",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 383647,
+      "name": "D. Kochen",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 386859,
+      "name": "Héctor Fort",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 391311,
+      "name": "Á. Yaakobishvili",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 396623,
+      "name": "Pau Cubarsí Paredes",
+      "age": 18,
+      "position": "Defender"
+    },
+    {
+      "id": 128,
+      "name": "Jordi Alba",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 137,
+      "name": "Sergi Roberto",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 144,
+      "name": "Sergio Busquets",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 153,
+      "name": "O. Dembélé",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 583,
+      "name": "João Félix",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 633,
+      "name": "İ. Gündoğan",
+      "age": 35,
+      "position": "Midfielder"
+    },
+    {
+      "id": 667,
+      "name": "M. Depay",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 855,
+      "name": "João Cancelo",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 1642,
+      "name": "F. Kessié",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 38735,
+      "name": "S. Dest",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 51051,
+      "name": "J. Araujo",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 162167,
+      "name": "Álvaro Sanz",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162473,
+      "name": "Arnau Tenas",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 237249,
+      "name": "M. Faye",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 278898,
+      "name": "C. Riad",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 336555,
+      "name": "Estanis",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 340279,
+      "name": "Vitor Roque",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 348539,
+      "name": "Unai Hernández",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 392270,
+      "name": "Marc Guiu",
+      "age": 19,
+      "position": "Attacker"
+    }
+  ],
+  "Atletico Madrid": [
+    {
+      "id": 46,
+      "name": "Vitolo",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 52,
+      "name": "Sergio Camello",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 55,
+      "name": "Borja Garcés",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 58,
+      "name": "Víctor Mollejo",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 371,
+      "name": "Felipe",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 1165,
+      "name": "Matheus Cunha",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 10322,
+      "name": "Marcos Paulo",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 18742,
+      "name": "M. Doherty",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 185308,
+      "name": "Mini",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 287177,
+      "name": "Adrián Corral",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 299883,
+      "name": "Dani González",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 311773,
+      "name": "S. Mouriño",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 315604,
+      "name": "Alejandro Iturbe",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 324750,
+      "name": "Carlos Martín",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 336681,
+      "name": "Sergio Díez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 336685,
+      "name": "Javier Boñar",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 363331,
+      "name": "Juan Martín Ginzo",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 386849,
+      "name": "A. Raihani",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 392271,
+      "name": "Ivan Vasiljevic Djorjevic",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 451311,
+      "name": "Rayane Belaid",
+      "age": 19,
+      "position": "Midfielder"
+    },
+    {
+      "id": 20,
+      "name": "A. Witsel",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 45,
+      "name": "T. Lemar",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 50,
+      "name": "Koke",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 53,
+      "name": "Á. Correa",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 56,
+      "name": "A. Griezmann",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 753,
+      "name": "Marcos Llorente",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2472,
+      "name": "R. De Paul",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 22225,
+      "name": "Reinildo",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47566,
+      "name": "Javi Galán",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 126936,
+      "name": "Samuel Lino",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 136117,
+      "name": "Rodrigo Riquelme",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 208670,
+      "name": "Diego Bri",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 304476,
+      "name": "Ethyan González",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 313548,
+      "name": "Alberto Moreno",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336590,
+      "name": "Aitor Gismera",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336594,
+      "name": "Pablo Barrios",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 338508,
+      "name": "I. Kostis",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 386850,
+      "name": "Adrián Niño Heredia",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 386869,
+      "name": "Dani MartÃ­nez",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 443668,
+      "name": "Rayane Belid",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 29,
+      "name": "J. Oblak",
+      "age": 32,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 31,
+      "name": "J. Giménez",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 48,
+      "name": "Saúl",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 583,
+      "name": "João Félix",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 667,
+      "name": "M. Depay",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 739,
+      "name": "Reguilón",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 926,
+      "name": "G. Kondogbia",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2280,
+      "name": "César Azpilicueta",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 2669,
+      "name": "Hermoso",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 2923,
+      "name": "Y. Carrasco",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 6503,
+      "name": "N. Molina",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 42642,
+      "name": "H. Moldovan",
+      "age": 27,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 162138,
+      "name": "Marco Moreno",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 162891,
+      "name": "J. Sanabria",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286038,
+      "name": "Álex Calatrava",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 308282,
+      "name": "Santi Miguélez",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 333379,
+      "name": "Antonio Gomis",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 336587,
+      "name": "S. El Jebari",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 340154,
+      "name": "A. Vermeeren",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 386872,
+      "name": "Sergio Mestre",
+      "age": 20,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Athletic Club": [
+    {
+      "id": 30510,
+      "name": "Álex Berenguer",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47272,
+      "name": "Balenziaga",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47274,
+      "name": "Capa",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 47282,
+      "name": "Raúl García",
+      "age": 38,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47291,
+      "name": "Gorka Guruzeta",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 47294,
+      "name": "I. Williams",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 104853,
+      "name": "Asier Villalibre",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 182588,
+      "name": "Juan Artola",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 182617,
+      "name": "Beñat Prados",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182627,
+      "name": "Alex Petxarroman",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 182640,
+      "name": "Ander Iru",
+      "age": 27,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 182641,
+      "name": "Imanol García de Albéniz",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 183799,
+      "name": "Nico Williams",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 286593,
+      "name": "Nico Serrano",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 313026,
+      "name": "Luis Bilbao",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 332308,
+      "name": "Unai Gómez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 336998,
+      "name": "A. Boiro",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 383780,
+      "name": "Mikel Jauregizar",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 384266,
+      "name": "Junior Bita",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 440413,
+      "name": "Aingeru Olabarrieta",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 898,
+      "name": "Ander Herrera",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2670,
+      "name": "Íñigo Martínez",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 2672,
+      "name": "Muniain",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 47007,
+      "name": "Ruíz de Galarreta",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47270,
+      "name": "Unai Simón",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47271,
+      "name": "Yeray",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 47273,
+      "name": "Yuri",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 47275,
+      "name": "De Marcos",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47276,
+      "name": "Lekue",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47278,
+      "name": "Dani Vivian",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 47281,
+      "name": "Dani García",
+      "age": 35,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47286,
+      "name": "Peru Nolaskoain",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47418,
+      "name": "Mikel Vesga",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 128398,
+      "name": "Oihan Sancet",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 179153,
+      "name": "Javi Martón",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 182560,
+      "name": "Oier Zarraga",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182563,
+      "name": "Jon Morcillo",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 183848,
+      "name": "Julen Agirrezabala",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 183849,
+      "name": "Aitor Paredes",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 312468,
+      "name": "Álex Padilla",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 182639,
+      "name": "Unai Vencedor",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 288525,
+      "name": "Malcom Adu",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 291225,
+      "name": "Ibon Ispizua",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 313025,
+      "name": "Hugo Rincón",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 332305,
+      "name": "Unai Eguíluz",
+      "age": 23,
+      "position": "Defender"
+    }
+  ],
+  "Valencia": [
+    {
+      "id": 274,
+      "name": "E. Cavani",
+      "age": 38,
+      "position": "Attacker"
+    },
+    {
+      "id": 1641,
+      "name": "Samu Castillejo",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 41157,
+      "name": "André Almeida",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47080,
+      "name": "Jorge Sáenz",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 47264,
+      "name": "Hugo Duro",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 47463,
+      "name": "Pepelu",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 161875,
+      "name": "Hugo González",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162106,
+      "name": "Y. Musah",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162127,
+      "name": "Diego López",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 162931,
+      "name": "Fran Pérez",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 196290,
+      "name": "Marco Camus",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 270516,
+      "name": "Peter",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 297743,
+      "name": "Javier Navarro Girona",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 315699,
+      "name": "Javi Guerra",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 333369,
+      "name": "Joselu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 348326,
+      "name": "Martín Tejón",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 364414,
+      "name": "Mario Domínguez",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 364415,
+      "name": "Jesús Santiago",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 406266,
+      "name": "A. Fadal",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 439578,
+      "name": "David Otorbi",
+      "age": 18,
+      "position": "Attacker"
+    },
+    {
+      "id": 911,
+      "name": "Jaume Doménech",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 913,
+      "name": "Cristian Rivero",
+      "age": 27,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 916,
+      "name": "M. Diakhaby",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 918,
+      "name": "José Gayà",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 919,
+      "name": "Hugo Guillamón",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1482,
+      "name": "Thierry Correia",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 8493,
+      "name": "R. Yaremchuk",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 8587,
+      "name": "S. Amallah",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19352,
+      "name": "Sergi Canós",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 24760,
+      "name": "G. Mamardashvili",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47251,
+      "name": "D. Foulquier",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 48372,
+      "name": "E. Cömert",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 72048,
+      "name": "C. Özkacar",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 122233,
+      "name": "Marcos André",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 162175,
+      "name": "Jesús Vázquez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 315701,
+      "name": "Rubo Iranzo",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 333672,
+      "name": "César Tárrega",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 333682,
+      "name": "Cristhian Mosquera",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 361385,
+      "name": "Yarek Gasiorowski",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 401983,
+      "name": "Vicent Abril",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 915,
+      "name": "Gabriel Paulista",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 47087,
+      "name": "U. Račić",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 161877,
+      "name": "Pablo Gozálbez",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 288074,
+      "name": "Alberto Marí",
+      "age": 24,
+      "position": "Attacker"
+    }
+  ],
+  "Villarreal": [
+    {
+      "id": 83,
+      "name": "A. Danjuma",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 1696,
+      "name": "S. Chukwueze",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 1699,
+      "name": "Iborra",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1700,
+      "name": "Iván Martín",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18802,
+      "name": "É. Capoue",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47529,
+      "name": "Miguel Ángel Morro",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 64268,
+      "name": "J. Mojica",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 105081,
+      "name": "Gianni",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 157988,
+      "name": "Sergio Carreira",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 182685,
+      "name": "Diego Collado",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 184194,
+      "name": "Álex Forés",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 184196,
+      "name": "Carlo Adriano",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 184362,
+      "name": "Dani Tasende",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 188571,
+      "name": "Abraham del Moral",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 313252,
+      "name": "Marcos Sánchez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 317418,
+      "name": "M. Fall",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 336637,
+      "name": "Espigares",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 361343,
+      "name": "VÃ­ctor Moreno",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 391131,
+      "name": "Reque",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 455356,
+      "name": "Daniel Budesca",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 166,
+      "name": "J. Foyth",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 314,
+      "name": "Raúl Albiol",
+      "age": 40,
+      "position": "Defender"
+    },
+    {
+      "id": 885,
+      "name": "E. Bailly",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 928,
+      "name": "Dani Parejo",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1461,
+      "name": "Denis Suárez",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1578,
+      "name": "G. Lo Celso",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1701,
+      "name": "Manu Morlanes",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1702,
+      "name": "Pedraza",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 1707,
+      "name": "Gerard Moreno",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 8492,
+      "name": "A. Sørloth",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 18794,
+      "name": "Kiko Femenía",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47541,
+      "name": "Santi Comesaña",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162122,
+      "name": "Adrià Alti",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 169256,
+      "name": "Iker Álvarez",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 182219,
+      "name": "Álex Baena",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 184226,
+      "name": "Yeremy Pino",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 184420,
+      "name": "Carlos Romero",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 187987,
+      "name": "Ramón Terrats",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 290740,
+      "name": "Ilias Akhomach",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 340726,
+      "name": "S. Leković",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 131,
+      "name": "Jorge Cuenca",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 288,
+      "name": "Alberto Moreno",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 671,
+      "name": "B. Traoré",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 734,
+      "name": "Dela",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 925,
+      "name": "Gonçalo Guedes",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 1567,
+      "name": "A. Mandi",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 1624,
+      "name": "Pepe Reina",
+      "age": 43,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 1705,
+      "name": "Manu Trigueros",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19485,
+      "name": "B. Brereton",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 20844,
+      "name": "H. Hassan",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 46815,
+      "name": "Pau Torres",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 47296,
+      "name": "G. Rulli",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47467,
+      "name": "José Luis Morales",
+      "age": 38,
+      "position": "Attacker"
+    },
+    {
+      "id": 56473,
+      "name": "M. Gabbia",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 181474,
+      "name": "Alberto del Moral",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 184277,
+      "name": "Fer Niño",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 195717,
+      "name": "Y. Mosquera",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 283058,
+      "name": "N. Jackson",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 286616,
+      "name": "F. Jörgensen",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 290482,
+      "name": "Jorge Pascual",
+      "age": 22,
+      "position": "Attacker"
+    }
+  ],
+  "Las Palmas": [
+    {
+      "id": 46990,
+      "name": "Álvaro Vallés",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47351,
+      "name": "Álex Domínguez",
+      "age": 27,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 104855,
+      "name": "Óscar Pinchi",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 131529,
+      "name": "Enrique Clemente",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 182496,
+      "name": "Joel del Pino",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 182515,
+      "name": "Claudio",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 182545,
+      "name": "Unai Veiga",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 185943,
+      "name": "Julen Pérez",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 186160,
+      "name": "Cristian Abreu",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 208133,
+      "name": "Gabriel Palmero",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 287387,
+      "name": "Javier Cendón",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 287388,
+      "name": "Isaac",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 287612,
+      "name": "Joaquín",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 297869,
+      "name": "Iñaki González Zambrano",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 308423,
+      "name": "Yadam",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330361,
+      "name": "Ale García",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 338750,
+      "name": "Pau Ferrer",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 380234,
+      "name": "Ale Palanca",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 392893,
+      "name": "Déo Gracias Maurile Gloire Bassinga",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 453885,
+      "name": "A. Bassinga",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 536,
+      "name": "D. Sinkgraven",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 2060,
+      "name": "M. El Haddadi",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 12667,
+      "name": "Jonathan Viera",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 21709,
+      "name": "E. Loiodice",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46860,
+      "name": "Javi Muñoz",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46993,
+      "name": "Eric Curbelo",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47111,
+      "name": "Benito Ramírez",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47324,
+      "name": "Sandro Ramírez",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47393,
+      "name": "Marc Cardona",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47464,
+      "name": "Campaña",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 70315,
+      "name": "Kirian Rodríguez",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 70500,
+      "name": "Sergi Cardona",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 122468,
+      "name": "Saúl Coco",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 131535,
+      "name": "Álex Suárez",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 162026,
+      "name": "Marvin Park",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 162475,
+      "name": "Mika Màrmol",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 182519,
+      "name": "Alberto Moleiro",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 288699,
+      "name": "M. Perrone",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 431890,
+      "name": "Juan Herzog",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 440748,
+      "name": "Ãlvaro Killane",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 21070,
+      "name": "O. Mfulu",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 21714,
+      "name": "S. Kaba",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 46673,
+      "name": "Aarón Escandell",
+      "age": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 46996,
+      "name": "Álvaro Lemos",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47004,
+      "name": "Fabio González",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47180,
+      "name": "Cristian Herrera",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 51051,
+      "name": "J. Araujo",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 157194,
+      "name": "Pejiño",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 208198,
+      "name": "Álex González",
+      "age": 23,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Sevilla": [
+    {
+      "id": 15,
+      "name": "T. Delaney",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 111,
+      "name": "Rony Lopes",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 760,
+      "name": "M. Díaz",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 2054,
+      "name": "Jesús Navas",
+      "age": 40,
+      "position": "Defender"
+    },
+    {
+      "id": 2723,
+      "name": "O. Idrissi",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 2852,
+      "name": "L. Augustinsson",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 25345,
+      "name": "K. Rekik",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 30433,
+      "name": "P. Gómez",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 119235,
+      "name": "Pedro Ortiz",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 163630,
+      "name": "Alfonso Pastor",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 177587,
+      "name": "M. Herzig",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 188445,
+      "name": "Luismi Cruz",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 192032,
+      "name": "Iván Romero",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 195923,
+      "name": "José Ángel Carmona",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 264469,
+      "name": "Pablo Pérez",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 285290,
+      "name": "Miguel Capi",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 286271,
+      "name": "Israel",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 341453,
+      "name": "Oso",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 360411,
+      "name": "Alberto Collado López",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 386270,
+      "name": "Ibrahima Sow",
+      "age": 18,
+      "position": "Attacker"
+    },
+    {
+      "id": 149,
+      "name": "I. Rakitić",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 433,
+      "name": "Marcão",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 2061,
+      "name": "Bryan Gil",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 2813,
+      "name": "M. Dmitrović",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 2924,
+      "name": "A. Januzaj",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 19172,
+      "name": "Ø. Nyland",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 20696,
+      "name": "P. Gueye",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 25458,
+      "name": "D. Lukebakio",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47013,
+      "name": "Rafa Mir",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47329,
+      "name": "Adrià Pedrosa",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 47389,
+      "name": "Joan Jordán",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47416,
+      "name": "Óscar Rodríguez",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 174918,
+      "name": "L. Badé",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 185398,
+      "name": "Isaac",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 290686,
+      "name": "Rafael Romero",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 297311,
+      "name": "Kike Salas",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 308346,
+      "name": "Alberto Flores",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 311344,
+      "name": "A. Véliz",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 329729,
+      "name": "Lulo Dasilva",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 331330,
+      "name": "Matías Árbol",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 176,
+      "name": "E. Lamela",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 385,
+      "name": "Óliver Torres",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 389,
+      "name": "J. Corona",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 738,
+      "name": "Sergio Ramos",
+      "age": 39,
+      "position": "Defender"
+    },
+    {
+      "id": 957,
+      "name": "D. Sow",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1489,
+      "name": "N. Gudelj",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1493,
+      "name": "M. Acuña",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 1650,
+      "name": "Suso",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1911,
+      "name": "L. Ocampos",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2468,
+      "name": "G. Montiel",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 21004,
+      "name": "L. Agoumé",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 125331,
+      "name": "F. Gattoni",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 133110,
+      "name": "T. Nianzou",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 161962,
+      "name": "Nacho Quintana",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182770,
+      "name": "Carlos Álvarez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182772,
+      "name": "Juanlu Sánchez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 331607,
+      "name": "Manu Bueno",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 335037,
+      "name": "Diego Hormigo",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 335057,
+      "name": "Darío Benavides",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 340152,
+      "name": "S. Idumbo-Muzambo",
+      "age": 20,
+      "position": "Midfielder"
+    }
+  ],
+  "Celta Vigo": [
+    {
+      "id": 570,
+      "name": "F. Cervi",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 934,
+      "name": "Santi Mina",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 1364,
+      "name": "Jaílson",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 21584,
+      "name": "M. Ristić",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 47426,
+      "name": "Rubén Blanco",
+      "age": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47435,
+      "name": "Fran Beltrán",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47445,
+      "name": "Iago Aspas",
+      "age": 38,
+      "position": "Attacker"
+    },
+    {
+      "id": 64309,
+      "name": "Manu Sánchez",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 67955,
+      "name": "Carles Pérez",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 119213,
+      "name": "Alfon González",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 157988,
+      "name": "Sergio Carreira",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 162605,
+      "name": "Javi Domínguez",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 269163,
+      "name": "W. Swedberg",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 284057,
+      "name": "Joel López",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 286559,
+      "name": "Carlos Domínguez",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 286796,
+      "name": "Damián Rodríguez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 313651,
+      "name": "Hugo Sotelo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329720,
+      "name": "Hugo Álvarez",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329722,
+      "name": "Yoel Lago",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 384135,
+      "name": "Javi Rodríguez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 1830,
+      "name": "Gonçalo Paciência",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 1926,
+      "name": "J. Aidoo",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 2032,
+      "name": "J. Strand Larsen",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 2433,
+      "name": "R. Tapia",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2464,
+      "name": "A. Marchesín",
+      "age": 37,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 18835,
+      "name": "Guaita",
+      "age": 38,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 18896,
+      "name": "Javier Manquillo",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 19026,
+      "name": "L. de la Torre",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 26845,
+      "name": "T. Douvikas",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 47277,
+      "name": "Unai Núñez",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 47427,
+      "name": "Iván Villar",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47434,
+      "name": "Kevin Vázquez",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47988,
+      "name": "C. Starfelt",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 162034,
+      "name": "Carlos Dotor",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162712,
+      "name": "Óscar Mingueza",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 179955,
+      "name": "Javi Rueda",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 192434,
+      "name": "Miguel Rodríguez",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 286623,
+      "name": "Coke Carrillo",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 286795,
+      "name": "César Fernández",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 304383,
+      "name": "T. Allende",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 22235,
+      "name": "J. Bamba",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 162212,
+      "name": "Miguel Baeza",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182501,
+      "name": "José Fontán",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 182504,
+      "name": "Gabri Veiga",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 185075,
+      "name": "Ruly García",
+      "age": 25,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Real Madrid": [
+    {
+      "id": 737,
+      "name": "Odriozola",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 744,
+      "name": "Brahim Díaz",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 748,
+      "name": "Dani Ceballos",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 752,
+      "name": "T. Kroos",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 754,
+      "name": "L. Modrić",
+      "age": 40,
+      "position": "Midfielder"
+    },
+    {
+      "id": 760,
+      "name": "M. Díaz",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 762,
+      "name": "Vinícius Júnior",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 10009,
+      "name": "Rodrygo",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 10166,
+      "name": "Reinier",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18907,
+      "name": "Joselu",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 162028,
+      "name": "Juanmi Latasa",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 189997,
+      "name": "Mario de Luis",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 206260,
+      "name": "Lucas Cañizares",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 279792,
+      "name": "Vinícius Tobias",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 291964,
+      "name": "A. Güler",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 330438,
+      "name": "Edgar Pujol",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 334575,
+      "name": "Diego Piñeiro",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 336706,
+      "name": "Marvel",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 336711,
+      "name": "Gonzalo García",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 343202,
+      "name": "Á. Rodríguez",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 372,
+      "name": "Éder Militão",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 505,
+      "name": "D. Alaba",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 653,
+      "name": "F. Mendy",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 730,
+      "name": "T. Courtois",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 733,
+      "name": "Dani Carvajal",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 736,
+      "name": "Fran García",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 741,
+      "name": "Vallejo",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 756,
+      "name": "F. Valverde",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 757,
+      "name": "Lucas Vázquez",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 1271,
+      "name": "A. Tchouaméni",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2207,
+      "name": "E. Camavinga",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2285,
+      "name": "A. Rüdiger",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47400,
+      "name": "A. Lunin",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 129718,
+      "name": "J. Bellingham",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162034,
+      "name": "Carlos Dotor",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 237174,
+      "name": "Álvaro Carrillo",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 343205,
+      "name": "Mario Martín",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 350037,
+      "name": "N. Paz",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 386305,
+      "name": "Jacobo Ramón Naveros",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 396475,
+      "name": "Fran González",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 735,
+      "name": "Nacho",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 746,
+      "name": "Marco Asensio",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 759,
+      "name": "K. Benzema",
+      "age": 38,
+      "position": "Attacker"
+    },
+    {
+      "id": 2273,
+      "name": "Kepa",
+      "age": 31,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 162033,
+      "name": "Sergio Arribas",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162529,
+      "name": "Luis López",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 162547,
+      "name": "T. Zidane",
+      "age": 23,
+      "position": "Midfielder"
+    }
+  ],
+  "Alaves": [
+    {
+      "id": 6085,
+      "name": "C. Benavídez",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18895,
+      "name": "F. Lejeune",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 32871,
+      "name": "T. Hara",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 46743,
+      "name": "Salva Sevilla",
+      "age": 40,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47309,
+      "name": "Guevara",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47357,
+      "name": "Laguardia",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47396,
+      "name": "Kike García",
+      "age": 36,
+      "position": "Attacker"
+    },
+    {
+      "id": 104821,
+      "name": "Jon Guridi",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 140834,
+      "name": "A. Mahmoud",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162686,
+      "name": "Antonio Blanco",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 187214,
+      "name": "Carlos Vicente",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 192011,
+      "name": "Joseda Álvarez",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 215810,
+      "name": "G. Gagua",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 297973,
+      "name": "Selu Diallo",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 305970,
+      "name": "José de León",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 311740,
+      "name": "Tomás Mendes",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 401419,
+      "name": "Ander Sánchez",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 403241,
+      "name": "Gaizka García",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 439032,
+      "name": "Rubén Montero",
+      "age": 20,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 442058,
+      "name": "Álvaro García",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 6233,
+      "name": "N. Tenaglia",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 8518,
+      "name": "M. Sylla",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 40419,
+      "name": "A. Sedlar",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 41412,
+      "name": "N. Maraš",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 46813,
+      "name": "A. Abqar",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 46933,
+      "name": "Luis Rioja",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47299,
+      "name": "Gorosabel",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 47306,
+      "name": "Álex Sola",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47353,
+      "name": "Sivera",
+      "age": 29,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47355,
+      "name": "Rubén Duarte",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 47494,
+      "name": "Miguel de la Fuente",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 107217,
+      "name": "Xeber Alkain",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 122471,
+      "name": "Jesús Owono",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 163060,
+      "name": "A. Giménez",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 182636,
+      "name": "Javi López",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 182637,
+      "name": "Álex Balboa",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 237066,
+      "name": "Rafa Marín",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 313562,
+      "name": "Eneko Ortiz",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 323935,
+      "name": "G. Simeone",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 438131,
+      "name": "Egoitz Muñoz",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 43084,
+      "name": "I. Hagi",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 128951,
+      "name": "Víctor Parada",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 183748,
+      "name": "Jon Karrikaburu",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 183751,
+      "name": "A. Rebbach",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 197800,
+      "name": "Unai Ropero",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 358628,
+      "name": "Samu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 390742,
+      "name": "J. Panichelli",
+      "age": 23,
+      "position": "Attacker"
+    }
+  ],
+  "Real Betis": [
+    {
+      "id": 146,
+      "name": "Álex Collado",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 614,
+      "name": "C. Bravo",
+      "age": 41,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 668,
+      "name": "N. Fekir",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 669,
+      "name": "Y. Fékir",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 745,
+      "name": "Isco",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1450,
+      "name": "S. Papastathopoulos",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 1570,
+      "name": "Sergio Canales",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1584,
+      "name": "Loren Morón",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 3033,
+      "name": "C. Bakambu",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 18965,
+      "name": "Martín Montoya",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47320,
+      "name": "Juanmi",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47348,
+      "name": "Borja Iglesias",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47579,
+      "name": "E. Ávila",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 181421,
+      "name": "A. Ezzalzouli",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 185477,
+      "name": "Rodri",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 305797,
+      "name": "Enrique Fernández",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 347886,
+      "name": "Félix Garreta",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 347887,
+      "name": "Ginés Sorroche",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 351131,
+      "name": "Dani Pérez",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 392455,
+      "name": "Germán García",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 134,
+      "name": "Juan Miranda",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 1264,
+      "name": "Y. Sabaly",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 1439,
+      "name": "Héctor Bellerín",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 1561,
+      "name": "Marc Bartra",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 1568,
+      "name": "P. Akouokou",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1580,
+      "name": "William Carvalho",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1697,
+      "name": "Pablo Fornals",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 9700,
+      "name": "Abner",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 18906,
+      "name": "Ayoze Pérez",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47119,
+      "name": "Aitor Ruibal",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 47341,
+      "name": "Marc Roca",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 133185,
+      "name": "J. Cardoso",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 179996,
+      "name": "Fran Vieites",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 185202,
+      "name": "Juan Cruz",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286084,
+      "name": "Sergi Altimira",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 329663,
+      "name": "Guilherme Fernandes",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 351127,
+      "name": "Xavi Pleguezuelo",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 358431,
+      "name": "N. Mendy",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 400948,
+      "name": "Assane Diao",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 439994,
+      "name": "Pablo Busto",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 1573,
+      "name": "A. Guardado",
+      "age": 39,
+      "position": "Midfielder"
+    },
+    {
+      "id": 1847,
+      "name": "Luiz Felipe",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 2469,
+      "name": "G. Pezzella",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 2476,
+      "name": "G. Rodríguez",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46672,
+      "name": "Rui Silva",
+      "age": 31,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47319,
+      "name": "Willian José",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 188413,
+      "name": "Visus",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 265785,
+      "name": "Luiz Henrique",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 278898,
+      "name": "C. Riad",
+      "age": 22,
+      "position": "Defender"
+    }
+  ],
+  "Getafe": [
+    {
+      "id": 143,
+      "name": "Carles Aleñá",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 755,
+      "name": "Jaime Seoane",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46835,
+      "name": "J. Harper",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 47085,
+      "name": "Luis Milla",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47257,
+      "name": "D. Suárez",
+      "age": 37,
+      "position": "Defender"
+    },
+    {
+      "id": 47258,
+      "name": "M. Arambarri",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47408,
+      "name": "J. Silva",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47452,
+      "name": "E. Cabaco",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 47472,
+      "name": "Borja Mayoral",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47520,
+      "name": "Portu",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 47540,
+      "name": "Ángel Algobia",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 184617,
+      "name": "Diego López",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 194782,
+      "name": "Facu Esnáider",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 195923,
+      "name": "José Ángel Carmona",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 198558,
+      "name": "Sergio Gimeno",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 348885,
+      "name": "Jeremy Jorge",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 364415,
+      "name": "Jesús Santiago",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 439414,
+      "name": "Alejandro Herranz",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 439616,
+      "name": "Yassin Tallal",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 465838,
+      "name": "Alberto Risco",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 763,
+      "name": "Daniel Fuzato",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 897,
+      "name": "M. Greenwood",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 2671,
+      "name": "Jaime Mata",
+      "age": 37,
+      "position": "Attacker"
+    },
+    {
+      "id": 2824,
+      "name": "N. Maksimović",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 6168,
+      "name": "O. Alderete",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 18867,
+      "name": "Diego Rico",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 46795,
+      "name": "Domingos Duarte",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 47247,
+      "name": "David Soria",
+      "age": 32,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47250,
+      "name": "D. Dakonam",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47416,
+      "name": "Óscar Rodríguez",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47525,
+      "name": "A. Lozano",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 119742,
+      "name": "Juan Iglesias",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 162028,
+      "name": "Juanmi Latasa",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 162030,
+      "name": "Jordi Martín",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 162123,
+      "name": "I. Moriba",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 286084,
+      "name": "Sergi Altimira",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 293297,
+      "name": "J. Patrick",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 333373,
+      "name": "Gorka Rivera",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 432080,
+      "name": "Jorge Benito",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 454491,
+      "name": "Djordjije Medenica",
+      "age": 19,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 2819,
+      "name": "S. Mitrović",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 5987,
+      "name": "F. Angileri",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47499,
+      "name": "E. Ünal",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 51449,
+      "name": "G. Álvarez",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 184743,
+      "name": "Santi García",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 325415,
+      "name": "N. Aberdin",
+      "age": 23,
+      "position": "Defender"
+    }
+  ],
+  "Girona": [
+    {
+      "id": 1700,
+      "name": "Iván Martín",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2182,
+      "name": "V. Tsygankov",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 2617,
+      "name": "C. Stuani",
+      "age": 39,
+      "position": "Attacker"
+    },
+    {
+      "id": 18949,
+      "name": "Oriol Romeu",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47505,
+      "name": "B. Espinosa",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47515,
+      "name": "Borja García",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47520,
+      "name": "Portu",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 263529,
+      "name": "I. Kebe",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 263530,
+      "name": "Pau Victor",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 286074,
+      "name": "Eric Monjonell",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 323815,
+      "name": "Oscar Ureña",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 327628,
+      "name": "Ricard Artero",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 332217,
+      "name": "Matas",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 332219,
+      "name": "Biel Farres",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 339105,
+      "name": "Joel Roca",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 349046,
+      "name": "Carles Garrido",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 388057,
+      "name": "Alex Almansa",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 389600,
+      "name": "Antonino",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 392305,
+      "name": "J. Arango",
+      "age": 19,
+      "position": "Attacker"
+    },
+    {
+      "id": 414409,
+      "name": "J. Arango",
+      "age": 18,
+      "position": "Midfielder"
+    },
+    {
+      "id": 158,
+      "name": "P. Gazzaniga",
+      "age": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 531,
+      "name": "D. Blind",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 619,
+      "name": "Eric García",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 2421,
+      "name": "A. Callens",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 2449,
+      "name": "Y. Herrera",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 15811,
+      "name": "A. Dovbyk",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47153,
+      "name": "Juan Carlos",
+      "age": 37,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47334,
+      "name": "David López",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47492,
+      "name": "Toni Villa",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47511,
+      "name": "Juanpe",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47514,
+      "name": "Valery",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 47516,
+      "name": "Aleix García",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162032,
+      "name": "Miguel Gutiérrez",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 162533,
+      "name": "Toni Fuidias",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 197448,
+      "name": "Yan Couto",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 283668,
+      "name": "Arnau Martínez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 285909,
+      "name": "Pablo Torre",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 306727,
+      "name": "J. Solis",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 402280,
+      "name": "A. Yaakobishvili",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 402281,
+      "name": "Silvi",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46782,
+      "name": "Manu Vallejo",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 135334,
+      "name": "S. Bueno",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 266657,
+      "name": "Sávio",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 389602,
+      "name": "Iker Almena",
+      "age": 21,
+      "position": "Attacker"
+    }
+  ],
+  "Real Sociedad": [
+    {
+      "id": 634,
+      "name": "David Silva",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 18867,
+      "name": "Diego Rico",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 31406,
+      "name": "U. Sadiq",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 32862,
+      "name": "T. Kubo",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 37938,
+      "name": "S. Becker",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47297,
+      "name": "Andoni Zubiaurre",
+      "age": 29,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47306,
+      "name": "Álex Sola",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47309,
+      "name": "Guevara",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47310,
+      "name": "Illarramendi",
+      "age": 35,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47317,
+      "name": "Barrenetxea",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 47322,
+      "name": "Martín Merquelanz",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47323,
+      "name": "Mikel Oyarzabal",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47440,
+      "name": "Brais Méndez",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182603,
+      "name": "Jon Ander Olasagasti",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182664,
+      "name": "Gaizka Ayesa",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 183699,
+      "name": "Urko González",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 183744,
+      "name": "Beñat Turrientes",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203426,
+      "name": "J. Gómez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 290106,
+      "name": "Pablo Marín",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353634,
+      "name": "A. Lebarbier",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 737,
+      "name": "Odriozola",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 2202,
+      "name": "H. Traoré",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 8492,
+      "name": "A. Sørloth",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47269,
+      "name": "Álex Remiro",
+      "age": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47298,
+      "name": "Elustondo",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47299,
+      "name": "Gorosabel",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 47301,
+      "name": "Robin Le Normand",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 47303,
+      "name": "Aihen Muñoz",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 47314,
+      "name": "Zubeldia",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 47315,
+      "name": "Martín Zubimendi",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47566,
+      "name": "Javi Galán",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 84086,
+      "name": "Robert Navarro",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 182546,
+      "name": "Jon Pacheco",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 189831,
+      "name": "Arana",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 189832,
+      "name": "Unai Marrero",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 199044,
+      "name": "J. Aramburu",
+      "age": 23,
+      "position": "Defender"
+    },
+    {
+      "id": 268960,
+      "name": "A. Zakharyan",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 337843,
+      "name": "Aitor Fraga",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 381599,
+      "name": "Rupérez",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 405073,
+      "name": "Jon Martín",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 1117,
+      "name": "K. Tierney",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 2063,
+      "name": "André Silva",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 46808,
+      "name": "Carlos Fernández",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 47311,
+      "name": "Mikel Merino",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 125675,
+      "name": "B. Fiabema",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 131492,
+      "name": "Aritz Arambarri",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 183706,
+      "name": "Ander Martín",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 183748,
+      "name": "Jon Karrikaburu",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 274312,
+      "name": "M. Cho",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 287652,
+      "name": "Jon Magunazelaia",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 287653,
+      "name": "Alberto Dadie",
+      "age": 23,
+      "position": "Attacker"
+    }
+  ],
+  "Granada CF": [
+    {
+      "id": 330,
+      "name": "José Callejón",
+      "age": 38,
+      "position": "Attacker"
+    },
+    {
+      "id": 21441,
+      "name": "F. Maouassa",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 46090,
+      "name": "N. Petrović",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46677,
+      "name": "Víctor Díaz",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47041,
+      "name": "Alberto Perea",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 47063,
+      "name": "Alberto Soro",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47265,
+      "name": "Jorge Molina",
+      "age": 41,
+      "position": "Attacker"
+    },
+    {
+      "id": 47414,
+      "name": "Gumbau",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47468,
+      "name": "Rochina",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 104836,
+      "name": "Adrián López",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 144730,
+      "name": "A. Dionkou",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 147797,
+      "name": "Antoñín Cortés",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 162585,
+      "name": "Pol Tristán",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 162587,
+      "name": "Miki Bosch",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 182164,
+      "name": "Pepe Sánchez",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 182166,
+      "name": "Isma Ruiz",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 290215,
+      "name": "Raúl Torrente",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 291146,
+      "name": "Mario González",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 306183,
+      "name": "L. Sangaré",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 436202,
+      "name": "E. Bello",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 608,
+      "name": "L. Boyé",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 741,
+      "name": "Vallejo",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 10233,
+      "name": "B. Méndez",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 11379,
+      "name": "A. Batalla",
+      "age": 29,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 19278,
+      "name": "F. Diédhiou",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 40559,
+      "name": "K. Jóźwiak",
+      "age": 27,
+      "position": "Attacker"
+    },
+    {
+      "id": 41320,
+      "name": "André Ferreira",
+      "age": 29,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 46682,
+      "name": "Carlos Neva",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 46689,
+      "name": "Antonio Puertas",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46982,
+      "name": "Gonzalo Villar",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47256,
+      "name": "Miguel Rubio",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 63542,
+      "name": "M. Hongla",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 70078,
+      "name": "F. Pellistri",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 70339,
+      "name": "S. Weissman",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 122756,
+      "name": "Sergio Ruiz",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162889,
+      "name": "Ricard Sánchez",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 190530,
+      "name": "Pablo Sáenz",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 286639,
+      "name": "Bryan Zaragoza",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 291147,
+      "name": "Miguel Brau",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 403498,
+      "name": "Sergio Rodelas",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 383,
+      "name": "Wilson Manafá",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 14405,
+      "name": "M. Uzuni",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 46987,
+      "name": "Raúl Fernández",
+      "age": 37,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47199,
+      "name": "Y. Bodiger",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47253,
+      "name": "Ignasi Miquel",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 47339,
+      "name": "Óscar Melendo",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 51756,
+      "name": "M. Arezo",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 116909,
+      "name": "Marc Martínez",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 119762,
+      "name": "K. Piątkowski",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 181463,
+      "name": "Víctor Meseguer",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 280688,
+      "name": "T. Corbeanu",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 284300,
+      "name": "Álvaro Fernández",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 358628,
+      "name": "Samu",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 412739,
+      "name": "Fran Ãrbol",
+      "age": 19,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Almeria": [
+    {
+      "id": 12667,
+      "name": "Jonathan Viera",
+      "age": 36,
+      "position": "Midfielder"
+    },
+    {
+      "id": 20627,
+      "name": "Houboulang Mendes",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 46870,
+      "name": "Diego Mariño",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 46910,
+      "name": "Iván Martos",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 46919,
+      "name": "César de la Hoz",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47056,
+      "name": "Íñigo Eguaras",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47525,
+      "name": "A. Lozano",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47530,
+      "name": "Sergio Akieme",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 47554,
+      "name": "Adri Embarba",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 67902,
+      "name": "C. Olivera",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 161931,
+      "name": "Arnau Solà",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 190485,
+      "name": "Samú Costa",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 194597,
+      "name": "Miguel Peñalver",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 194750,
+      "name": "E. Touré",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 263812,
+      "name": "L. Romero",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 282131,
+      "name": "M. Šviderský",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 344745,
+      "name": "Rachad Fettal Dhimi",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 352905,
+      "name": "Marciano Tchami",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 387530,
+      "name": "Carlos Ballestero García",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 418944,
+      "name": "Marcos Peña",
+      "age": 20,
+      "position": "Midfielder"
+    },
+    {
+      "id": 129,
+      "name": "Chumi",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 914,
+      "name": "Álex Centelles",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 1565,
+      "name": "Edgar González",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 6065,
+      "name": "L. Robertone",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 13062,
+      "name": "Léo Baptistão",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 20660,
+      "name": "A. Radovanović",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 46688,
+      "name": "Álex Pozo",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 46739,
+      "name": "I. Baba",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47237,
+      "name": "L. Suárez",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 47576,
+      "name": "Melero",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 126901,
+      "name": "Bruno Langa",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 138809,
+      "name": "Arnau Puigmal",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 162033,
+      "name": "Sergio Arribas",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 203468,
+      "name": "D. Lopy",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 237103,
+      "name": "Lázaro",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 295793,
+      "name": "Marc Pubill",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 305803,
+      "name": "Kaiky",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 310609,
+      "name": "Gui",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 312650,
+      "name": "M. Milovanović",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 437600,
+      "name": "Paco Sanz",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 340,
+      "name": "S. Babić",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 1470,
+      "name": "Luís Maximiano",
+      "age": 26,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 2679,
+      "name": "Dyego Sousa",
+      "age": 36,
+      "position": "Attacker"
+    },
+    {
+      "id": 2873,
+      "name": "C. Montes",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 19306,
+      "name": "A. Appiah",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 39245,
+      "name": "I. Koné",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 46904,
+      "name": "Fernando Martínez",
+      "age": 35,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47356,
+      "name": "Rodrigo Ely",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 138776,
+      "name": "L. Ramazani",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 354550,
+      "name": "Bruno Iribarne",
+      "age": 21,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Cadiz": [
+    {
+      "id": 2615,
+      "name": "M. Gómez",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 14444,
+      "name": "M. Mbaye",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 24793,
+      "name": "Jorge Meré",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 46772,
+      "name": "José Mari",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46818,
+      "name": "Luis Hernández",
+      "age": 35,
+      "position": "Defender"
+    },
+    {
+      "id": 46824,
+      "name": "Iván Alejo",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46998,
+      "name": "Juan Cala",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47320,
+      "name": "Juanmi",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 47495,
+      "name": "Sergi Guardiola",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 50502,
+      "name": "Álvaro Negredo",
+      "age": 39,
+      "position": "Attacker"
+    },
+    {
+      "id": 84086,
+      "name": "Robert Navarro",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 192024,
+      "name": "L. Spatz",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 276995,
+      "name": "F. Mwepu",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 327552,
+      "name": "Nando",
+      "age": 22,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 337015,
+      "name": "Adrián Nieto",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 360382,
+      "name": "Adrián Salguero",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 385441,
+      "name": "Julio Cabrera",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 386490,
+      "name": "A. Njalla",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 438293,
+      "name": "Alex Morata",
+      "age": 19,
+      "position": "Defender"
+    },
+    {
+      "id": 456612,
+      "name": "Borja Vazquez",
+      "age": 20,
+      "position": "Attacker"
+    },
+    {
+      "id": 937,
+      "name": "Rubén Sobrino",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 1094,
+      "name": "D. Samassékou",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 2459,
+      "name": "D. Machís",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "id": 2755,
+      "name": "A. Mabil",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 6492,
+      "name": "J. Ledesma",
+      "age": 32,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 46691,
+      "name": "Fede San Emeterio",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46769,
+      "name": "Álex Fernández",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46849,
+      "name": "Javi Hernández",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 47100,
+      "name": "Iza Carcelén",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47388,
+      "name": "G. Escalante",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47471,
+      "name": "Roger",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 47485,
+      "name": "Rubén Alcaraz",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 51588,
+      "name": "B. Ocampo",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 77623,
+      "name": "Y. Diarra",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 104792,
+      "name": "Chris Ramos",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 185810,
+      "name": "Raúl Parra",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 310683,
+      "name": "Álvaro Bastida",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 353463,
+      "name": "M. Diakité",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 378284,
+      "name": "Etta Eyong",
+      "age": 22,
+      "position": "Attacker"
+    },
+    {
+      "id": 386491,
+      "name": "José de la Rosa",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 11471,
+      "name": "T. Alarcón",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 20608,
+      "name": "R. Kouamé",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46755,
+      "name": "David Gil",
+      "age": 31,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47229,
+      "name": "Fali",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 47307,
+      "name": "Joseba Zaldúa",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 48014,
+      "name": "A. Ousou",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 66761,
+      "name": "M. Osmajić",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 162058,
+      "name": "Víctor Chust",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 330238,
+      "name": "Lucas Pires",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 337963,
+      "name": "Victor Aznar",
+      "age": 23,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Osasuna": [
+    {
+      "id": 1825,
+      "name": "Lucas Torró",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46653,
+      "name": "David García",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 46658,
+      "name": "Rubén García",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46662,
+      "name": "Moncayola",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46667,
+      "name": "Kike Barja",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 46746,
+      "name": "A. Budimir",
+      "age": 34,
+      "position": "Attacker"
+    },
+    {
+      "id": 47391,
+      "name": "Rubén Peña",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47396,
+      "name": "Kike García",
+      "age": 36,
+      "position": "Attacker"
+    },
+    {
+      "id": 47419,
+      "name": "José Arnáiz",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 47533,
+      "name": "Catena",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 47574,
+      "name": "Moi Gómez",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 64268,
+      "name": "J. Mojica",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 67939,
+      "name": "Aimar Oroz",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 139001,
+      "name": "Pablo Ibáñez",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 146751,
+      "name": "Raúl García",
+      "age": 25,
+      "position": "Attacker"
+    },
+    {
+      "id": 182621,
+      "name": "Iker Muñoz",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 197799,
+      "name": "Xabi Huarte",
+      "age": 24,
+      "position": "Midfielder"
+    },
+    {
+      "id": 289788,
+      "name": "Yoel Ramírez",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 381197,
+      "name": "Asier Osambela",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 421044,
+      "name": "Íñigo Arguibide",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 46646,
+      "name": "Sergio Herrera",
+      "age": 32,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 46652,
+      "name": "Unai García",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 46657,
+      "name": "Nacho Vidal",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 46660,
+      "name": "Javi Martínez",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46967,
+      "name": "Juan Cruz",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 47361,
+      "name": "D. Brašanac",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47448,
+      "name": "Aitor Fernández",
+      "age": 34,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47579,
+      "name": "E. Ávila",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 182181,
+      "name": "Jesús Areso",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 182592,
+      "name": "Jorge Herrando",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 182657,
+      "name": "Pablo Valencia",
+      "age": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 184609,
+      "name": "Jorge Moreno",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 286606,
+      "name": "Max Svensson",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 348029,
+      "name": "D. Stamatakis",
+      "age": 22,
+      "position": "Goalkeeper"
+    }
+  ],
+  "Rayo Vallecano": [
+    {
+      "id": 52,
+      "name": "Sergio Camello",
+      "age": 24,
+      "position": "Attacker"
+    },
+    {
+      "id": 46775,
+      "name": "Salvi",
+      "age": 34,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46803,
+      "name": "Joni Montiel",
+      "age": 27,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46914,
+      "name": "E. Saveljich",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 47109,
+      "name": "Óscar Valentín",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47285,
+      "name": "Unai López",
+      "age": 30,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47327,
+      "name": "Diego López",
+      "age": 42,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47527,
+      "name": "S. Dimitrievski",
+      "age": 32,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47536,
+      "name": "Martín Pascual",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 47543,
+      "name": "Álvaro García",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47550,
+      "name": "Mario Suárez",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 47551,
+      "name": "Raúl de Tomás",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 47553,
+      "name": "Bebé",
+      "age": 35,
+      "position": "Attacker"
+    },
+    {
+      "id": 47556,
+      "name": "Sergio Moreno",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 47557,
+      "name": "Ó. Trejo",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 107207,
+      "name": "Mario Hernández",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 122657,
+      "name": "R. Nteka",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 128582,
+      "name": "Jorge de Frutos",
+      "age": 28,
+      "position": "Attacker"
+    },
+    {
+      "id": 288144,
+      "name": "Mario Ramos Fernández",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 377197,
+      "name": "Pablo Muñoz",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 119,
+      "name": "R. Falcao",
+      "age": 39,
+      "position": "Attacker"
+    },
+    {
+      "id": 1703,
+      "name": "A. Rațiu",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 15900,
+      "name": "A. Mumin",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 18895,
+      "name": "F. Lejeune",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 20520,
+      "name": "I. Balliu",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 41552,
+      "name": "P. Ciss",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 41973,
+      "name": "Miguel Crespo",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46654,
+      "name": "Aridane",
+      "age": 36,
+      "position": "Defender"
+    },
+    {
+      "id": 46759,
+      "name": "A. Espino",
+      "age": 33,
+      "position": "Defender"
+    },
+    {
+      "id": 47209,
+      "name": "Andrés Martín",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "id": 47529,
+      "name": "Miguel Ángel Morro",
+      "age": 25,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 47549,
+      "name": "José Ángel Pozo",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 107153,
+      "name": "Kike Pérez",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 131546,
+      "name": "Isi Palazón",
+      "age": 31,
+      "position": "Midfielder"
+    },
+    {
+      "id": 156488,
+      "name": "Dani Cárdenas",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 181734,
+      "name": "Pep Chavarría",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 184609,
+      "name": "Jorge Moreno",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 333378,
+      "name": "Diego Méndez",
+      "age": 22,
+      "position": "Midfielder"
+    }
+  ],
+  "Mallorca": [
+    {
+      "id": 1920,
+      "name": "N. Radonjić",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 2001,
+      "name": "C. Larin",
+      "age": 30,
+      "position": "Attacker"
+    },
+    {
+      "id": 2208,
+      "name": "C. Grenier",
+      "age": 33,
+      "position": "Midfielder"
+    },
+    {
+      "id": 6048,
+      "name": "B. Cufré",
+      "age": 29,
+      "position": "Defender"
+    },
+    {
+      "id": 46742,
+      "name": "Dani Rodríguez",
+      "age": 37,
+      "position": "Midfielder"
+    },
+    {
+      "id": 46751,
+      "name": "Abdón Prats",
+      "age": 33,
+      "position": "Attacker"
+    },
+    {
+      "id": 47336,
+      "name": "Darder",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 50048,
+      "name": "V. Muriqi",
+      "age": 31,
+      "position": "Attacker"
+    },
+    {
+      "id": 107194,
+      "name": "Antonio Sánchez",
+      "age": 28,
+      "position": "Midfielder"
+    },
+    {
+      "id": 127377,
+      "name": "B. Garay",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 170541,
+      "name": "Miquel Llabrés",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 185715,
+      "name": "Josep Gayá",
+      "age": 25,
+      "position": "Defender"
+    },
+    {
+      "id": 190485,
+      "name": "Samú Costa",
+      "age": 25,
+      "position": "Midfielder"
+    },
+    {
+      "id": 208055,
+      "name": "Miguel Martín",
+      "age": 24,
+      "position": "Defender"
+    },
+    {
+      "id": 289826,
+      "name": "Alex",
+      "age": 21,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 335426,
+      "name": "Pau Mascaró",
+      "age": 21,
+      "position": "Attacker"
+    },
+    {
+      "id": 350073,
+      "name": "Marcos Fernández",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 371944,
+      "name": "Carlos Sogorb",
+      "age": 20,
+      "position": "Defender"
+    },
+    {
+      "id": 386487,
+      "name": "Luis Montiel",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": 440735,
+      "name": "Yuzún Ley",
+      "age": 21,
+      "position": "Defender"
+    },
+    {
+      "id": 403,
+      "name": "M. Nastasić",
+      "age": 32,
+      "position": "Defender"
+    },
+    {
+      "id": 414,
+      "name": "Omar Mascarell",
+      "age": 32,
+      "position": "Midfielder"
+    },
+    {
+      "id": 920,
+      "name": "Toni Lato",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 1687,
+      "name": "Jaume Costa",
+      "age": 37,
+      "position": "Defender"
+    },
+    {
+      "id": 1701,
+      "name": "Manu Morlanes",
+      "age": 26,
+      "position": "Midfielder"
+    },
+    {
+      "id": 26302,
+      "name": "Pablo Maffeo",
+      "age": 28,
+      "position": "Defender"
+    },
+    {
+      "id": 37639,
+      "name": "S. Van der Heyden",
+      "age": 27,
+      "position": "Defender"
+    },
+    {
+      "id": 46657,
+      "name": "Nacho Vidal",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 46733,
+      "name": "Raíllo",
+      "age": 34,
+      "position": "Defender"
+    },
+    {
+      "id": 46738,
+      "name": "M. Valjent",
+      "age": 30,
+      "position": "Defender"
+    },
+    {
+      "id": 46739,
+      "name": "I. Baba",
+      "age": 29,
+      "position": "Midfielder"
+    },
+    {
+      "id": 47399,
+      "name": "Iván Cuéllar",
+      "age": 41,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 61142,
+      "name": "D. Greif",
+      "age": 28,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 104793,
+      "name": "A. Ndiaye",
+      "age": 29,
+      "position": "Attacker"
+    },
+    {
+      "id": 181582,
+      "name": "Copete",
+      "age": 26,
+      "position": "Defender"
+    },
+    {
+      "id": 237252,
+      "name": "Pere García",
+      "age": 23,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 293604,
+      "name": "Javi Llabrés",
+      "age": 23,
+      "position": "Attacker"
+    },
+    {
+      "id": 297646,
+      "name": "D. Luna",
+      "age": 22,
+      "position": "Midfielder"
+    },
+    {
+      "id": 333439,
+      "name": "Rubén Quintanilla",
+      "age": 23,
+      "position": "Midfielder"
+    },
+    {
+      "id": 335697,
+      "name": "David López",
+      "age": 22,
+      "position": "Defender"
+    },
+    {
+      "id": 2610,
+      "name": "G. González",
+      "age": 31,
+      "position": "Defender"
+    },
+    {
+      "id": 2814,
+      "name": "P. Rajković",
+      "age": 30,
+      "position": "Goalkeeper"
+    }
+  ]
+}

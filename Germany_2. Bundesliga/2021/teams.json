@@ -1,0 +1,395 @@
+{
+  "get": "teams",
+  "parameters": {
+    "league": "79",
+    "season": "2021"
+  },
+  "errors": [],
+  "results": 19,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 158,
+        "name": "Fortuna Düsseldorf",
+        "code": "DUS",
+        "country": "Germany",
+        "founded": 1895,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/158.png"
+      },
+      "venue": {
+        "id": 20735,
+        "name": "Düsseldorf Arena",
+        "address": "Arena-Str. 1",
+        "city": "Düsseldorf",
+        "capacity": 54600,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20735.png"
+      }
+    },
+    {
+      "team": {
+        "id": 162,
+        "name": "Werder Bremen",
+        "code": "WER",
+        "country": "Germany",
+        "founded": 1899,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/162.png"
+      },
+      "venue": {
+        "id": 755,
+        "name": "wohninvest WESERSTADION",
+        "address": "Franz-Böhmert-Straße 1c",
+        "city": "Bremen",
+        "capacity": 42358,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/755.png"
+      }
+    },
+    {
+      "team": {
+        "id": 166,
+        "name": "Hannover 96",
+        "code": "HAN",
+        "country": "Germany",
+        "founded": 1896,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/166.png"
+      },
+      "venue": {
+        "id": 18858,
+        "name": "Heinz von Heiden-Arena",
+        "address": "Robert-Enke-Str. 3",
+        "city": "Hannover",
+        "capacity": 49951,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/18858.png"
+      }
+    },
+    {
+      "team": {
+        "id": 171,
+        "name": "1. FC Nürnberg",
+        "code": "NUR",
+        "country": "Germany",
+        "founded": 1900,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/171.png"
+      },
+      "venue": {
+        "id": 713,
+        "name": "Max-Morlock-Stadion",
+        "address": "Max-Morlock-Platz 1",
+        "city": "Nürnberg",
+        "capacity": 50000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/713.png"
+      }
+    },
+    {
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "code": "SCH",
+        "country": "Germany",
+        "founded": 1904,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "venue": {
+        "id": 20738,
+        "name": "Arena AufSchalke",
+        "address": "Arenaring 1",
+        "city": "Gelsenkirchen",
+        "capacity": 62278,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20738.png"
+      }
+    },
+    {
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "code": "HAM",
+        "country": "Germany",
+        "founded": 1887,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "venue": {
+        "id": 720,
+        "name": "Volksparkstadion",
+        "address": "Sylvester Allee 7",
+        "city": "Hamburg",
+        "capacity": 57030,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/720.png"
+      }
+    },
+    {
+      "team": {
+        "id": 177,
+        "name": "SSV Jahn Regensburg",
+        "code": "REG",
+        "country": "Germany",
+        "founded": 2000,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/177.png"
+      },
+      "venue": {
+        "id": 10490,
+        "name": "Jahnstadion Regensburg",
+        "address": "Franz-Josef-Strauß-Allee, Oberisling",
+        "city": "Regensburg",
+        "capacity": 15224,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/10490.png"
+      }
+    },
+    {
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "code": "HEI",
+        "country": "Germany",
+        "founded": 1946,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "venue": {
+        "id": 723,
+        "name": "Voith-Arena",
+        "address": "Schloßhaustraße 160",
+        "city": "Heidenheim an der Brenz",
+        "capacity": 15000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/723.png"
+      }
+    },
+    {
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "code": "DAR",
+        "country": "Germany",
+        "founded": 1898,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "venue": {
+        "id": 705,
+        "name": "Merck-Stadion am Böllenfalltor",
+        "address": "Nieder-Ramstädter Straße 170",
+        "city": "Darmstadt",
+        "capacity": 17810,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/705.png"
+      }
+    },
+    {
+      "team": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "code": "DRE",
+        "country": "Germany",
+        "founded": 1953,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/183.png"
+      },
+      "venue": {
+        "id": 707,
+        "name": "Rudolf-Harbig-Stadion",
+        "address": "Lennéstraße 12",
+        "city": "Dresden",
+        "capacity": 32066,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/707.png"
+      }
+    },
+    {
+      "team": {
+        "id": 184,
+        "name": "FC Ingolstadt 04",
+        "code": "ING",
+        "country": "Germany",
+        "founded": 2004,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/184.png"
+      },
+      "venue": {
+        "id": 726,
+        "name": "Audi-Sportpark",
+        "address": "Am Sportpark 1",
+        "city": "Ingolstadt",
+        "capacity": 15729,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/726.png"
+      }
+    },
+    {
+      "team": {
+        "id": 185,
+        "name": "SC Paderborn 07",
+        "code": "PAD",
+        "country": "Germany",
+        "founded": 1907,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/185.png"
+      },
+      "venue": {
+        "id": 18622,
+        "name": "Home Deluxe Arena",
+        "address": "Wilfried-Finke-Allee 1",
+        "city": "Paderborn",
+        "capacity": 15306,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/18622.png"
+      }
+    },
+    {
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "code": "PAU",
+        "country": "Germany",
+        "founded": 1910,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "venue": {
+        "id": 745,
+        "name": "Millerntor-Stadion",
+        "address": "Harald-Stender-Platz 1",
+        "city": "Hamburg",
+        "capacity": 29564,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/745.png"
+      }
+    },
+    {
+      "team": {
+        "id": 189,
+        "name": "SV Sandhausen",
+        "code": "SAN",
+        "country": "Germany",
+        "founded": 1916,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/189.png"
+      },
+      "venue": {
+        "id": 20108,
+        "name": "GP Stadion am Hardtwald",
+        "address": "Jahnstr. 1",
+        "city": "Sandhausen",
+        "capacity": 14508,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/20108.png"
+      }
+    },
+    {
+      "team": {
+        "id": 190,
+        "name": "Erzgebirge Aue",
+        "code": "ERZ",
+        "country": "Germany",
+        "founded": 1945,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/190.png"
+      },
+      "venue": {
+        "id": 712,
+        "name": "Erzgebirgsstadion",
+        "address": "Lößnitzer Str. 95",
+        "city": "Aue",
+        "capacity": 16080,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/712.png"
+      }
+    },
+    {
+      "team": {
+        "id": 191,
+        "name": "Holstein Kiel",
+        "code": "HOL",
+        "country": "Germany",
+        "founded": 1900,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/191.png"
+      },
+      "venue": {
+        "id": 725,
+        "name": "Holstein-Stadion",
+        "address": "Westring 501",
+        "city": "Kiel",
+        "capacity": 15034,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/725.png"
+      }
+    },
+    {
+      "team": {
+        "id": 745,
+        "name": "1. FC Kaiserslautern",
+        "code": "KAI",
+        "country": "Germany",
+        "founded": 1900,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/745.png"
+      },
+      "venue": {
+        "id": 728,
+        "name": "Fritz-Walter-Stadion",
+        "address": "Fritz-Walter-Straße 1",
+        "city": "Kaiserslautern",
+        "capacity": 49780,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/728.png"
+      }
+    },
+    {
+      "team": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "code": "KAR",
+        "country": "Germany",
+        "founded": 1898,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/785.png"
+      },
+      "venue": {
+        "id": 11900,
+        "name": "BBBank Wildpark",
+        "address": "Adenauerring 17",
+        "city": "Karlsruhe",
+        "capacity": 34302,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/11900.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "code": "HAN",
+        "country": "Germany",
+        "founded": 1965,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1321.png"
+      },
+      "venue": {
+        "id": 722,
+        "name": "Ostseestadion",
+        "address": "Kopernikusstraße 17",
+        "city": "Rostock",
+        "capacity": 29000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/722.png"
+      }
+    }
+  ]
+}
