@@ -134,7 +134,7 @@ def _build_canonical_player_names() -> dict:
     conn = sqlite3.connect(DB_PATH)
     names = pd.read_sql_query("""
         SELECT player_id, player_name
-        FROM analysis_results
+        FROM players
         WHERE player_name IS NOT NULL AND player_name != 'Unknown'
     """, conn)
     conn.close()
@@ -241,10 +241,10 @@ def get_leagues_for_country(country: str = None) -> list:
     conn = sqlite3.connect(DB_PATH)
     if country:
         leagues = pd.read_sql_query("""
-            SELECT DISTINCT league FROM analysis_results WHERE country = ?
+            SELECT DISTINCT league FROM players WHERE country = ?
         """, conn, params=(country,))
     else:
-        leagues = pd.read_sql_query("SELECT DISTINCT league FROM analysis_results", conn)
+        leagues = pd.read_sql_query("SELECT DISTINCT league FROM players", conn)
     conn.close()
     return sorted(leagues["league"].dropna().tolist())
 
@@ -276,7 +276,7 @@ def get_teams_for_league_season(league: str = None, country: str = None, season:
 
     query = f"""
         SELECT DISTINCT "team(s)" as team
-        FROM analysis_results
+        FROM players
         WHERE {' AND '.join(conditions)}
     """
     teams = pd.read_sql_query(query, conn, params=params)
@@ -313,7 +313,7 @@ def get_seasons_for_league(league: str = None, country: str = None) -> list:
         params.append(country)
 
     query = f"""
-        SELECT DISTINCT season FROM analysis_results WHERE {' AND '.join(conditions)}
+        SELECT DISTINCT season FROM players WHERE {' AND '.join(conditions)}
     """
     seasons = pd.read_sql_query(query, conn, params=params)
     conn.close()
@@ -344,7 +344,7 @@ def load_all_players(min_fte: float = 0.0) -> pd.DataFrame:
             assists,
             minutes_played,
             league_position as team_rank
-        FROM analysis_results
+        FROM players
         WHERE FTE_games_played >= ?
         ORDER BY player_name, season
     """
@@ -486,14 +486,14 @@ def load_teams_for_league(league_name: str = None, country: str = None) -> list:
             # Get teams for specific league/country from analysis DB
             teams = pd.read_sql_query("""
                 SELECT DISTINCT "team(s)" as team_name
-                FROM analysis_results
+                FROM players
                 WHERE league = ? AND country = ? AND "team(s)" IS NOT NULL
             """, conn, params=(league_name, country))
         else:
             # Get all teams
             teams = pd.read_sql_query("""
                 SELECT DISTINCT "team(s)" as team_name
-                FROM analysis_results
+                FROM players
                 WHERE "team(s)" IS NOT NULL
             """, conn)
         conn.close()
@@ -1684,7 +1684,7 @@ def compute_transfer_network(level: str = "league", min_transfers: int = 3,
     players = pd.read_sql_query("""
         SELECT player_id, player_name, "team(s)" as team, league, country, season,
                lasso_contribution_alpha_best as contribution
-        FROM analysis_results
+        FROM players
         WHERE lasso_contribution_alpha_best IS NOT NULL
         ORDER BY player_id, season
     """, conn)
@@ -2532,7 +2532,7 @@ def compute_season_transitions(min_fte: float = 3.0):
     players = pd.read_sql_query(f"""
         SELECT player_id, player_name, "team(s)" as team, league, country, season,
                {CONTRIB_COL} as contribution, FTE_games_played
-        FROM analysis_results
+        FROM players
         WHERE {CONTRIB_COL} IS NOT NULL AND FTE_games_played >= ?
         ORDER BY player_id, season
     """, conn, params=(min_fte,))
@@ -3585,7 +3585,7 @@ def compute_synthetic_control_matches(min_fte: float = 5.0, n_matches: int = 5):
     players = pd.read_sql_query(f"""
         SELECT player_id, player_name, "team(s)" as team, league, country, season,
                {CONTRIB_COL} as contribution, FTE_games_played, position
-        FROM analysis_results
+        FROM players
         WHERE {CONTRIB_COL} IS NOT NULL AND FTE_games_played >= ?
         ORDER BY player_id, season
     """, conn, params=(min_fte,))
