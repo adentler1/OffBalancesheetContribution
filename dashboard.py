@@ -882,7 +882,8 @@ def page_scatter_analysis():
             min_fte = st.slider(
                 "Minimum FTE Games", 0.0, 30.0, 5.0, 0.5,
                 key="scatter_fte",
-                help="Full-Time Equivalent games played"
+                help="Full-Time Equivalent games: total minutes played ÷ 90. "
+                     "E.g., 5 FTE = ~450 minutes played (5 full matches worth)."
             )
 
         # Chart options (collapsible)
@@ -1404,7 +1405,8 @@ def page_league_comparison():
     with st.sidebar:
         st.subheader("Global Settings")
         min_fte = st.slider("Minimum FTE Games", 0.0, 30.0, 10.0, 0.5,
-                           key="dist_min_fte", help="Minimum playing time filter")
+                           key="dist_min_fte",
+                           help="Full-Time Equivalent: minutes ÷ 90. E.g., 10 FTE = ~900 min.")
         num_distributions = st.number_input("Number of distributions", min_value=1, max_value=5, value=2,
                                            key="dist_num", help="How many groups to compare")
 
@@ -2524,6 +2526,7 @@ def compute_season_transitions(min_fte: float = 3.0):
     """
     Compute season-to-season transitions for each player.
     Returns DataFrame with prev_season, curr_season contributions and metadata.
+    Uses vectorized pandas operations for performance.
     """
     if not Path(DB_PATH).exists():
         return pd.DataFrame()
@@ -2547,41 +2550,57 @@ def compute_season_transitions(min_fte: float = 3.0):
     # Flag multi-team seasons
     players["is_multi_team"] = players["team"].str.startswith("Multiple Teams", na=False)
 
-    # Build transitions
-    transitions = []
+    # Sort by player and season for correct shift operations
+    players = players.sort_values(["pid_norm", "season"]).reset_index(drop=True)
 
-    for pid, group in players.groupby("pid_norm"):
-        group = group.sort_values("season")
-        rows = group.to_dict("records")
+    # Use vectorized shift operations within each player group
+    # Shift creates the "previous" row's values
+    players["prev_season"] = players.groupby("pid_norm")["season"].shift(1)
+    players["prev_contribution"] = players.groupby("pid_norm")["contribution"].shift(1)
+    players["prev_team"] = players.groupby("pid_norm")["team"].shift(1)
+    players["prev_league"] = players.groupby("pid_norm")["league"].shift(1)
+    players["prev_country"] = players.groupby("pid_norm")["country"].shift(1)
+    players["prev_is_multi"] = players.groupby("pid_norm")["is_multi_team"].shift(1)
 
-        for i in range(1, len(rows)):
-            prev = rows[i-1]
-            curr = rows[i]
+    # Drop rows without a previous season (first season for each player)
+    transitions = players.dropna(subset=["prev_season"]).copy()
 
-            # Check if consecutive seasons
-            season_gap = curr["season"] - prev["season"]
+    if transitions.empty:
+        return pd.DataFrame()
 
-            transitions.append({
-                "player_id": pid,
-                "player_name": curr["player_name"],
-                "prev_season": prev["season"],
-                "curr_season": curr["season"],
-                "season_gap": season_gap,
-                "prev_contribution": prev["contribution"],
-                "curr_contribution": curr["contribution"],
-                "prev_team": prev["team"],
-                "curr_team": curr["team"],
-                "prev_league": prev["league"],
-                "curr_league": curr["league"],
-                "prev_country": prev["country"],
-                "curr_country": curr["country"],
-                "prev_is_multi": prev["is_multi_team"],
-                "curr_is_multi": curr["is_multi_team"],
-                "switched_league": prev["league"] != curr["league"] or prev["country"] != curr["country"],
-                "switched_team": prev["team"] != curr["team"],
-            })
+    # Compute derived columns
+    transitions["season_gap"] = transitions["season"] - transitions["prev_season"]
+    transitions["switched_league"] = (
+        (transitions["prev_league"] != transitions["league"]) |
+        (transitions["prev_country"] != transitions["country"])
+    )
+    transitions["switched_team"] = transitions["prev_team"] != transitions["team"]
 
-    return pd.DataFrame(transitions)
+    # Rename columns to match expected output format
+    transitions = transitions.rename(columns={
+        "pid_norm": "player_id",
+        "season": "curr_season",
+        "contribution": "curr_contribution",
+        "team": "curr_team",
+        "league": "curr_league",
+        "country": "curr_country",
+        "is_multi_team": "curr_is_multi",
+    })
+
+    # Select and reorder columns
+    result_cols = [
+        "player_id", "player_name", "prev_season", "curr_season", "season_gap",
+        "prev_contribution", "curr_contribution",
+        "prev_team", "curr_team", "prev_league", "curr_league",
+        "prev_country", "curr_country", "prev_is_multi", "curr_is_multi",
+        "switched_league", "switched_team"
+    ]
+    transitions = transitions[result_cols]
+
+    # Convert prev_season to int (was float due to shift)
+    transitions["prev_season"] = transitions["prev_season"].astype(int)
+
+    return transitions
 
 
 def page_markov_analysis():
@@ -2612,7 +2631,7 @@ def page_markov_analysis():
         with st.expander("👤 Player Filters", expanded=True):
             min_fte = st.slider("Minimum FTE Games", 0.0, 20.0, 5.0, 0.5,
                                key="markov_fte",
-                               help="Filter players with at least this many FTE games")
+                               help="Full-Time Equivalent: minutes ÷ 90. E.g., 5 FTE = ~450 min.")
 
             gap_options = ["1 (consecutive)", "Any gap"]
             season_gap_filter = st.selectbox("Season Gap", gap_options, index=0,
@@ -2736,7 +2755,8 @@ def page_markov_analysis():
     df = df[(df["curr_season"] >= season_range[0]) & (df["curr_season"] <= season_range[1])]
 
     if df.empty:
-        st.warning("No data matches the current filters.")
+        st.warning("No data matches the current filters. Try: lowering FTE threshold, "
+                   "allowing all season gaps, or unchecking 'Only Team Switchers'.")
         return
 
     st.caption(f"Showing {len(df):,} player-season transitions")
@@ -3306,9 +3326,9 @@ def compute_free_agents(min_fte: float = 3.0, max_age: int | None = None):
     # Keep only those who did NOT appear in next season anywhere
     result = result[result["_merge"] == "left_only"].drop(columns=["_merge", "check_season"])
 
-    # Apply age filter if specified
+    # Apply age filter if specified (exclude unknown ages when filtering)
     if max_age is not None and "age" in result.columns:
-        result = result[(result["age"].isna()) | (result["age"] <= max_age)]
+        result = result[result["age"].notna() & (result["age"] <= max_age)]
 
     # Drop helper columns
     result = result.drop(columns=["next_season_exists"], errors="ignore")
@@ -3363,11 +3383,12 @@ def page_free_agents():
 
             min_fte = st.slider("Minimum FTE Games", 0.0, 20.0, 3.0, 0.5,
                                key="fa_fte",
-                               help="Minimum full-time-equivalent games played")
+                               help="Full-Time Equivalent: minutes ÷ 90. E.g., 3 FTE = ~270 min.")
 
             min_contribution = st.slider("Min Contribution", -1.0, 2.0, 0.0, 0.05,
                                         key="fa_contrib",
-                                        help="Minimum contribution value to show")
+                                        help="Regression coefficient: positive = improves team scoring, "
+                                             "negative = worsens it. Range typically -0.5 to +1.0.")
 
             top_n = st.selectbox("Show Top N", [25, 50, 100, 200, 500], index=1,
                                 key="fa_top_n",
@@ -3477,7 +3498,8 @@ def page_free_agents():
     df = df[(df["last_season"] >= season_range[0]) & (df["last_season"] <= season_range[1])]
 
     if df.empty:
-        st.warning("No players match the current filters.")
+        st.warning("No players match the current filters. Try: removing age limit, "
+                   "lowering minimum contribution, or expanding the season range.")
         return
 
     # Sort by contribution and take top N
@@ -3755,7 +3777,7 @@ def page_league_quality():
 
         with st.expander("🔧 Configuration", expanded=True):
             min_fte = st.slider("Min FTE Games", 1.0, 15.0, 5.0, 0.5,
-                               help="Minimum games for reliable estimates")
+                               help="Full-Time Equivalent: minutes ÷ 90. E.g., 5 FTE = ~450 min.")
             n_matches = st.slider("Peer Matches", 3, 10, 5,
                                  help="Number of similar peers to match")
             min_switches = st.slider("Min Switches per Corridor", 2, 15, 3,
