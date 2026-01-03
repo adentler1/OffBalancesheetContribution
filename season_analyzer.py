@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 SeasonAnalyzer: build segment-level plus/minus, OLS/WLS & regularized contributions,
-including team-partialled variants, with complete dispersion columns.
+with complete dispersion columns.
 
 Key notes:
 - FTE_games_played is normalized by each fixture's actual duration
@@ -68,6 +68,13 @@ class SeasonAnalyzer:
             [0.00001, 0.00003, 0.00005, 0.0001, 0.0003, 0.0005, 0.001]
         )
         self.lasso_best_alpha: Optional[float] = None
+
+        # Summary statistics (populated during compute_impacts)
+        self.r_squared_ols: Optional[float] = None
+        self.r_squared_team_ols: Optional[float] = None
+        self.n_segments: Optional[int] = None
+        self.n_players: Optional[int] = None
+        self.n_teams: Optional[int] = None
 
         os.makedirs(self.SAVE_DIR, exist_ok=True)
         script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -875,7 +882,7 @@ class SeasonAnalyzer:
         return float(best_alpha if best_alpha is not None else 0.001)
 
     def compute_impacts(self) -> None:
-        """Compute baseline (non-partialled) contributions and team-partialled contributions, with stds."""
+        """Compute player contributions (OLS/Lasso/Ridge) and team contributions."""
         assert self.segment_df is not None
     
         # Target and weights
@@ -885,8 +892,8 @@ class SeasonAnalyzer:
         # Design matrix X = players only
         X_df = self.segment_df[self.player_cols].apply(pd.to_numeric, errors="coerce").fillna(0.0).astype(float)
 
-        # --- WLS helper (baseline & partialled OLS)
-        def fit_wls(X: pd.DataFrame, y_: pd.Series, w_: pd.Series) -> tuple[pd.Series, pd.Series]:
+        # --- WLS helper for OLS regression (returns coefficients, std errors, and R²)
+        def fit_wls(X: pd.DataFrame, y_: pd.Series, w_: pd.Series) -> tuple[pd.Series, pd.Series, float]:
             Xc = sm.add_constant(X, has_constant="add")
             y_arr = y_.to_numpy(dtype=np.float64)
             w_arr = w_.to_numpy(dtype=np.float64)
@@ -898,10 +905,16 @@ class SeasonAnalyzer:
                 model = sm.WLS(y_arr[valid], X_arr[valid], weights=w_arr[valid]).fit(method="pinv")
             params = pd.Series(model.params, index=Xc.columns)
             bse = pd.Series(model.bse, index=Xc.columns)
-            return params.drop("const", errors="ignore"), bse.drop("const", errors="ignore")
+            rsquared = float(model.rsquared) if hasattr(model, 'rsquared') else None
+            return params.drop("const", errors="ignore"), bse.drop("const", errors="ignore"), rsquared
 
         # ---------- BASELINE (no partialling) ----------
-        ols_coef, ols_bse = fit_wls(X_df, y, w)
+        ols_coef, ols_bse, player_rsquared = fit_wls(X_df, y, w)
+
+        # Store summary statistics
+        self.r_squared_ols = player_rsquared
+        self.n_segments = len(self.segment_df)
+        self.n_players = len(self.player_cols)
 
         coef_df = pd.DataFrame({
             "player_id": ols_coef.index,
@@ -918,7 +931,6 @@ class SeasonAnalyzer:
             mp = (presence_np * dur_arr[:, None]).sum(axis=0)
         minutes_played = pd.Series(mp, index=X_df.columns)
         coef_df["minutes_played"] = coef_df["player_id"].map(minutes_played.to_dict()).fillna(0.0).astype(float)
-        coef_df["no_observations"] = coef_df["minutes_played"].le(0.0)
 
         # Names & positions
         def _name_from_pid(pid_str: str) -> str:
@@ -1072,7 +1084,11 @@ class SeasonAnalyzer:
         valid_team = np.isfinite(y_arr) & np.isfinite(w_arr) & np.isfinite(X_team_arr).all(axis=1)
         with threadpool_limits(1):
             model_team = sm.WLS(y_arr[valid_team], X_team_arr[valid_team], weights=w_arr[valid_team]).fit(method="pinv")
-        
+
+        # Store team regression summary statistics
+        self.r_squared_team_ols = float(model_team.rsquared) if hasattr(model_team, 'rsquared') else None
+        self.n_teams = len(X_team_df.columns)
+
         # Team effects (player-style naming)
         team_params = pd.Series(model_team.params, index=X_team_c.columns).drop("const", errors="ignore")
         team_bse    = pd.Series(model_team.bse,    index=X_team_c.columns).drop("const", errors="ignore")
@@ -1091,54 +1107,6 @@ class SeasonAnalyzer:
             "team_contribution_ols": team_params.values.astype(float),
             "team_contribution_ols_std": team_bse.reindex(team_params.index).to_numpy(dtype=float, copy=False),
         })
-            
-        y_pred_team = model_team.predict(X_team_arr)
-        residual = y - pd.Series(y_pred_team, index=y.index)
-
-        # OLS on residuals
-        p_ols_coef, p_ols_bse = fit_wls(X_df, residual, w)
-        coef_df["partialled_contribution_ols"] = coef_df["player_id"].map(p_ols_coef.to_dict()).fillna(0.0)
-        coef_df["partialled_contribution_ols_std"] = coef_df["player_id"].map(p_ols_bse.to_dict()).fillna(np.nan)
-
-        # Lasso on residuals (reuse chosen alpha for comparability)
-        valid_idx_res = np.isfinite(residual) & np.isfinite(X_df).all(axis=1)
-        X_lasso_res = X_df.loc[valid_idx_res]
-        r_residual = residual.loc[valid_idx_res]
-
-        part_alphas = set(self.lasso_alphas)
-        if self.lasso_best_alpha is not None:
-            part_alphas.add(float(self.lasso_best_alpha))
-
-        for alpha in sorted(part_alphas):
-            a = float(alpha)
-            a_tag = ("best" if (self.lasso_best_alpha is not None and abs(a - self.lasso_best_alpha) < 1e-12)
-                     else str(a).replace(".", "_"))
-            with threadpool_limits(1):
-                model = Lasso(alpha=a, fit_intercept=True, max_iter=10000)
-                model.fit(X_lasso_res, r_residual)
-            coef_series = pd.Series(model.coef_, index=X_lasso_res.columns)
-            coef_df[f"partialled_lasso_contribution_alpha_{a_tag}"] = coef_df["player_id"].map(coef_series.to_dict()).fillna(0.0)
-            coef_df[f"partialled_lasso_contribution_alpha_{a_tag}_std"] = float(coef_series.std())
-
-        # Ridge on residuals (weighted)
-        if len(self.ridge_alphas) > 0:
-            X_ridge_res = X_df.loc[valid_idx_res]
-            r_ridge = residual.loc[valid_idx_res]
-            w_ridge_res = w.loc[valid_idx_res].to_numpy(dtype=float)
-            sw_res = np.sqrt(w_ridge_res)
-            Xw_res = X_ridge_res.to_numpy(dtype=float) * sw_res[:, None]
-            rw = r_ridge.to_numpy(dtype=float) * sw_res
-            for alpha in self.ridge_alphas:
-                a = float(alpha)
-                a_str = str(a).replace(".", "_")
-                with threadpool_limits(1):
-                    ridge = Ridge(alpha=a, fit_intercept=True)
-                    ridge.fit(Xw_res, rw)
-                coef_series = pd.Series(ridge.coef_, index=X_ridge_res.columns)
-                coef_df[f"partialled_ridge_contribution_alpha_{a_str}"] = coef_df["player_id"].map(coef_series.to_dict()).fillna(0.0)
-                ridge_se = self._ridge_se_diagonal_from_transformed(Xw_res, rw, a)
-                se_map = {col: float(s) for col, s in zip(X_ridge_res.columns, ridge_se)}
-                coef_df[f"partialled_ridge_contribution_alpha_{a_str}_std"] = coef_df["player_id"].map(se_map)
 
         # Appearance metrics (from precomputed maps/meta)
         def _appearance(pid_str: str, key: str) -> int:
@@ -1166,9 +1134,6 @@ class SeasonAnalyzer:
         coef_df["country"] = self.COUNTRY_NAME
         coef_df["league"] = self.LEAGUE_NAME
         coef_df["season"] = self.SEASON
-        coef_df["total_regular_games"] = self.total_regular_games
-        coef_df["valid_regular_games"] = self.valid_regular_games
-        coef_df["missing_games_count"] = self.missing_games_count
 
         # Finalize (sort by baseline OLS)
         coef_df.sort_values(by="contribution_ols", ascending=False, inplace=True)
@@ -1201,10 +1166,7 @@ class SeasonAnalyzer:
         est_point_cols = [c for c in df.columns if (
             c == "contribution_ols" or
             c.startswith("ridge_contribution_alpha_") or
-            c.startswith("lasso_contribution_alpha_") or
-            c == "partialled_contribution_ols" or
-            c.startswith("partialled_ridge_contribution_alpha_") or
-            c.startswith("partialled_lasso_contribution_alpha_")
+            c.startswith("lasso_contribution_alpha_")
         ) and not c.endswith("_std")]
         est_std_cols = [c for c in df.columns if c.endswith("_std")]
 
@@ -1451,7 +1413,7 @@ class SeasonAnalyzer:
         
         return df
 
-    def build_team_coefficients_df(self) -> pd.DataFrame:
+    def build_team_results_df(self) -> pd.DataFrame:
         """
         Merge: team coefficients + regular-season totals (+ playoff add-on) into one table.
         Totals include playoffs; league_position stays regular-season only (integer).
@@ -1528,7 +1490,7 @@ class SeasonAnalyzer:
                 print(f"[INFO] Saved intermediate regression data -> {intermediate_path}")
             except Exception as e:
                 print(f"[WARN] Could not save intermediate data: {e}")
-        print("[INFO] Computing contributions (baseline + team-partialled)...")
+        print("[INFO] Computing player and team contributions...")
         self.compute_impacts()
         print("[INFO] Adding goals & assists...")
         self.add_goals_assists()
@@ -1540,12 +1502,10 @@ class SeasonAnalyzer:
     def save_results(self, output_path: Optional[str] = None) -> None:
         """
         Save per-player (and pooled) results to Excel/CSV and to SQLite (full runs).
-        Column order respects:
-            non-partialled (OLS → Ridge → Lasso; point then std)
-            THEN partialled (OLS → Ridge → Lasso; point then std)
+        Column order: OLS → Ridge → Lasso (point estimates then std).
 
         Additionally, persist team coefficients & team totals (regular-season table + playoff breakdown)
-        into SQLite table `team_coefficients`. For cutoff runs, this table is written with a cutoff_date
+        into SQLite table `teams`. For cutoff runs, this table is written with a cutoff_date
         key so you can keep multiple snapshots per season.
         """
         assert self.coef_df_final is not None, "No results to save. Did you run run_analysis()?"
@@ -1597,41 +1557,17 @@ class SeasonAnalyzer:
             if pt in out_df.columns: est_cols.append(pt)
             if sd in out_df.columns: est_cols.append(sd)
         # Lasso "best" alpha columns
-        for col in ["lasso_contribution_alpha_best", "lasso_contribution_alpha_best_std",
-                    "partialled_lasso_contribution_alpha_best", "partialled_lasso_contribution_alpha_best_std"]:
+        for col in ["lasso_contribution_alpha_best", "lasso_contribution_alpha_best_std"]:
             if col in out_df.columns:
                 est_cols.append(col)
 
-        if "lasso_contribution_alpha_best" in out_df.columns:
-            out_df["lasso_alpha_selected"] = self.lasso_best_alpha
-
-        # THEN partialled: OLS → Ridge → Lasso
-        if "partialled_contribution_ols" in out_df.columns:
-            est_cols += ["partialled_contribution_ols"]
-        if "partialled_contribution_ols_std" in out_df.columns:
-            est_cols += ["partialled_contribution_ols_std"]
-        for alpha in self.ridge_alphas:
-            a_str = str(float(alpha)).replace(".", "_")
-            pt = f"partialled_ridge_contribution_alpha_{a_str}"
-            sd = f"partialled_ridge_contribution_alpha_{a_str}_std"
-            if pt in out_df.columns: est_cols.append(pt)
-            if sd in out_df.columns: est_cols.append(sd)
-        for alpha in self.lasso_alphas:
-            a_str = str(float(alpha)).replace(".", "_")
-            pt = f"partialled_lasso_contribution_alpha_{a_str}"
-            sd = f"partialled_lasso_contribution_alpha_{a_str}_std"
-            if pt in out_df.columns: est_cols.append(pt)
-            if sd in out_df.columns: est_cols.append(sd)
-
-        if "partialled_lasso_contribution_alpha_best" in out_df.columns:
-            out_df["partialled_lasso_alpha_selected"] = self.lasso_best_alpha
+        # Note: lasso_alpha_selected is now stored in the summaries table, not per-player
 
         meta_cols = ["player_id", "player_name", "position", "team(s)", "league_position", "country", "league", "season"]
         minutes_cols = ["minutes_played", "FTE_games_played"]
         appearances_cols = ["games_started", "full_games_played", "games_subbed_on", "games_subbed_off"]
         scoring_cols = ["goals", "assists", "pen_goals", "pen_assists", "pen_missed", "own_goals", "yellow_cards"]
         pooling_cols = ["is_pooled_member", "pooled_group_key", "other_players_same_minutes", "pooled", "pooled_members"]
-        dataset_cols = ["total_regular_games", "valid_regular_games", "missing_games_count"]
 
         def _reorder(df: pd.DataFrame) -> pd.DataFrame:
             ordered = (
@@ -1640,8 +1576,7 @@ class SeasonAnalyzer:
                 [c for c in appearances_cols if c in df.columns] +
                 [c for c in scoring_cols if c in df.columns] +
                 [c for c in est_cols if c in df.columns] +
-                [c for c in pooling_cols if c in df.columns] +
-                [c for c in dataset_cols if c in df.columns]
+                [c for c in pooling_cols if c in df.columns]
             )
             remainder = [c for c in df.columns if c not in ordered]
             return df[ordered + remainder]
@@ -1695,31 +1630,6 @@ class SeasonAnalyzer:
                     df_sub.sort_values(by=col, ascending=False, inplace=True)
                     df_sub.to_excel(writer, sheet_name=f"Ridge_{a_str}", index=False)
 
-            # Partialled sheets
-            if "partialled_contribution_ols" in out_df:
-                df_sub = out_df.copy().sort_values(by="partialled_contribution_ols", ascending=False)
-                df_sub.to_excel(writer, sheet_name="OLS_PARTIALLED", index=False)
-
-            for alpha in self.lasso_alphas:
-                a_str = str(float(alpha)).replace(".", "_")
-                col = f"partialled_lasso_contribution_alpha_{a_str}"
-                if col in out_df:
-                    df_sub = out_df[out_df[col].notna()].copy()
-                    df_sub.sort_values(by=col, ascending=False, inplace=True)
-                    df_sub.to_excel(writer, sheet_name=f"Lasso_{a_str}_PARTIALLED", index=False)
-            if "partialled_lasso_contribution_alpha_best" in out_df:
-                df_sub = out_df[out_df["partialled_lasso_contribution_alpha_best"].notna()].copy()
-                df_sub.sort_values(by="partialled_lasso_contribution_alpha_best", ascending=False, inplace=True)
-                df_sub.to_excel(writer, sheet_name="Lasso_best_PARTIALLED", index=False)
-
-            for alpha in self.ridge_alphas:
-                a_str = str(float(alpha)).replace(".", "_")
-                col = f"partialled_ridge_contribution_alpha_{a_str}"
-                if col in out_df:
-                    df_sub = out_df[out_df[col].notna()].copy()
-                    df_sub.sort_values(by=col, ascending=False, inplace=True)
-                    df_sub.to_excel(writer, sheet_name=f"Ridge_{a_str}_PARTIALLED", index=False)
-
             # Pooled sheets
             if not pooled_df.empty:
                 pooled_df.to_excel(writer, sheet_name="OLS_POOLED", index=False)
@@ -1752,7 +1662,7 @@ class SeasonAnalyzer:
         full_team_df = None
         if team_df_available:
             try:
-                full_team_df = self.build_team_coefficients_df()
+                full_team_df = self.build_team_results_df()
                 # apply 3-sig rule to coefficients & stds
                 for c in ["team_contribution_ols","team_contribution_ols_std"]:
                     if c in full_team_df.columns:
@@ -1763,41 +1673,54 @@ class SeasonAnalyzer:
                     except Exception:
                         pass
             except Exception as e:
-                print(f"[WARN] Failed to build team_coefficients DF: {e}")
+                print(f"[WARN] Failed to build teams DF: {e}")
 
-        # DB writes (full runs only) for analysis_results / pooled
+        # DB writes (full runs only) for players / teams / summaries
         if not is_cutoff_run:
             conn = sqlite3.connect(self.DB_PATH); cur = conn.cursor()
             try:
+                # Write players table
                 table_exists = cur.execute(
-                    "SELECT name FROM sqlite_master WHERE type='table' AND name='analysis_results';"
+                    "SELECT name FROM sqlite_master WHERE type='table' AND name='players';"
                 ).fetchone() is not None
                 if table_exists:
-                    existing_cols = {c[1] for c in cur.execute("PRAGMA table_info(analysis_results);").fetchall()}
-                    new_cols = set(out_df.columns)
-                    if existing_cols != new_cols:
-                        out_df.to_sql("analysis_results_new", conn, if_exists="replace", index=False)
-                    else:
-                        cur.execute(
-                            "DELETE FROM analysis_results WHERE country=? AND league=? AND season=?;",
-                            (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON),
-                        )
-                        conn.commit()
-                        out_df.to_sql("analysis_results", conn, if_exists="append", index=False)
+                    cur.execute(
+                        "DELETE FROM players WHERE country=? AND league=? AND season=?;",
+                        (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON),
+                    )
+                    conn.commit()
+                    out_df.to_sql("players", conn, if_exists="append", index=False)
                 else:
-                    out_df.to_sql("analysis_results", conn, if_exists="replace", index=False)
+                    out_df.to_sql("players", conn, if_exists="replace", index=False)
 
-                if not pooled_df.empty:
-                    pooled_exists = cur.execute(
-                        "SELECT name FROM sqlite_master WHERE type='table' AND name='analysis_results_pooled';"
-                    ).fetchone() is not None
-                    if pooled_exists:
-                        cur.execute(
-                            "DELETE FROM analysis_results_pooled WHERE country=? AND league=? AND season=?;",
-                            (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON)
-                        )
-                        conn.commit()
-                    pooled_df.to_sql("analysis_results_pooled", conn, if_exists="append", index=False)
+                # Write summaries table (with 3 sig digit rounding for R² and alpha)
+                summary_df = pd.DataFrame([{
+                    "country": self.COUNTRY_NAME,
+                    "league": self.LEAGUE_NAME,
+                    "season": self.SEASON,
+                    "cutoff_date": None,
+                    "n_segments": self.n_segments,
+                    "n_players": self.n_players,
+                    "n_teams": self.n_teams,
+                    "total_regular_games": self.total_regular_games,
+                    "valid_regular_games": self.valid_regular_games,
+                    "missing_games_count": self.missing_games_count,
+                    "r_squared_player_ols": _round_sig(self.r_squared_ols, 3),
+                    "r_squared_team_ols": _round_sig(self.r_squared_team_ols, 3),
+                    "lasso_alpha_selected": _round_sig(self.lasso_best_alpha, 3),
+                }])
+                summaries_exists = cur.execute(
+                    "SELECT name FROM sqlite_master WHERE type='table' AND name='summaries';"
+                ).fetchone() is not None
+                if summaries_exists:
+                    cur.execute(
+                        "DELETE FROM summaries WHERE country=? AND league=? AND season=? AND cutoff_date IS NULL;",
+                        (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON),
+                    )
+                    conn.commit()
+                    summary_df.to_sql("summaries", conn, if_exists="append", index=False)
+                else:
+                    summary_df.to_sql("summaries", conn, if_exists="replace", index=False)
             finally:
                 conn.close()
 
@@ -1805,7 +1728,7 @@ class SeasonAnalyzer:
             conn = sqlite3.connect(self.DB_PATH)
             try:
                 df_from_db = pd.read_sql_query(
-                    "SELECT * FROM analysis_results WHERE country=? AND league=? AND season=?;",
+                    "SELECT * FROM players WHERE country=? AND league=? AND season=?;",
                     conn, params=[self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON]
                 )
             finally:
@@ -1816,46 +1739,38 @@ class SeasonAnalyzer:
             tag = self.date_cutoff_utc.date().isoformat() if self.date_cutoff_utc else "cutoff"
             print(f"[INFO] Cutoff run ({tag}): saved Excel/CSV to {os.path.dirname(output_path)} and skipped DB write for per-player tables.")
 
-        # ---- write team_coefficients table (also for cutoff runs) ----
+        # ---- write teams table (also for cutoff runs) ----
         if full_team_df is not None and not full_team_df.empty:
             conn = sqlite3.connect(self.DB_PATH); cur = conn.cursor()
             try:
-                table_name = "team_coefficients"
+                table_name = "teams"
                 exists = cur.execute(
                     "SELECT name FROM sqlite_master WHERE type='table' AND name=?;", (table_name,)
                 ).fetchone() is not None
 
-                def _cols(conn, name):
-                    rows = conn.execute(f"PRAGMA table_info({name});").fetchall()
-                    return [r[1] for r in rows]
-
                 if exists:
-                    existing_cols = _cols(conn, table_name)
-                    if set(existing_cols) != set(full_team_df.columns.tolist()):
-                        full_team_df.to_sql(table_name, conn, if_exists="replace", index=False)
+                    if is_cutoff_run:
+                        cur.execute(
+                            f"DELETE FROM {table_name} WHERE country=? AND league=? AND season=? AND cutoff_date=?;",
+                            (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON,
+                             self.date_cutoff_utc.date().isoformat())
+                        )
                     else:
-                        if is_cutoff_run:
-                            cur.execute(
-                                f"DELETE FROM {table_name} WHERE country=? AND league=? AND season=? AND cutoff_date=?;",
-                                (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON,
-                                 self.date_cutoff_utc.date().isoformat())
-                            )
-                        else:
-                            cur.execute(
-                                f"DELETE FROM {table_name} WHERE country=? AND league=? AND season=? AND cutoff_date IS NULL;",
-                                (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON)
-                            )
-                        conn.commit()
-                        full_team_df.to_sql(table_name, conn, if_exists="append", index=False)
+                        cur.execute(
+                            f"DELETE FROM {table_name} WHERE country=? AND league=? AND season=? AND cutoff_date IS NULL;",
+                            (self.COUNTRY_NAME, self.LEAGUE_NAME, self.SEASON)
+                        )
+                    conn.commit()
+                    full_team_df.to_sql(table_name, conn, if_exists="append", index=False)
                 else:
                     full_team_df.to_sql(table_name, conn, if_exists="replace", index=False)
             finally:
                 conn.close()
 
             if is_cutoff_run:
-                print("[INFO] team_coefficients written for cutoff snapshot.")
+                print("[INFO] teams written for cutoff snapshot.")
         elif team_df_available and (full_team_df is None or full_team_df.empty):
-            print("[WARN] team_coefficients not written: empty dataframe.")
+            print("[WARN] teams not written: empty dataframe.")
 
     def run(self, until_date: str = None, group_pooled: bool = True) -> None:
         self.load_data()

@@ -389,15 +389,18 @@ def _enrich_with_profiles(df: pd.DataFrame) -> pd.DataFrame:
 
     try:
         conn = sqlite3.connect(PROFILES_DB_PATH)
-        # Get the most recent profile for each player
+        # Get the most recent profile for each player (including birth_date for age calculation)
         profiles = pd.read_sql_query("""
-            SELECT player_id, nationality, age, position, height, weight
+            SELECT player_id, nationality, age, birth_date, position, height, weight
             FROM player_profiles
             WHERE nationality IS NOT NULL
             GROUP BY player_id
             HAVING season = MAX(season)
         """, conn)
         conn.close()
+
+        # Extract birth year from birth_date (format: YYYY-MM-DD)
+        profiles["birth_year"] = pd.to_datetime(profiles["birth_date"], errors="coerce").dt.year
 
         # Sanitize bad age values (API sometimes returns year instead of age)
         profiles.loc[profiles["age"] > 50, "age"] = None
@@ -419,12 +422,21 @@ def _enrich_with_profiles(df: pd.DataFrame) -> pd.DataFrame:
 
         # Merge with main dataframe using normalized player_id
         df = df.merge(
-            profiles[["player_id", "nationality", "age", "height_cm", "weight_kg", "bmi", "profile_position"]],
+            profiles[["player_id", "nationality", "birth_year", "age", "height_cm", "weight_kg", "bmi", "profile_position"]],
             on="player_id",
             how="left",
             suffixes=("", "_profile")
         )
         df["nationality"] = df["nationality"].fillna("Unknown")
+
+        # Calculate age per season using birth_year (overrides static age from profile)
+        # Age = season - birth_year (approximate, but accurate enough for career trajectories)
+        if "birth_year" in df.columns and "season" in df.columns:
+            df["age"] = df["season"] - df["birth_year"]
+            # Sanitize: age should be between 15 and 45 for professional players
+            df.loc[(df["age"] < 15) | (df["age"] > 45), "age"] = None
+            # Drop birth_year column (no longer needed)
+            df = df.drop(columns=["birth_year"], errors="ignore")
 
         # Use profile position as fallback for Unknown positions
         unknown_mask = df["position"] == "Unknown"
@@ -916,6 +928,14 @@ def page_scatter_analysis():
                 key="scatter_bypos"
             )
 
+            st.markdown("**Data Transformation**")
+            demean_player_league = st.checkbox(
+                "Demean by Player-League", value=False,
+                help="For each player-league combination, subtract the mean contribution. "
+                     "Useful for studying age effects while controlling for player-league baseline performance.",
+                key="scatter_demean"
+            )
+
     if show_trend or show_dispersion:
         st.caption("ℹ️ Statistics are computed from all filtered data. Clicking legend entries to hide dots only affects visibility, not the calculations.")
 
@@ -964,11 +984,22 @@ def page_scatter_analysis():
         # Add standardized hover text
         filtered["hover_text"] = make_player_hover(filtered)
 
+        # Demean by player-league if requested
+        y_col = "contribution"
+        y_label = "Lasso Contribution (goals/90)"
+
+        if demean_player_league:
+            # Compute player-league mean for each player-league combination
+            player_league_means = filtered.groupby(["player_id", "league"])["contribution"].transform("mean")
+            filtered["contribution_demeaned"] = filtered["contribution"] - player_league_means
+            y_col = "contribution_demeaned"
+            y_label = "Demeaned Contribution (goals/90, by player-league)"
+
         # Use fixed color mapping for positions
         fig = px.scatter(
             filtered,
             x=x_axis_col,
-            y="contribution",
+            y=y_col,
             color="position",
             color_discrete_map=POSITION_COLORS,
             category_orders={"position": ["Goalkeeper", "Defender", "Midfielder", "Forward", "Unknown"]},
@@ -981,6 +1012,7 @@ def page_scatter_analysis():
                 "weight_kg": "Weight (kg)",
                 "bmi": "BMI",
                 "contribution": "Lasso Contribution (goals/90)",
+                "contribution_demeaned": y_label,
                 "position": "Position"
             }
         )
@@ -1006,11 +1038,11 @@ def page_scatter_analysis():
 
                     if use_binned:
                         x_trend, y_trend, y_lower, y_upper = compute_binned_stats(
-                            pos_data[x_axis_col], pos_data["contribution"]
+                            pos_data[x_axis_col], pos_data[y_col]
                         )
                     else:
                         x_trend, y_trend, y_lower, y_upper = compute_lowess_trend(
-                            pos_data[x_axis_col], pos_data["contribution"]
+                            pos_data[x_axis_col], pos_data[y_col]
                         )
 
                     if x_trend is not None:
@@ -1044,11 +1076,11 @@ def page_scatter_analysis():
                 # Single overall trend line
                 if use_binned:
                     x_trend, y_trend, y_lower, y_upper = compute_binned_stats(
-                        filtered[x_axis_col], filtered["contribution"]
+                        filtered[x_axis_col], filtered[y_col]
                     )
                 else:
                     x_trend, y_trend, y_lower, y_upper = compute_lowess_trend(
-                        filtered[x_axis_col], filtered["contribution"]
+                        filtered[x_axis_col], filtered[y_col]
                     )
 
                 if x_trend is not None:
@@ -2544,23 +2576,23 @@ def compute_season_transitions(min_fte: float = 3.0):
     if players.empty:
         return pd.DataFrame()
 
-    # Normalize player_id
-    players["pid_norm"] = players["player_id"].apply(_normalize_player_id)
+    # Normalize player_id in-place (avoid creating duplicate column names)
+    players["player_id"] = players["player_id"].apply(_normalize_player_id)
 
     # Flag multi-team seasons
     players["is_multi_team"] = players["team"].str.startswith("Multiple Teams", na=False)
 
     # Sort by player and season for correct shift operations
-    players = players.sort_values(["pid_norm", "season"]).reset_index(drop=True)
+    players = players.sort_values(["player_id", "season"]).reset_index(drop=True)
 
     # Use vectorized shift operations within each player group
     # Shift creates the "previous" row's values
-    players["prev_season"] = players.groupby("pid_norm")["season"].shift(1)
-    players["prev_contribution"] = players.groupby("pid_norm")["contribution"].shift(1)
-    players["prev_team"] = players.groupby("pid_norm")["team"].shift(1)
-    players["prev_league"] = players.groupby("pid_norm")["league"].shift(1)
-    players["prev_country"] = players.groupby("pid_norm")["country"].shift(1)
-    players["prev_is_multi"] = players.groupby("pid_norm")["is_multi_team"].shift(1)
+    players["prev_season"] = players.groupby("player_id")["season"].shift(1)
+    players["prev_contribution"] = players.groupby("player_id")["contribution"].shift(1)
+    players["prev_team"] = players.groupby("player_id")["team"].shift(1)
+    players["prev_league"] = players.groupby("player_id")["league"].shift(1)
+    players["prev_country"] = players.groupby("player_id")["country"].shift(1)
+    players["prev_is_multi"] = players.groupby("player_id")["is_multi_team"].shift(1)
 
     # Drop rows without a previous season (first season for each player)
     transitions = players.dropna(subset=["prev_season"]).copy()
@@ -2578,7 +2610,6 @@ def compute_season_transitions(min_fte: float = 3.0):
 
     # Rename columns to match expected output format
     transitions = transitions.rename(columns={
-        "pid_norm": "player_id",
         "season": "curr_season",
         "contribution": "curr_contribution",
         "team": "curr_team",
@@ -3950,135 +3981,156 @@ def page_home():
         df["position_group"] = "Unknown"
 
     # ==========================================================================
-    # SLIDE 1: Title and Core Question
+    # TITLE AND DEFINITION
     # ==========================================================================
     st.title("⚽ Off-Balance-Sheet Contribution")
 
-    col1, col2 = st.columns([2, 1])
+    st.markdown("""
+    **Off-balance-sheet contributions** measure how much a player changes their team's goal-scoring
+    when they are on the pitch, beyond goals and assists.
 
-    with col1:
-        st.markdown("""
-        ### Beyond Goals and Assists
-
-        Traditional stats only credit the **final touch**. But a goal is a team effort —
-        the defender who won the ball, the midfielder who switched play, the winger who
-        dragged markers away. Only one or two players get recorded.
-
-        Popular metrics like distance covered, pass success rate, or xG describe
-        **activity**, not **impact**. A player can run 12km and complete 95% of passes
-        while their team loses.
-
-        And what about contributions that don't show up in any stat sheet?
-        - Defensive positioning that prevents chances
-        - Pressing that forces turnovers
-        - Movement that creates space for teammates
-        - Leadership that organizes the team
-
-        We ask a different question:
-
-        > **When this player is on the pitch, does the team's goal difference improve?**
-
-        This captures *everything* a player does — whether visible, recorded, or quantifiable.
-        """)
-
-    with col2:
-        # Mini visualization: Goals vs Contribution scatter for top scorers
-        buli_2023 = df[(df["country"] == "Germany") & (df["league"] == "Bundesliga") & (df["season"] == 2023) & (df["FTE_games_played"] >= 10)]
-        if not buli_2023.empty and "goals" in buli_2023.columns:
-            top_scorers = buli_2023.nlargest(15, "goals").copy()
-            top_scorers["hover_text"] = make_player_hover(top_scorers)
-            fig = px.scatter(
-                top_scorers,
-                x="goals",
-                y="contribution",
-                title="Top 15 Scorers: Goals vs Contribution",
-                labels={"goals": "Goals Scored", "contribution": "Contribution (goals/90)"}
-            )
-            fig.update_traces(hovertemplate="%{customdata[0]}<extra></extra>", customdata=top_scorers[["hover_text"]].values)
-            fig.update_layout(height=300, margin=dict(l=20, r=20, t=40, b=20))
-            fig.update_traces(marker=dict(size=10))
-            st.plotly_chart(fig, use_container_width=True)
-            st.caption("*Bundesliga 2023/24 — more goals doesn't mean higher contribution*")
+    Traditional stats miss the system players — those who control tempo, prevent chances, and create
+    space for others. This framework identifies them by asking: **when this player is on the pitch,
+    does the team score more goals (net)?**
+    """)
 
     st.markdown("---")
 
     # ==========================================================================
-    # SLIDE 3: The Method + Interpretation (consolidated)
+    # WHAT CAN I DO HERE?
     # ==========================================================================
-    st.markdown("## The Method: Match Segments")
+    st.markdown("### What can you do here?")
 
     col1, col2 = st.columns(2)
 
     with col1:
         st.markdown("""
-        We divide each match into **segments** — periods where no substitutions
-        or red cards occur. In each segment:
+        **📊 Identify undervalued players** whose impact isn't visible in goals or assists
 
-        1. **Record** the goal difference (from home team's view)
-        2. **Track** all 22 players on the pitch
-        3. **Scale** to per-90-minutes for comparability
+        **📈 Track player careers** — contribution vs. goals/assists over time
 
-        Over a season, we observe **thousands of segments** with different
-        player combinations. Using regression, we estimate each player's
-        **contribution** to goal difference.
+        **⚖️ Compare players and leagues** on a common contribution scale
         """)
 
     with col2:
         st.markdown("""
-        **Example segment:**
+        **🔄 Study transfers** and how players adapt to new leagues
 
-        ```
-        Minute 23-45 (22 mins)
-        Home scores 1, Away scores 0
-        Scaled: +1 × (22/90) = +0.24
-        ```
+        **🏆 Analyze league difficulty** using inferred league effects
 
-        All 22 players get credit/blame for this +0.24.
-        Over many segments, each player's true impact emerges.
-
-        | Contribution | Meaning |
-        |--------------|---------|
-        | **+1.0** | Team scores ~1 more goal/game |
-        | **0.0** | Average player |
-        | **-1.0** | Team concedes ~1 more goal/game |
+        **🔍 Find hidden gems** — players with high impact and low recognition
         """)
 
     st.markdown("---")
 
     # ==========================================================================
-    # SLIDE 4.5: Why Lasso, Not OLS?
+    # INTUITION: HOW IT WORKS
     # ==========================================================================
-    st.markdown("## Why Lasso, Not OLS?")
+    st.markdown("### How does it work?")
 
-    st.markdown("""
-    **The short version:** When some players rarely leave the pitch, standard regression (OLS)
-    can't tell their personal contribution apart from their team's overall strength. Lasso
-    regression fixes this by gently pulling extreme estimates back toward zero.
+    col1, col2 = st.columns([2, 1])
 
-    *From here on, all analyses use Lasso contribution estimates.*
-    """)
-
-    with st.expander("🤓 The statistical details"):
+    with col1:
         st.markdown("""
-        Plain OLS regression produces **extreme outliers** (see left plot below). Goalkeepers and
-        high-minute defenders who rarely rotate inherit team-level effects, leading to implausible
-        coefficients. **Lasso regularization** shrinks these unstable estimates toward zero (right plot).
+        **The Intuition:**
 
-        **Why the extremes?** When players rarely rotate, OLS cannot separate individual effects from
-        team performance — a classic **multicollinearity** problem. Lasso resolves this by introducing
-        a small bias in exchange for dramatically lower variance. Both estimators remain consistent,
-        but given the evident collinearity (±17 goals per 90 min is absurd), accepting modest bias
-        for plausible estimates is a worthwhile tradeoff.
+        When 22 players are on the pitch, goals happen in **segments** — periods where the
+        same players are on the field. We ask: **who was on the pitch when goals were scored
+        or conceded?**
+
+        Over a season, we observe thousands of segments with different player combinations.
+        Using regularized regression, we attribute goal differences across many segments to
+        estimate each player's contribution.
+
+        A player with **+1.0** contribution means the team tends to score ~1 more goal per game
+        (net) when they're on the pitch, controlling for teammates and opponents.
         """)
 
-    # Get German Bundesliga 2023 data with OLS
-    buli_ols = df[(df["country"] == "Germany") & (df["league"] == "Bundesliga") &
-                  (df["season"] == 2023) & (df["FTE_games_played"] >= 5)].copy()
+    with col2:
+        st.markdown("""
+        **Interpretation:**
 
-    if not buli_ols.empty and "contribution_ols" in buli_ols.columns:
-        buli_ols = buli_ols.copy()
-        buli_ols["hover_ols"] = make_player_hover(buli_ols, contrib_col="contribution_ols")
-        buli_ols["hover_lasso"] = make_player_hover(buli_ols, contrib_col="contribution")
+        - **Positive contribution**: The team tends to score more (net) when the player is
+          on the pitch, controlling for teammates and opponents
+        - **Negative contribution**: The opposite
+        - **Near zero**: Either neutral impact or insufficient signal (few minutes played)
+
+        **Important**: Contribution is a relative, context-dependent measure. Comparisons
+        should be made within leagues, roles, and sample sizes.
+        """)
+
+    # ==========================================================================
+    # EXAMPLE INSIGHT
+    # ==========================================================================
+    st.info("""
+    **Example insight:** Two midfielders may have similar goal and assist numbers, but one
+    consistently improves team goal difference when on the pitch, while the other does not.
+    Off-balance-sheet contributions help identify this difference.
+    """)
+
+    st.markdown("---")
+
+    # ==========================================================================
+    # METHODOLOGY DETAILS (EXPANDABLE)
+    # ==========================================================================
+    with st.expander("📘 Methodology Details"):
+        st.markdown("### Match Segments")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("""
+            We divide each match into **segments** — periods where no substitutions
+            or red cards occur. In each segment:
+
+            1. **Record** the goal difference (from home team's view)
+            2. **Track** all 22 players on the pitch
+            3. **Scale** to per-90-minutes for comparability
+
+            Over a season, we observe **thousands of segments** with different
+            player combinations. Using regression, we estimate each player's
+            **contribution** to goal difference.
+            """)
+
+        with col2:
+            st.markdown("""
+            **Example segment:**
+
+            ```
+            Minute 23-45 (22 mins)
+            Home scores 1, Away scores 0
+            Scaled: +1 × (22/90) = +0.24
+            ```
+
+            All 22 players get credit/blame for this +0.24.
+            Over many segments, each player's true impact emerges.
+
+            | Contribution | Meaning |
+            |--------------|---------|
+            | **+1.0** | Team scores ~1 more goal/game |
+            | **0.0** | Average player |
+            | **-1.0** | Team concedes ~1 more goal/game |
+            """)
+
+        st.markdown("### Why Regularization (Lasso)?")
+
+        st.markdown("""
+        This framework uses **Lasso regression** rather than standard OLS regression to estimate
+        contributions. When players rarely rotate, OLS cannot separate individual effects from
+        team performance — leading to extreme, implausible estimates.
+
+        Lasso regularization introduces a small bias to dramatically reduce variance, producing
+        stable and interpretable results while retaining most explanatory power (R² ~0.53).
+        """)
+
+        # Get German Bundesliga 2023 data with OLS
+        buli_ols = df[(df["country"] == "Germany") & (df["league"] == "Bundesliga") &
+                      (df["season"] == 2023) & (df["FTE_games_played"] >= 5)].copy()
+
+        if not buli_ols.empty and "contribution_ols" in buli_ols.columns:
+            buli_ols = buli_ols.copy()
+            buli_ols["hover_ols"] = make_player_hover(buli_ols, contrib_col="contribution_ols")
+            buli_ols["hover_lasso"] = make_player_hover(buli_ols, contrib_col="contribution")
 
         col1, col2 = st.columns(2)
 
