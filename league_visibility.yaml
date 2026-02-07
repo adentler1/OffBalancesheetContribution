@@ -1,0 +1,47 @@
+# League Visibility Configuration
+# Defines which league categories are "public" (shown in dashboard) vs "private" (excluded)
+#
+# This config works with league_categories.yaml - it maps category keys to visibility.
+#
+# Public leagues: Shown in dashboard for player career, team analysis, league comparison
+# Private leagues: Excluded from main dashboard features, but still used in transfer network
+
+visibility:
+  # Public leagues - included in dashboard features
+  public:
+    - top_5                # Top 5 European Leagues
+    - top_womens           # Top Women's Leagues (England, Germany, Italy, France, Spain)
+    - top_south_american   # Top South American (Argentina Primera, Brazil Série A)
+    - top_north_american   # Top North American (MLS, Liga MX)
+
+  # Private leagues - excluded from main dashboard features
+  private:
+    - major_european       # Major European Leagues (Eredivisie, Portuguese, etc.)
+    - secondary_european   # Secondary European Leagues (2nd divisions)
+    - lower_tier           # Lower Tier Leagues (3rd-4th divisions)
+    - regional             # Regional/Amateur Leagues (5th+ divisions)
+    - cup_competitions     # Cup Competitions & Playoffs
+    - south_american       # Other South American Leagues
+    - north_american       # Other North American Leagues
+    - asian                # Asian Leagues
+    - african              # African Leagues
+    - womens               # Women's Leagues (other/lower divisions)
+    - youth                # Youth/U21/U19 Leagues
+    - other_european       # Other European Leagues
+    - other                # Other/Uncategorized
+
+# Usage rules for dashboard:
+#
+# Player Career:
+#   - Only include players who have participated in ANY public league for at least 1 season
+#   - Show ALL their data (including contributions from private leagues)
+#
+# Team Analysis:
+#   - Only show clubs from public leagues
+#
+# Transfer Network:
+#   - Use ALL leagues (public and private)
+#   - Node Detail: Only allow selecting public leagues or clubs thereof
+#
+# League Comparison:
+#   - Only compare public leagues
