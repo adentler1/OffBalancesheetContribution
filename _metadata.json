@@ -1,0 +1,29 @@
+{
+  "export_time": "2026-02-26T02:25:40.805966",
+  "format": "parquet",
+  "pre_enriched": true,
+  "enrichment_includes": [
+    "normalized_player_ids",
+    "canonical_player_names",
+    "normalized_team_names",
+    "mapped_positions",
+    "filled_missing_positions",
+    "merged_profiles",
+    "calculated_ages",
+    "height_weight_bmi"
+  ],
+  "hot_seasons": 3,
+  "filter_public": true,
+  "files_exported": 11,
+  "total_rows": 1485647,
+  "hot_rows": 21358,
+  "cold_rows": 67604,
+  "file_sizes_mb": {
+    "players_recent.parquet": 0.6609964370727539,
+    "players_historical.parquet": 1.7371644973754883,
+    "profiles.parquet": 15.297648429870605,
+    "transfers.parquet": 14.843684196472168,
+    "synthetic_comparisons.parquet": 0.9057121276855469,
+    "synthetic_transfers.parquet": 6.56925106048584
+  }
+}

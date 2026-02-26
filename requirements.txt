@@ -1,0 +1,12 @@
+# Dependencies for Soccer Analytics Dashboard
+# For Streamlit Cloud deployment
+
+streamlit>=1.24.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.15.0
+scipy>=1.10.0
+duckdb>=0.9.0
+pyarrow>=14.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
